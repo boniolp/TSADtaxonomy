@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>TSADtax</title>
+
+    <style>
+
+body {
+      margin: 0;
+      font-family: 'Inter', sans-serif; 
+    }
+
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+  }
+
+  .node text { font: 12px sans-serif; }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+  }
+  
+
+ /* Container for the sidebar menu */
+    .sidebar {
+      height: 100vh;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+  flex-direction: column;   
+      background-color: #333;
+      padding-top: 20px;
+    }
+
+    /* Style links inside the menu */
+    .sidebar a {
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+    }
+
+    /* Hover effect */
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    /* Main content */
+    .main {
+      margin-left: 260px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #333;
+    }
+
+.subtitle {
+  position: fixed;
+  top: 4rem;           
+  left: 270px;         
+  z-index: 1000;
+  background: white;
+  padding-right: 1rem;
+}
+
+.subtitle a {
+  font-size: 18px;
+  font-style: italic;
+  color: #666;          
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.subtitle a:hover {
+  color: #333;          
+  text-decoration: underline;
+}
+
+.sidebar-logos {
+  margin-top: auto;
+  padding: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sidebar-logos img {
+  height: 30px; 
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-logos img:hover {
+  transform: scale(1.1);
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Start hidden */
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal.show {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cite-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: auto 0; 
+}
+
+.cite-box {
+  width: 90%;
+  background-color: #e9ecef;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #333;
+  overflow: hidden;
+}
+
+
+.cite-box summary {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  list-style: none;
+  outline: none;
+}
+
+/* Remove default markers */
+.cite-box summary::-webkit-details-marker { display: none; }
+.cite-box summary::marker { content: "\25B6"; } /* ▶ */
+.cite-box[open] summary::marker { content: "\25BC"; } /* ▼ */
+
+/* BibTeX block styling */
+.bibtex {
+  font-family: monospace;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: #f4f4f4;
+  border-top: 1px solid #ccc;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.pinned-title {
+  position: fixed;
+  top: 1rem;
+  left: 270px; 
+  margin: 0;
+  font-size: 1.8rem;
+  z-index: 1000;
+  background: white;
+  padding-right: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 250px; 
+  width: calc(100% - 250px); 
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #888;
+  padding: 0.2rem 0;
+  border-top: 1px solid #ddd;
+  z-index: 999;
+}
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="modal-close" class="modal-close">&times;</span>
+    <div id="modal-text"></div>
+  </div>
+</div>
+
+ <div class="sidebar">
+    <a href="#" data-file="pages/about.html">About</a>
+    <a href="#" data-file="pages/contributing.html">A method is missing?</a>
+    <a href="#" data-file="pages/contact.html">Contact</a>
+    <a href="#" data-file="pages/contributors.html">Contributors</a>
+
+    <div class="cite-wrapper">
+    <details class="cite-box">
+      <summary>If you find this taxonomy helpful, Click here to reveal the corresponding bibtex.</summary>
+      <pre class="bibtex">
+@misc{boniol2024divetimeseriesanomalydetection,
+      title={Dive into Time-Series Anomaly Detection: A Decade Review}, 
+      author={Paul Boniol and Qinghua Liu and Mingyi Huang and Themis Palpanas and John Paparrizos},
+      year={2024},
+      eprint={2412.20512},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.20512}, 
+}
+     </pre>
+    </details>
+  </div>
+
+
+    <!-- Logo container -->
+  <div class="sidebar-logos">
+    <a href="https://www.inria.fr/en" target="_blank">
+    <img src="assets/Inria.png" alt="Inria">
+  </a>
+  <a href="https://www.ens.psl.eu/en" target="_blank">
+    <img src="assets/ENS.png" alt="Ecole Normale Supérieure">
+  </a>
+  </div>
+  </div>
+
+
+<footer class="footer">
+  © 2025 Paul Boniol. All rights reserved.
+</footer>
+
+<div class="main">
+  <h1 class="pinned-title">Time Series Anomaly Detection Taxonomy</h1>
+  <h2 class="subtitle"> 
+     <a href="https://arxiv.org/abs/2412.20512">Dive into Time-Series Anomaly Detection: A Decade Review</a>
+  </h2>
+  <div id="tree-container"></div>
+</div>
+
+<div id="popup-background" style="
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 1000;
+">
+
+<div id="detail-popup" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 2px solid steelblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  padding: 16px;
+  max-width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  display: none;
+  z-index: 10000;
+  font-family: sans-serif;
+">
+  <button id="popup-close" style="
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: steelblue;
+  ">&times;</button>
+  <div id="popup-content"></div>
+</div>
+</div>
+
+<!-- load the d3.js library --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+
+<!-- Markdown rendering -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- Syntax highlighting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  
+<script>
+
+const modal = document.getElementById('modal');
+const modalText = document.getElementById('modal-text');
+const modalClose = document.getElementById('modal-close');
+
+document.querySelectorAll('.sidebar a[data-file]').forEach(link => {
+  link.addEventListener('click', async e => {
+    e.preventDefault();
+    const file = link.getAttribute('data-file');
+
+    try {
+      const response = await fetch(file);
+      if (!response.ok) throw new Error('Network response was not ok');
+      const content = await response.text();
+      modalText.innerHTML = content;
+      modal.classList.add('show');
+    } catch (error) {
+      modalText.textContent = 'Failed to load content.';
+      modal.classList.add('show');
+      console.error(error);
+    }
+  });
+});
+
+modalClose.addEventListener('click', () => {
+  modal.classList.remove('show'); 
+});
+
+window.addEventListener('click', e => {
+  if (e.target === modal) {
+    modal.classList.remove('show');
+  }
+});
+
+
+
+// ************** Tree taxonomy  *****************
+var margin = {top: 150, right: 120, bottom: 20, left: 200},
+  width = 1180 - margin.right - margin.left,
+  height = 2000 - margin.top - margin.bottom;
+  
+var i = 0;
+
+var tree = d3.layout.tree()
+  .size([height, width]);
+
+
+var diagonal = d3.svg.diagonal()
+  .projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("#tree-container").append("svg")
+  .attr("width", width + margin.right + margin.left)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+function flattenNodes(node) {
+  let nodes = [node];
+  if (node.children) {
+    node.children.forEach(child => {
+      nodes = nodes.concat(flattenNodes(child));
+    });
+  }
+  return nodes;
+}
+
+
+d3.json("taxonomy.json", function(error, treeData) {
+  var root = treeData[0];
+  var nodes = flattenNodes(root);
+
+  
+  var promises = nodes.map(d => {
+    return new Promise((resolve) => {
+      d3.json(`methods/${d.name}.json`, function(err, data) {
+        if (!err && data.year) {
+          d.year = data.year;
+        } else {
+          d.year = null; 
+        }
+        resolve();
+      });
+    });
+  });
+
+  Promise.all(promises).then(() => {
+    update(root);
+  });
+});
+
+function getAncestorLinks(node, links) {
+  let pathLinks = [];
+  let current = node;
+  while (current.parent) {
+    let link = links.find(l => l.target.id === current.id);
+    if (link) pathLinks.push(link);
+    current = current.parent;
+  }
+  return pathLinks;
+}
+
+function update(source) {
+
+  function clickHandler(d) {
+    console.log("Clicked:", d.name);
+    if (!d.name) return;
+
+    const popup = d3.select("#detail-popup");
+    const popupContent = d3.select("#popup-content");
+    const popupBg = d3.select("#popup-background");
+    
+
+    
+    popupContent.html("Loading...");
+    popupBg.style("display", "block");
+    popup.style("display", "block");
+    
+
+    if (!window.methodDetailsCache) {
+      window.methodDetailsCache = {};
+    }
+
+    if (window.methodDetailsCache[d.name]) {
+      showDetails(window.methodDetailsCache[d.name]);
+    } else {
+      d3.json(`methods/${d.name}.json`, function(err, data) {
+        if (err) {
+          popupContent.html("<em>No details available.</em>");
+          return;
+        }
+        window.methodDetailsCache[d.name] = data;
+        showDetails(data);
+      });
+    }
+  
+    function showDetails(data) {
+      let html = "";
+
+      if (data.name && data.text && Object.keys(data).length <= 3) {
+        // Simple node: only name and text
+        html = `
+          <div style="
+            font-family: sans-serif;
+            border-left: 4px solid steelblue;
+            padding: 1em;
+            background: #f9f9f9;
+            border-radius: 8px;
+          ">
+            <h3 style="margin-top:0; color: steelblue;">${data.name}</h3>
+            <p style="margin: 0.5em 0; color: #333;">${data.text}</p>
+          </div>
+        `;
+      } else {
+        html = `
+          <div style="font-family: sans-serif;">
+            <h2 style="margin-top: 0; color: steelblue;">${data.name}</h2>
+            <p style="margin: 0 0 8px 0; font-style: italic; color: gray;">${data.full_name || ""}</p>
+            
+            <div style="margin-bottom: 10px;">
+              <strong>Year:</strong> ${data.year || "N/A"}<br/>
+              <strong>Category:</strong> ${data.category || "N/A"}<br/>
+              <strong>Dimension:</strong> ${data.Dim || "N/A"}<br/>
+              <strong>Supervision:</strong> ${data.Sup || "N/A"}<br/>
+              <strong>Streaming:</strong> ${data.Stream ? "Yes" : "No"}<br/>
+            </div>
+
+            <div style="margin-bottom: 10px;">
+              <strong>Authors:</strong><br/>
+              <ul style="margin: 4px 0 8px 16px; padding: 0;">${
+                (data.authors || []).map(a => `<li>${a}</li>`).join("")
+              }</ul>
+            </div>
+
+            <div style="margin-bottom: 10px;">
+              <strong>Abstract / Description:</strong>
+              <p style="margin-top: 4px;">${data.description || "No description available."}</p>
+            </div>
+
+            <div style="margin-bottom: 10px;">
+              <strong>Paper:</strong><br/>
+              ${data.paper || "N/A"}<br/>
+              ${data.url ? `<a href="${data.url}" target="_blank" style="color: steelblue;">[Read full paper]</a>` : ""}
+            </div>
+
+            ${data.code ? `
+              <div style="margin-bottom: 10px;">
+                <strong>Code:</strong><br/>
+                <a href="${data.code}" target="_blank" style="color: steelblue;">[View source code]</a>
+              </div>` : ""
+            }
+
+            ${data.snippet_description ? `
+              <div style="margin-bottom: 10px;">
+                <strong>Example:</strong><br/>
+                <p style="margin-top: 4px;">${data.snippet_description}</p>
+              </div>` : ""
+            }
+
+            ${data.snippet_install ? `
+              <div style="margin-bottom: 10px;">
+                <p style="margin-top: 4px;">${data.snippet_install}</p>
+              </div>` : ""
+            }
+
+            ${data.snippet ? `
+              <div style="margin-top: 14px; margin-bottom: 10px;">
+                <strong>Code Snippet:</strong>
+                <div id="code-snippet" style="margin-top: 6px;"></div>
+              </div>
+            ` : ""
+            }
+
+            <details style="margin-top: 12px;">
+              <summary style="cursor: pointer; color: steelblue;">Show BibTeX citation</summary>
+              <pre style="font-size: 11px; background: #f4f4f4; padding: 8px; border-radius: 5px; white-space: pre-wrap;">${data.bibtex || "N/A"}</pre>
+            </details>
+          </div>
+        `;
+      }
+      popupContent.html(html);
+
+      if (data.snippet) {
+        const codeContainer = d3.select("#code-snippet");
+        if (window.marked) {
+          codeContainer.html(marked.parse(data.snippet));
+          if (window.hljs) hljs.highlightAll();
+        } else {
+          codeContainer.html(`<pre><code>${d3.htmlEscape(data.snippet)}</code></pre>`);
+        }
+      }
+    }
+  }
+
+  
+  var nodes = tree.nodes(source).reverse();
+
+var leaves = nodes.filter(d => !(d.children || d._children));
+
+var spacing = (height-20) / leaves.length;
+
+
+leaves.forEach((d, idx) => {
+  d.x = height - margin.bottom - idx * spacing;
+});
+
+nodes.forEach(d => {
+  if (d.children && d.children.length > 0) {
+    d.x = d.children.reduce((sum, c) => sum + c.x, 0) / d.children.length;
+  }
+});
+  
+  var years = nodes
+    .map(d => d.year)
+    .filter(y => y !== null)
+    .sort((a,b) => a - b);
+
+  
+  var yearScale = d3.scale.linear()
+    .domain([d3.min(years), d3.max(years)])
+    .range([0, width]);
+
+  nodes.forEach(function(d) {
+    if (d.year !== null) {
+      d.y = yearScale(d.year);
+    } else {
+      d.y = d.depth * 180;
+    }
+  });
+
+  
+  var node = svg.selectAll("g.node")
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  var links = tree.links(nodes);
+
+  var link = svg.selectAll("path.link")
+    .data(links, function(d) { return d.target.id; });
+ 
+  link.enter().insert("path", "g")
+    .attr("class", "link")
+    .attr("data-id", d => d.target.id)
+    .attr("d", diagonal);
+
+  link.attr("d", diagonal);
+
+
+  var nodeEnter = node.enter().append("g")
+  .attr("class", "node")
+  .attr("data-id", d => d.id)
+  .on("click", clickHandler)
+  .attr("transform", d => `translate(${d.y},${d.x})`);
+
+
+var lvl2Nodes = nodeEnter.filter(d => d.depth === 2);
+
+lvl2Nodes.selectAll("*").remove();
+
+var lvl2Group = lvl2Nodes.append("g")
+  .attr("class", "lvl2-group")
+  .on("click", clickHandler);
+
+lvl2Group.append("rect")
+  .attr("rx", 5)
+  .attr("ry", 5)
+  .style("fill", "#fff")
+  .style("stroke", "steelblue")
+  .style("stroke-width", "3px");
+
+var iconSize = 80;
+
+lvl2Group.append("image")
+  .attr("xlink:href", d => `method_icons/${d.name}.png`)
+  .attr("width", iconSize)
+  .attr("height", iconSize)
+  .attr("x", -iconSize / 2)
+  .attr("y", -iconSize / 2);
+
+lvl2Group.append("text")
+  .attr("dy", "0.0em")
+  .attr("text-anchor", "middle")
+  .text(d => d.name)
+  .style("fill", "steelblue")
+  .style("font-size", "12px")
+  .style("cursor", "pointer");
+
+lvl2Group.each(function(d) {
+  var group = d3.select(this);
+  var rect = group.select("rect");
+  var text = group.select("text");
+  var image = group.select("image");
+
+  var textBox = text.node().getBBox();
+
+  var width = Math.max(iconSize, textBox.width) + 16;  
+  var height = iconSize + textBox.height + 5;
+
+  
+  rect
+    .attr("x", -width / 2)
+    .attr("y", -height / 2)
+    .attr("width", width)
+    .attr("height", height);
+
+  
+  image
+    .attr("x", -iconSize / 2)
+    .attr("y", -height / 2 + 6);
+
+  
+  text
+    .attr("x", 0)
+    .attr("y", -height / 2 + 6 + iconSize + textBox.height / 2 + 2); 
+});
+
+
+nodeEnter.filter(d => d.depth < 2)
+  .append("rect")
+  .attr("rx", 5)
+  .attr("ry", 5)
+  .style("fill", "#fff")
+  .style("stroke", "steelblue")
+  .style("stroke-width", "3px");
+
+
+nodeEnter.filter(d => d.depth >= 3 && (d.children || d._children))
+  .append("rect")
+  .attr("rx", 5)
+  .attr("ry", 5)
+  .style("fill", "steelblue")
+  .style("stroke", "none");
+
+
+nodeEnter.filter(d => d.depth >= 3 && !(d.children || d._children))
+  .append("rect")
+  .attr("class", "text-bg")
+  .style("fill", "transparent");
+
+
+
+var texts = nodeEnter.filter(d => d.depth !== 2).append("text")
+  .attr("dy", ".35em")
+  .attr("text-anchor", function(d) {
+    if (d.depth < 2) return "middle";                
+    if (d.depth >= 3 && (d.children || d._children)) return "middle";
+    return "start";
+  })
+  .attr("x", function(d) {
+    if (d.depth >= 3 && !(d.children || d._children)) return 6;
+    return 0;
+  })
+  .text(d => d.name)
+  .style("fill", function(d) {
+    if (d.depth < 2) return "steelblue";
+    if (d.depth >= 3 && (d.children || d._children)) return "white";
+    return "black";
+  })
+  .style("font-size", function(d) {
+    if (d.depth === 0) return "30px";
+    if (d.depth === 1) return "20px";
+    if (d.depth >= 3) return "12px";
+    return "12px";
+  }).style("cursor", "pointer")
+  .on("mouseover", function(d) {
+  let pathLinks = getAncestorLinks(d, links);
+
+  let level2Ancestor = d;
+  while (level2Ancestor && level2Ancestor.depth > 2) {
+    level2Ancestor = level2Ancestor.parent;
+  }
+
+  if (level2Ancestor && level2Ancestor.depth === 2) {
+    let lvl2Group = d3.select(`g.node[data-id='${level2Ancestor.id}'] g.lvl2-group`);
+    let lvl2Rect = lvl2Group.select("rect");
+    if (!lvl2Rect.empty()) {
+      if (!lvl2Rect.attr("data-prev-fill")) {
+        lvl2Rect.attr("data-prev-fill", lvl2Rect.style("fill"));
+      }
+      if (!lvl2Rect.attr("data-prev-stroke")) {
+        lvl2Rect.attr("data-prev-stroke", lvl2Rect.style("stroke"));
+      }
+      lvl2Rect.style("fill", "#ffe6cc").style("stroke", "orange");
+    }
+  }
+
+  pathLinks.forEach(l => {
+    const linkSel = d3.select(`path.link[data-id='${l.target.id}']`);
+    if (!linkSel.attr("data-prev-stroke")) {
+      linkSel.attr("data-prev-stroke", linkSel.style("stroke"));
+    }
+    if (!linkSel.attr("data-prev-width")) {
+      let sw = parseFloat(linkSel.style("stroke-width")) || 2;
+      linkSel.attr("data-prev-width", sw);
+    }
+    linkSel.style("stroke", "orange").style("stroke-width", "5px");
+  });
+
+  let nodeGroup = d3.select(this.parentNode);
+  let rect = nodeGroup.select("rect");
+  if (!rect.empty()) {
+    if (!rect.attr("data-prev-fill")) {
+      rect.attr("data-prev-fill", rect.style("fill"));
+    }
+    rect.style("fill", "lightsteelblue");
+  }
+})
+.on("mouseout", function(d) {
+  let pathLinks = getAncestorLinks(d, links);
+
+  let level2Ancestor = d;
+  while (level2Ancestor && level2Ancestor.depth > 2) {
+    level2Ancestor = level2Ancestor.parent;
+  }
+
+  if (level2Ancestor && level2Ancestor.depth === 2) {
+    let lvl2Group = d3.select(`g.node[data-id='${level2Ancestor.id}'] g.lvl2-group`);
+    let lvl2Rect = lvl2Group.select("rect");
+    if (!lvl2Rect.empty()) {
+      lvl2Rect
+        .style("fill", lvl2Rect.attr("data-prev-fill") || "#fff")
+        .style("stroke", lvl2Rect.attr("data-prev-stroke") || "steelblue");
+    }
+  }
+
+  pathLinks.forEach(l => {
+    const linkSel = d3.select(`path.link[data-id='${l.target.id}']`);
+    linkSel
+      .style("stroke", linkSel.attr("data-prev-stroke") || "#ccc")
+      .style("stroke-width", (linkSel.attr("data-prev-width") || 2) + "px");
+  });
+
+  let nodeGroup = d3.select(this.parentNode);
+  let rect = nodeGroup.select("rect");
+  if (!rect.empty()) {
+    rect.style("fill", rect.attr("data-prev-fill") || "#fff");
+  }
+});
+
+nodeEnter.filter(d => d.depth !== 2).selectAll("rect").each(function(d) {
+  var textNode = d3.select(this.parentNode).select("text");
+  var bbox = textNode.node().getBBox();
+  var rect = d3.select(this);
+
+  var paddingX = 8;
+  var paddingY = 4;
+
+  rect
+    .attr("x", bbox.x - paddingX)
+    .attr("y", bbox.y - paddingY)
+    .attr("width", bbox.width + 2 * paddingX)
+    .attr("height", bbox.height + 2 * paddingY);
+});
+
+// === TIME AXIS & BACKGROUND BANDS ===
+
+svg.selectAll(".year-band").remove();
+svg.selectAll(".x.axis").remove();
+
+var background = svg.insert("g", ":first-child");
+
+var startYear = 1980;
+var endYear = 2025;
+
+for (let year = startYear; year < endYear; year += 5) {
+  let isGrey = ((year - startYear) / 5) % 2 === 0;
+
+  background.append("rect")
+    .attr("class", "year-band")
+    .attr("x", yearScale(year))
+    .attr("y", 0)
+    .attr("width", yearScale(year + 5) - yearScale(year))
+    .attr("height", height)  // stretch entire chart height
+    .style("fill", isGrey ? "#f0f0f0" : "transparent");
+}
+
+svg.append("defs").append("marker")
+  .attr("id", "arrow")
+  .attr("viewBox", "0 -5 10 10")
+  .attr("refX", 10)
+  .attr("refY", 0)
+  .attr("markerWidth", 6)
+  .attr("markerHeight", 6)
+  .attr("orient", "auto")
+  .append("path")
+  .attr("d", "M0,-5L10,0L0,5")
+  .attr("fill", "#666");
+
+var allYears = d3.range(startYear, endYear + 1, 1);
+var labelYears = d3.range(startYear, endYear + 1, 5);
+
+var xAxis = d3.svg.axis()
+  .scale(yearScale)
+  .orient("bottom")
+  .tickValues(allYears)
+  .tickFormat(d => labelYears.includes(d) ? d : "");
+
+var xAxisGroup = svg.append("g")
+  .attr("class", "x axis")
+  .attr("transform", `translate(0,${height})`)
+  .call(xAxis);
+
+xAxisGroup.selectAll(".tick line")
+  .attr("stroke", "#666")
+  .attr("y2", -6);
+
+xAxisGroup.selectAll("text")
+  .style("text-anchor", "middle")
+  .style("font-size", "12px")
+  .style("fill", "#666");
+
+
+xAxisGroup.select(".domain")
+  .attr("d", () => {
+    const startX = yearScale(startYear);
+    const endX = yearScale(endYear);
+    return `M${startX},0L${endX},0`;
+  })
+  .attr("stroke", "#666")
+  .attr("stroke-width", 1.5)
+  .attr("marker-end", "url(#arrow)");
+
+
+}
+
+d3.select("#popup-background").on("click", function() {
+  const event = d3.event;
+  if(event.target.id === "popup-background") {
+    d3.select("#popup-background").style("display", "none");
+    d3.select("#detail-popup").style("display", "none");
+  }
+});
+
+d3.select("#popup-close").on("click", () => {
+  d3.select("#detail-popup").style("display", "none");
+  d3.select("#popup-background").style("display", "none");
+});
+
+
+window.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const response = await fetch('pages/about.html');
+    if (!response.ok) throw new Error('Network response was not ok');
+    const content = await response.text();
+    modalText.innerHTML = content;
+    modal.classList.add('show');
+  } catch (error) {
+    modalText.textContent = 'Failed to load content.';
+    modal.classList.add('show');
+    console.error(error);
+  }
+});
+
+
+</script>
+  
+  </body>
+</html>
