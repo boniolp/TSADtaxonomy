@@ -17,7 +17,7 @@ This application helps users explore and understand the vast array of existing m
 
 ## 🌐 Try it Online
 
-Explore our taxonomy: 👉 [**TSADtaxonomy**]()
+Explore our taxonomy: 👉 [**TSADtaxonomy**](https://boniolp.github.io/TSADtaxonomy/)
 
 ## A method is missing?
 
