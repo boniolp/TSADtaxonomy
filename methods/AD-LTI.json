@@ -1,0 +1,16 @@
+{
+  "name": "AD-LTI",
+  "full_name": "Anomaly Detection with Local Trend Inconsistency",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "type": "GRU",
+  "year": 2020,
+  "authors": ["Wentai Wu", "Ligang He", "Weiwei Lin", "Yi Su", "Yuhua Cui", "Carsten Maple", "Stephen Jarvis"],
+  "paper": "Developing an Unsupervised Real-time Anomaly Detection Scheme for Time Series with Multi-seasonality. TKDE",
+  "description": "AD-LTI is a prediction-driven, unsupervised on-line anomaly detection method that combines time series decomposition and inference, and further introduces a real-time metric, Local Trend Inconsistency (LTI), for anomaly scoring.",
+  "code": "",
+  "url": "https://arxiv.org/abs/1908.01146",
+  "bibtex": "@article{Wu_2022,   title={Developing an Unsupervised Real-Time Anomaly Detection Scheme for Time Series With Multi-Seasonality},\n   volume={34},   ISSN={2326-3865},   url={http://dx.doi.org/10.1109/TKDE.2020.3035685},\n   DOI={10.1109/tkde.2020.3035685},   number={9},   journal={IEEE Transactions on Knowledge and Data Engineering},   publisher={Institute of Electrical and Electronics Engineers (IEEE)},   author={Wu, Wentai and He, Ligang and Lin, Weiwei and Su, Yi and Cui, Yuhua and Maple, Carsten and Jarvis, Stephen},   year={2022},   month=sep, pages={4147–4160}}"
+}

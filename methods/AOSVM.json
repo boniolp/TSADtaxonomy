@@ -1,0 +1,21 @@
+{
+  "name": "AOSVM",
+  "full_name": "Adaptive One-Class Support Vector Machine",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "type": "SVM",
+  "year": 2011,
+  "authors": [
+  "Vanessa Gomez-Verdejo",
+  "Jerónimo Arenas-Garcia",
+  "Miguel Lazaro-Gredilla",
+  "Ángel Navia-Vazquez"
+],
+  "paper": "Developing an Unsupervised Real-time Anomaly Detection Scheme for Time Series with Multi-seasonality",
+  "description": "Adaptive OC-SVM is an online, compact, and adaptive one-class SVM that updates via growing and pruning to enable real-time novelty detection without storing past data.",
+  "code": "",
+  "url": "https://ieeexplore.ieee.org/document/5728936/authors#authors",
+  "bibtex": "@article{GomezVerdejo_2011, author={Gomez-Verdejo, Vanessa and Arenas-Garcia, Jerónimo and Lazaro-Gredilla, Miguel and Navia-Vazquez, Ángel}, doi={10.1109/TSP.2011.2125961}, journal={IEEE Transactions on Signal Processing}, keywords={Support vector machines;Signal processing algorithms;Kernel;Training;Training data;Adaptive systems;Adaptation model;Adaptive methods;one-class SVM;online-novelty detection}, number={6}, pages={2975-2981}, title={Adaptive One-Class Support Vector Machine}, volume={59}, year={2011}}"
+}

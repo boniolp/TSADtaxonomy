@@ -1,0 +1,16 @@
+{
+  "name": "DADS",
+  "full_name": "Distributed Anomaly Detection System",
+  "category": "Graph-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "type": "Series2Graph",
+  "year": 2021,
+  "authors": ["Sebastian Schmidl", "Phillip Wenig", "Thorsten Papenbrock"],
+  "paper": "Anomaly Detection in Time Series: A Comprehensive Evaluation",
+  "description": "DADS is a distributed implementation of the Series2Graph algorithm for detecting sequential anomalies in univariate time series. Built on the actor programming model, it parallelizes processing across cluster nodes—distributing input sequences, intermediate states, and computations—to achieve massive scalability and near-linear speed-ups, enabling the detection of anomalies in extremely long series that single-machine S2G cannot handle efficiently.",
+  "code": "https://github.com/HPI-Information-Systems/DADS",
+  "url": "https://www.vldb.org/pvldb/vol15/p1779-wenig.pdf",
+  "bibtex": {"type": "article","title": "Distributed detection of sequential anomalies in univariate time series","authors": ["Johannes Schneider","Phillip Wenig","Thorsten Papenbrock"],"year": 2021,"journal": "The VLDB Journal","volume": "30","number": "4","pages": "579--602","publisher": "Springer-Verlag","address": "Berlin, Heidelberg","doi": "10.1007/s00778-021-00657-6","url": "https://doi.org/10.1007/s00778-021-00657-6","keywords": ["Time series","Data mining","Actor model","Sequential anomaly","Distributed programming"]}
+}

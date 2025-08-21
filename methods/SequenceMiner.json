@@ -1,0 +1,18 @@
+{
+  "name": "SequenceMiner",
+  "full_name": "",
+  "category": "Clustering-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2008,
+  "authors": ["Suratna Budalakoti", "Ashok N Srivastava", "Matthew Eric Otey"],
+  "paper": "Anomaly detection and diagnosis algorithms for discrete symbol sequences with applications to airline safety",
+  "description": "SequenceMiner is an unsupervised, scalable method for detecting and explaining anomalies in large collections of discrete symbol sequences (e.g., cockpit switch activations during aircraft landings). It clusters sequences using a similarity based on the normalized longest common subsequence (nLCS), then identifies anomalies as those sequences with low similarity to their cluster’s medoid.",
+  "code": "",
+  "url": "https://c3.ndc.nasa.gov/dashlink/static/media/publication/Anomaly_Detection-2008.pdf",
+  "bibtex": "@ARTICLE{4694106,author={Budalakoti, S. and Srivastava, A.N. and Otey, M.E.},journal={IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)}, title={Anomaly Detection and Diagnosis Algorithms for Discrete Symbol Sequences with Applications to Airline Safety}, year={2009},volume={39},number={1},pages={101-113},doi={10.1109/TSMCC.2008.2007248}}"
+}
+
+
+

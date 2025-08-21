@@ -1,0 +1,19 @@
+{
+  "name": "ConInd",
+  "full_name": "Condition Indicators",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "type": "",
+  "year": 2019,
+  "authors": [
+  "Jérôme Antonia",
+  "Pietro Borghesani"
+],
+  "paper": "A statistical methodology for the design of condition indicators. Mechanical Systems and Signal Processing",
+  "description": "Presents a maximum likelihood ratio-based framework for designing condition indicators that independently track cyclostationary and non-Gaussian signal symptoms. Unlike traditional measures such as kurtosis, it distinguishes between these characteristics and supports statistical thresholding for diagnosis. Validated on simulated data and the IMS bearing dataset, it shows strong potential for tracking different phases of bearing degradation.",
+  "code": "",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0888327018302632",
+  "bibtex": "@article{antoni2019conditionIndicators,\n  title = {A Statistical Methodology for the Design of Condition Indicators},\n  author = {Antoni, J{\\'e}r{\\^o}me and Borghesani, Pietro},\n  journal = {Mechanical Systems and Signal Processing},\n  volume = {114},\n  pages = {290--327},\n  year = {2019},\n  doi = {10.1016/j.ymssp.2018.05.012}\n}"
+}

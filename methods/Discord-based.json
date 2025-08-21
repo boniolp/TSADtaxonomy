@@ -1,0 +1,5 @@
+{
+  "name": "Discord-based",
+  "text": "The discord-based model tries to identify efficiently specific types of sub-sequences in the time series named discord. Formally, a sub-sequence 𝐴 (or a given length ℓ) is a discord, if the distance between its nearest neighbor is the largest among all the nearest neighbors’ distances computed between sub-sequences of length ℓ in the time series. Overall, similarly to proximity-based methods, The isolation of a sub-sequence with regards to its closest neighbors is the main criterion to consider if this sub-sequence is an anomaly or not. However, on contrary to proximity-based methods, discord-based methods have been introduced for the specific case of anomaly detection in time series. Thus, as such methods introduced efficient processes for time series distance computation specifically, we group them into one different sub-category.",
+  "year": 1980
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Enc-Dec-AD",
+  "full_name": "Encoder-Decoder Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2016,
+  "authors": ["Pankaj Malhotra", "Anusha Ramakrishnan", "Gaurangi Anand", "Lovekesh Vig", "Puneet Agarwal", "Gautam Shroff"],
+  "paper": "LSTM-Based Encoder-Decoder for Multi-Sensor Anomaly Detection.",
+  "description": "Long Short Term Memory Networks based Encoder-Decoder scheme for Anomaly Detection (EncDec-AD) that learns to reconstruct normal (i.e., anomaly free) time-series behavior, and thereafter uses reconstruction error to detect anomalies.",
+  "code": "",
+  "url": "https://arxiv.org/pdf/1607.00148",
+  "bibtex": "@article{Malhotra2016LSTMbasedEF,title={LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection},author={Pankaj Malhotra and Anusha Ramakrishnan and Gaurangi Anand and Lovekesh Vig and Puneet Agarwal and Gautam M. Shroff},journal={ArXiv},year={2016},volume={abs/1607.00148},}"
+}
+

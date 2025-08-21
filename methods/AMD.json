@@ -1,0 +1,18 @@
+{
+  "name": "AMD",
+  "full_name": "Adjacent Mean Difference",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": [
+    "Chao-Lung Yang",
+    "Wei-Ju Liao"
+  ],
+  "paper": "Adjacent Mean Difference (AMD) method for dynamic segmentation in time series anomaly detection",
+  "description": "The Adjacent Mean Difference (AMD) method is a parameter-free dynamic segmentation technique for time series anomaly detection. It partitions data into segments of varying lengths by measuring changes between adjacent data points’ means, enabling dimensionality reduction and smoothing without a fixed window size. This adaptive segmentation allows more efficient and accurate anomaly detection compared to fixed-length methods like HOT SAX.",
+  "code": "",
+  "url": "https://ieeexplore.ieee.org/document/8279219",
+  "bibtex": "@INPROCEEDINGS{8279219, author={Yang, Chao-Lung and Liao, Wei-Ju}, booktitle={2017 IEEE/SICE International Symposium on System Integration (SII)}, title={Adjacent Mean Difference (AMD) method for dynamic segmentation in time series anomaly detection}, year={2017}, volume={}, number={}, pages={241-246}, keywords={Time series analysis;Microsoft Windows;Dimensionality reduction;Heuristic algorithms;Time measurement;Aggregates;Anomaly detection}, doi={10.1109/SII.2017.8279219}}"
+}

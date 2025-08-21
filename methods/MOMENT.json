@@ -1,0 +1,19 @@
+{
+  "name": "MOMENT",
+  "full_name": "Time-series Foundation Model",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2024,
+  "authors": ["Mononito Goswami", "Konrad Szafer", "Arjun Choudhry", "Yifu Cai", "Shuo Li",  "Artur Dubrawski"],
+  "paper": "MOMENT: A Family of Open Time-series Foundation Models",
+  "description": "MOMENT is a family of high-capacity transformer models, pre-trained using a masked time series prediction task on large amounts of time series data drawn from diverse domains. MOMENT can be used for time series anomaly detection",
+  "code": "https://github.com/moment-timeseries-foundation-model/moment",
+  "url": "https://arxiv.org/pdf/2402.03885",
+  "bibtex": "@inproceedings{goswami2024moment,title={MOMENT: A Family of Open Time-series Foundation Models},author={Mononito Goswami and Konrad Szafer and Arjun Choudhry and Yifu Cai and Shuo Li and Artur Dubrawski},booktitle={International Conference on Machine Learning},year={2024}}"
+}
+
+
+
+

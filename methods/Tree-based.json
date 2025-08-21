@@ -1,0 +1,5 @@
+{
+  "name": "Tree-based",
+  "text": "A tree-based approach aims to divide the point or sub-sequence of a time series using trees. For instance, such trees can be used to split different points or sub-sequences based on their similarity. The detection of anomalies is then based on the statistics and characteristics of the tree, such as its depth.",
+  "year": 1990
+}

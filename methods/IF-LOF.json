@@ -1,0 +1,17 @@
+{
+  "name": "IF-LOF",
+  "full_name": "",
+  "category": "Tree-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Zhangyu Cheng", "Chengming Zou", "Jianwei Dong"],
+  "paper": "Outlier detection using isolation forest and local outlier factor",
+  "description": "Isolation Forest(iForest) and Local Outlier Factor(LOF) have been widely used for anoamly detection. However, IForest is only sensitive to global outliers, and is weak in dealing with local outliers. Although LOF performs well in local outlier detection, it has high time complexity. A progressive ensemble method for outlier detection is proposed by combining both IForest and LOF.",
+  "code": "",
+  "url": "https://dl.acm.org/doi/10.1145/3338840.3355641",
+  "bibtex": "@inproceedings{10.1145/3338840.3355641,author = {Cheng, Zhangyu and Zou, Chengming and Dong, Jianwei},title = {Outlier detection using isolation forest and local outlier factor},year = {2019},isbn = {9781450368438},doi = {10.1145/3338840.3355641},booktitle = {Proceedings of the Conference on Research in Adaptive and Convergent Systems},pages = {161–168},numpages = {8},series = {RACS '19}}"
+}
+
+

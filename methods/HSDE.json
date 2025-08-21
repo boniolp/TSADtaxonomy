@@ -1,0 +1,17 @@
+{
+  "name": "HSDE",
+  "full_name": "Hierarchy-Segmentation-based Data Extraction",
+  "category": "Proximity-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Zhihua Li", "Ziyuan Li", "Ning Yu", "Steven Wen"],
+  "paper": "Locality-based visual outlier detection algorithm for time series.",
+  "description": "Hierarchy-segmentation-based outlier detection model for time series that aligns with the human visual system’s tendency to notice extreme values. In practice, the method first performs hierarchy segmentation by identifying extreme points, and then extract meaningful subsequences. Each extracted subsequence is assigned a local outlier factor score.",
+  "code": "",
+  "url": "https://pdfs.semanticscholar.org/74fa/8a37db59666b128f6f3878bf4ae83c828b9d.pdf",
+  "bibtex": "@article{10.1155/2017/1869787,author = {Li, Zhihua and Li, Ziyuan and Yu, Ning and Wen, Steven and Maiorana, Emanuele},title = {Locality-Based Visual Outlier Detection Algorithm for Time Series},year = {2017},volume = {2017},issn = {1939-0114},doi = {10.1155/2017/1869787},journal = {Sec. and Commun. Netw.},numpages = {10}}"
+}
+
+

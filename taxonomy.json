@@ -1,0 +1,224 @@
+[
+{
+  "name": "TSAD",
+  "children": [
+    {
+      "name": "Distance-based",
+      "children": [
+        {
+          "name": "Proximity-based",
+          "children": [
+            { "name": "KNN" },
+            { "name": "LOF",
+              "children": [
+                { "name": "COF" },
+                { "name": "LOCI" },
+                { "name": "CBLOF" },
+                { "name": "ILOF" },
+                { "name": "HSDE" },
+                { "name": "DILOF" }
+              ]
+            },
+            { "name": "KnorrSeq2" }
+          ]
+        },
+        {
+          "name": "Clustering-based",
+          "children": [
+            { "name": "DBSCAN" },
+            { "name": "K-Means" },
+            { "name": "SequenceMiner" },
+            { "name": "MCOD" },
+            { "name": "DBStream" },
+            { "name": "NorM" },
+            { "name": "NormA" },
+            { "name": "SAND" }
+          ]
+        },
+        {
+          "name": "Discord-based",
+          "children": [
+            { "name": "HOTSAX" },
+            { "name": "DAD" },
+            { "name": "MP", 
+              "children": [
+                { "name": "STOMP" },
+                { "name": "STAMPI" },
+                { "name": "SCRIMP" },
+                { "name": "SCAMP" },
+                { "name": "LAMP" },
+                { "name": "MERLIN" },
+                { "name": "VALMOD" },
+                { "name": "DAMP" },
+                { "name": "MERLIN++" }
+              ]
+            },
+            { "name": "AMD" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Density-based",
+      "children": [
+        {
+          "name": "Distribution-based",
+          "children": [
+            { "name": "MCD", 
+              "children": [
+                { "name": "FastMCD" },
+                { "name": "MC-MCD" }
+              ] 
+            },
+            { "name": "OCSVM", 
+              "children": [
+                { "name": "NetworkSVM" },
+                { "name": "MS-SVDD" },
+                { "name": "AOSVM" },
+                { "name": "S-SVM" },
+                { "name": "HMAD" },
+                { "name": "Eros-SVMs" },
+                { "name": "DeepSVM" }
+              ] 
+            },
+            { "name": "SmartSifter" },
+            { "name": "OC-KFD" },
+            { "name": "MGDD" },
+            { "name": "MedianMethod" },
+            { "name": "HBOS" },
+            { "name": "S-ESD" },
+            { "name": "SH-ESD" },
+            { "name": "SH-ESD+" },
+            { "name": "ConInd" },
+            { "name": "COPOD" }
+          ]
+        },
+        {
+          "name": "Graph-based",
+          "children": [
+            { "name": "TwoFinger" },
+            { "name": "GeckoFSM" },
+            { "name": "Series2Graph" },
+            { "name": "DADS" },
+            { "name": "Series2Graph++" }
+          ]
+        },
+        {
+          "name": "Tree-based",
+          "children": [
+            { "name": "IForest", 
+              "children":[
+                { "name": "Hybrid-IForest" },  
+                { "name": "IF-LOF" },
+                { "name": "Extended-IForest" }
+              ] 
+            }
+          ]
+        },
+        {
+          "name": "Encoding-based",
+          "children": [
+            { "name": "SurpriseEncode" },
+            { "name": "TARZAN" },
+            { "name": "PST" },
+            { "name": "POLY" },
+            { "name": "SSA" },
+            { "name": "PCA", 
+              "children": [
+                { "name": "DeepPCA" },
+                { "name": "RobustPCA" }
+              ] 
+            },
+            { "name": "GrammarViz" },
+            { "name": "EM-HMM" },
+            { "name": "Hybrid-KMeans" },
+            { "name": "Laser-DBM" },
+            { "name": "EDBN" },
+            { "name": "KDE-EDBN" },
+            { "name": "Ensemble-GI" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prediction-based",
+      "children": [
+        {
+          "name": "Forecasting-based",
+          "children": [
+            { "name": "ES" },
+            { "name": "TES" },
+            { "name": "DES" },
+            { "name": "ARIMA" },
+            { "name": "NoveltySVR" },
+            { "name": "ESN", 
+              "children": [
+                  { "name": "CoalESN" },
+                  { "name": "MoteESN" },
+                  { "name": "Torsk" },
+                  { "name": "HealthESN" }
+              ] 
+            },
+            { "name": "PCI" },
+            { "name": "LSTM-AD", 
+              "children": [
+                  { "name": "DeepLSTM" },
+                  { "name": "Telemanom" },
+                  { "name": "RePAD" }
+              ] 
+            },
+            { "name": "NumentaHTM" },
+            { "name": "MultiHTM" },
+            { "name": "RADM" },
+            { "name": "OceanWNN" },
+            { "name": "DeepAnT" },
+            { "name": "MTAD-GAT" },
+            { "name": "AD-LTI" }
+          ]
+        },
+        {
+          "name": "Reconstruction-based",
+          "children": [
+            {
+              "name": "AE",
+              "children": [
+                { "name": "STORN" },
+                { "name": "Enc-Dec-AD" },
+                { "name": "DeepNAP" },
+                { "name": "LSTM-VAE" },
+                { "name": "DONUT" },
+                { "name": "BAGEL" },
+                { "name": "OmniAnomaly" },
+                { "name": "MSCRED" },
+                { "name": "VELC" },
+                { "name": "CAE" }
+              ]
+            },
+            {
+              "name": "GAN",
+              "children": [
+                { "name": "MAD-GAN" },
+                { "name": "VAE-GAN" },
+                { "name": "TAno-GAN" },
+                { "name": "USAD" }
+              ]
+            },
+            {
+              "name": "Transformer",
+              "children": [
+                { "name": "Anomaly-Transformer" },
+                { "name": "TranAD" },
+                { "name": "DCdetector" },
+                { "name": "MEMTO" },
+                { "name": "GPT4TS" },
+                { "name": "MOMENT" },
+                { "name": "SARAD" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]

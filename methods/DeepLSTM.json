@@ -1,0 +1,18 @@
+{
+  "name": "DeepLSTM",
+  "full_name": "Deep Long Short Term Memory",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2015,
+  "authors": ["S. Chauhan", "L. Vig"],
+  "paper": " Anomaly Detection in ECG Time Signals via Deep Long Short-Term Memory Networks. DSAA",
+  "description": "Deep recurrent neural network architecture with Long Short Term Memory (LSTM) units to develop a predictive model for healthy ECG signals. The probability distribution of the prediction errors from these recurrent models is further utilized to indicate normal or abnormal behavior.",
+  "code": "",
+  "url": "https://www.researchgate.net/publication/308852664_Anomaly_detection_in_ECG_time_signals_via_deep_long_short-term_memory_networks",
+  "bibtex": "@INPROCEEDINGS{7344872,author={Chauhan, Sucheta and Vig, Lovekesh},booktitle={2015 IEEE International Conference on Data Science and Advanced Analytics (DSAA)}, title={Anomaly detection in ECG time signals via deep long short-term memory networks}, year={2015},volume={},number={},pages={1-7},doi={10.1109/DSAA.2015.7344872}}"
+}
+
+
+

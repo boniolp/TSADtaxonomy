@@ -1,0 +1,17 @@
+{
+  "name": "MSCRED",
+  "full_name": "Multi-Scale Convolutional Recurrent Encoder-Decoder",
+  "category": "Reconstruction-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Chuxu Zhang", "Dongjin Song", "Yuncong Chen", "Xinyang Feng", "Cristian Lumezanu", "Wei Cheng", "Jingchao Ni", "Bo Zong", "Haifeng Chen", "Nitesh V. Chawla"],
+  "paper": "A Deep Neural Network for Unsupervised Anomaly Detection and Diagnosis in Multivariate Time Series Data. In AAAI",
+  "description": "Multi-Scale Convolutional Recurrent Encoder-Decoder (MSCRED), to perform anomaly detection and diagnosis in multivariate time series data. Specifically, MSCRED first constructs multi-scale (resolution) signature matrices to characterize multiple levels of the system statuses in different time steps. Subsequently, given the signature matrices, a convolutional encoder is employed to encode the inter-sensor (time series) correlations and an attention based Convolutional Long-Short Term Memory (ConvLSTM) network is developed to capture the temporal patterns. Finally, based upon the feature maps which encode the inter-sensor correlations and temporal information, a convolutional decoder is used to reconstruct the input signature matrices and the residual signature matrices are further utilized to detect and diagnose anomalies.",
+  "code": "https://github.com/7fantasysz/MSCRED",
+  "url": "https://ojs.aaai.org/index.php/AAAI/article/view/3942",
+  "bibtex": "@article{Zhang_Song_Chen_Feng_Lumezanu_Cheng_Ni_Zong_Chen_Chawla_2019, title={A Deep Neural Network for Unsupervised Anomaly Detection and Diagnosis in Multivariate Time Series Data}, volume={33}, url={https://ojs.aaai.org/index.php/AAAI/article/view/3942}, DOI={10.1609/aaai.v33i01.33011409}, number={01}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Zhang, Chuxu and Song, Dongjin and Chen, Yuncong and Feng, Xinyang and Lumezanu, Cristian and Cheng, Wei and Ni, Jingchao and Zong, Bo and Chen, Haifeng and Chawla, Nitesh V.}, year={2019}, month={Jul.}, pages={1409-1416} }"
+}
+
+

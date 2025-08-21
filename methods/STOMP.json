@@ -1,0 +1,15 @@
+{
+  "name": "STOMP",
+  "full_name": "Scalable Time series Ordered Matrix Profile",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2016,
+  "authors": ["Yan Zhu", "Zachary Zimmerman", "Nader Shakibay Senobari", "Chin-Chia Michael Yeh", "Gareth Funning", "Abdullah Mueen"],
+  "paper": "Matrix Profile II: Exploiting a Novel Algorithm and GPUs to Break the One Hundred Million Barrier for Time Series Motifs and Joins. ICDM",
+  "description": "Matrix Profile is a fast and scalable technique for time series analysis that computes the distance between all subsequences using the MASS algorithm. It enables efficient discovery of discords (anomalies) and motifs (repeated patterns). In anomaly detection, discords are of particular interest as they represent subsequences that are least similar to any other. STOMP forego the anytime property of the STAMP method to make it significantly faster and easier to leverage GPU hardware.",
+  "code": "https://stumpy.readthedocs.io/en/latest/",
+  "bibtex": "@INPROCEEDINGS{7837898,author={Zhu, Yan and Zimmerman, Zachary and Senobari, Nader Shakibay and Yeh, Chin-Chia Michael and Funning, Gareth and Mueen, Abdullah and Brisk, Philip and Keogh, Eamonn},booktitle={2016 IEEE 16th International Conference on Data Mining (ICDM)}, title={Matrix Profile II: Exploiting a Novel Algorithm and GPUs to Break the One Hundred Million Barrier for Time Series Motifs and Joins}, year={2016},volume={},number={},pages={739-748},doi={10.1109/ICDM.2016.0085}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/sigkdd_tarzan.pdf"
+}

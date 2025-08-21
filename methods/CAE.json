@@ -1,0 +1,23 @@
+{
+  "name": "CAE",
+  "full_name": "Convolutional Auto-Encoder",
+  "category": "Reconstruction-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "type": "AE",
+  "year": 2020,
+  "authors": [
+  "Gabriel Rodriguez Garcia",
+  "Gabriel Michau",
+  "Melanie Ducoffe",
+  "Jayant Sen Gupta",
+  "Olga Fink"
+],
+  "paper": "Temporal Signals To Images: Monitoring the Condition of Industrial Assets with Deep Learning Image Processing Algorithms.",
+  "description": "A convolutional autoencoder (CAE) is a type of neural network that learns compressed representations of data by using convolutional layers to capture spatial features in the encoder, then reconstructing the input from these features in the decoder. The reconstruction error can then be used to identify anomalies.",
+  "code": "",
+  "url": "https://arxiv.org/abs/2005.07031",
+  "bibtex": "@article{Garcia_2021,\n  title = {Temporal signals to images: Monitoring the condition of industrial assets with deep learning image processing algorithms},\n  volume = {236},\n  ISSN = {1748-0078},\n  url = {http://dx.doi.org/10.1177/1748006X21994446},\n  DOI = {10.1177/1748006x21994446},\n  number = {4},\n  journal = {Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability},\n  publisher = {SAGE Publications},\n  author = {Garcia, Gabriel Rodriguez and Michau, Gabriel and Ducoffe, Mélanie and Gupta, Jayant Sen and Fink, Olga},\n  year = {2021},\n  month = {feb},\n  pages = {617--627}\n}"
+}
+

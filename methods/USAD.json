@@ -1,0 +1,15 @@
+{
+  "name": "USAD",
+  "full_name": "UnSupervised Anomaly Detection for multivariate time series (USAD)",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Julien Audibert", "Pietro Michiardi", "Frédéric Guyard", "Sébastien Marti", "Maria A Zuluaga"],
+  "paper": "Usad: Unsupervised anomaly detection on multivariate time series. In SIGKDD, pages 3395–3404, 2020.",
+  "description": " fast and stable method called UnSupervised Anomaly Detection for multivariate time series (USAD) based on adversely trained autoencoders.",
+  "code": "https://github.com/manigalati/usad",
+  "url": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403392",
+  "bibtex": "@inproceedings{10.1145/3394486.3403392,author = {Audibert, Julien and Michiardi, Pietro and Guyard, Frederic and Marti, Sebastien and Zuluaga, Maria A.},title = {USAD: UnSupervised Anomaly Detection on Multivariate Time Series},year = {2020},isbn = {9781450379984},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/3394486.3403392},booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},pages = {3395–3404},numpages = {10},location = {Virtual Event, CA, USA},series = {KDD '20}}"
+}

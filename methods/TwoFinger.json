@@ -1,0 +1,15 @@
+{
+  "name": "TwoFinger",
+  "full_name": "Sequence Finite State Machine",
+  "category": "Graph-Based",
+  "Dim": "Univariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2000,
+  "authors": ["Carla Marceau"],
+  "paper": "Characterizing the behavior of a program using multiple-length N-grams. In Proceedings of the Workshop on New Security Paradigms (NSPW), pages 101–110. ACM Press, 2000.",
+  "description": "A finite state machine whose states represent predictive sequences of different lengths. Two-Finger is an algorithm to construct the finite state machine from training data. ",
+  "code": "",
+  "url": "https://dl.acm.org/doi/abs/10.1145/366173.366197",
+  "bibtex": "@inproceedings{10.1145/366173.366197,author = {Marceau, Carla},title = {Characterizing the behavior of a program using multiple-length N-grams},year = {2001},isbn = {1581132603},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/366173.366197},booktitle = {Proceedings of the 2000 Workshop on New Security Paradigms},pages = {101–110},numpages = {10},location = {Ballycotton, County Cork, Ireland},series = {NSPW '00}}"
+}

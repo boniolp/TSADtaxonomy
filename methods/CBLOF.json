@@ -1,0 +1,20 @@
+{
+  "name": "CBLOF",
+  "full_name": "Cluster-Based Local Outlier Factor",
+  "category": "Clustering-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "type": "LOF",
+  "year": 2003,
+  "authors": [
+  "Zengyou He*",
+  "Xiaofei Xu",
+  "Shengchun Deng"
+],
+  "paper": "Discovering cluster-based local outliers. Pattern Recognition Letters",
+  "description": "Cluster-Based Local Outlier Factor (CBLOF) is an anomaly detection algorithm that groups data into large and small clusters, labels points in small clusters or far from large clusters as outliers, and assigns each point an outlier score based on its cluster size and distance to the nearest large cluster.",
+  "code": "",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0167865503000035",
+  "bibtex": "@article{HE20031641,\n  author = {He, Zengyou and Xu, Xiaofei and Deng, Shengchun},\n  title = {Discovering cluster-based local outliers},\n  journal = {Pattern Recognition Letters},\n  volume = {24},\n  number = {9-10},\n  pages = {1641-1650},\n  year = {2003},\n  issn = {0167-8655},\n  doi = {10.1016/S0167-8655(03)00003-5},\n  url = {https://www.sciencedirect.com/science/article/pii/S0167865503000035}\n}"
+}

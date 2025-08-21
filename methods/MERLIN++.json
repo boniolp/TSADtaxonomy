@@ -1,0 +1,17 @@
+{
+  "name": "MERLIN",
+  "full_name": "Parameter-Free Discovery of Arbitrary Length Anomalies in Massive Time Series Archives",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2023,
+  "authors": ["Takaaki Nakamura", "Makoto Imamura", "Ryan Mercer", "Eamonn Keogh"],
+  "paper": "MERLIN++: parameter-free discovery of time series anomalies. Data Mining and Knowledge Discovery",
+  "description": "MERLIN++ is an extension of MERLIN and a Matrix Profile-based algorithm that can efficiently and exactly find discords of all lengths in massive time series archives. The difference with MERLIN is that MERLIN++ is exploiting an indexing technique called Orchard’s algorithm.",
+  "code": "",
+  "bibtex": "@article{10.1007/s10618-022-00876-7,author = {Nakamura, Takaaki and Mercer, Ryan and Imamura, Makoto and Keogh, Eamonn},title = {MERLIN++: parameter-free discovery of time series anomalies},year = {2023},issue_date = {Mar 2023},publisher = {Kluwer Academic Publishers},address = {USA},volume = {37},number = {2},issn = {1384-5810},doi = {10.1007/s10618-022-00876-7},journal = {Data Min. Knowl. Discov.},month = jan,pages = {670–709},numpages = {40},}",
+  "url": "https://link.springer.com/article/10.1007/s10618-022-00876-7"
+}
+
+

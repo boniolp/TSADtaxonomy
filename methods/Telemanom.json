@@ -1,0 +1,17 @@
+{
+  "name": "Telemanom",
+  "full_name": "LSTMs and Nonparametric Dynamic Thresholding",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": ["Kyle Hundman", "Valentino Constantinou", "Christopher Laporte", "Ian Colwell", "Tom Soderstrom"],
+  "paper": " Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding. KDD",
+  "description": "Application of Long Short-Term Memory (LSTM) recurrent neural networks (RNNs) to spacecraft multivariate time series anomaly detection.",
+  "code": "https://github.com/khundman/telemanom",
+  "url": "https://arxiv.org/pdf/1802.04431",
+  "bibtex": "@inproceedings{10.1145/3219819.3219845,author = {Hundman, Kyle and Constantinou, Valentino and Laporte, Christopher and Colwell, Ian and Soderstrom, Tom},title = {Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding},year = {2018},isbn = {9781450355520},doi = {10.1145/3219819.3219845},booktitle = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},pages = {387–395},numpages = {9},series = {KDD '18}}"
+}
+
+

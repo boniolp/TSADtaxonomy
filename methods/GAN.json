@@ -1,0 +1,17 @@
+{
+  "name": "GAN",
+  "full_name": "Generative Adversarial Networks",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Thomas Schlegl", "Philipp Seeböck", "Sebastian M. Waldstein", "Ursula Schmidt-Erfurth", "Georg Langs"],
+  "paper": "Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery",
+  "description": "A GAN (Generative Adversarial Network) is a type of AI where two neural networks compete: one (generator) tries to create realistic fake data, and the other (discriminator) tries to detect what’s fake. Through this “game,” the generator learns to produce data that looks real. The first paper proposing the use of Generative Adversarial Networks (GANs) for anomaly detection (not specifically for time series) is “Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery” by Schlegl et al., published in 2017. This work introduced the concept of utilizing GANs to model the distribution of normal data and detect anomalies by measuring reconstruction errors.",
+  "code": "https://github.com/seungjunlee96/AnoGAN-pytorch",
+  "url": "https://arxiv.org/pdf/1703.05921",
+  "bibtex": "@inproceedings{Schlegl2017UnsupervisedAD,title={Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery},author={Thomas Schlegl and Philipp Seeb{\"o}ck and Sebastian M. Waldstein and Ursula Margarethe Schmidt-Erfurth and Georg Langs},booktitle={Information Processing in Medical Imaging},year={2017},}"
+}
+
+

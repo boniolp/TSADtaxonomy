@@ -1,0 +1,19 @@
+{
+  "name": "PCA",
+  "full_name": "Principal Component Analysis-based Anomaly Detection",
+  "category": "Encoding-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2015,
+  "authors": ["Charu C. Aggarwal"],
+  "paper": "Outlier analysis. In Data Mining. Springer",
+  "description": "Principal Component Analysis (PCA)-based Anomaly Detection is an encoding-based method that projects the time series into its principal components. The anomaly score is measured by the sub-sequences distance from 0 along the principal components weighted by their eigenvalues.. Subsequence anomalies are detected by measuring deviation from the principal subspace, weighted by their eigenvalues. The TSB-UAD implementation builds on PyOD's version, adapting it to handle time series windows.",
+  "code": "https://github.com/TheDatumOrg/TSB-UAD",
+  "url": "https://charuaggarwal.net/outlierbook.pdf",
+  "bibtex": "@book{aggarwal2015outlier, title={Outlier Analysis}, author={Aggarwal, Charu C}, year={2015}, publisher={Springer}}",
+  "snippet_description": "We provide below an example of usage of PCA for time series anomaly detection (from TSB-UAD benchmark). Please install TSB-UAD as follows:",
+  "snippet_install": "pip install tsb-uad",
+  "snippet": "```python\nimport os\nimport math\nimport numpy as np\nimport pandas as pd\nfrom sklearn.preprocessing import MinMaxScaler\nfrom TSB_UAD.utils.visualisation import plotFig\nfrom TSB_UAD.models.pca import PCA\nfrom TSB_UAD.models.feature import Window\nfrom TSB_UAD.utils.slidingWindows import find_length\nfrom TSB_UAD.vus.metrics import get_metrics\n\n# Read data\nfilepath = 'PATH_TO_TSB_UAD/ECG/MBA_ECG805_data.out'\ndf = pd.read_csv(filepath, header=None).dropna().to_numpy()\nname = filepath.split('/')[-1]\n\ndata = df[:,0].astype(float)\nlabel = df[:,1].astype(int)\n\n# Pre-processing\nslidingWindow = find_length(data)\nX_data = Window(window=slidingWindow).convert(data).to_numpy()\n\n# Run PCA\nmodelName = 'PCA'\nclf = PCA()\nclf.fit(X_data)\nscore = clf.decision_scores_\n\n# Post-processing\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\nscore = np.array([score[0]]*math.ceil((slidingWindow-1)/2) + list(score) + [score[-1]]*((slidingWindow-1)//2))\n\n# Plot result\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName)\n\n# Print accuracy\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n```",
+  "figure_result": ""
+}

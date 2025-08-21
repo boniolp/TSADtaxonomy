@@ -1,0 +1,5 @@
+{
+  "name": "Forecasting-based",
+  "text": "The forecasting-based method is a model that, for a given index or timestamp, takes as input points or subsequences before this given timestamp and predicts its corresponding value or sub-sequence. In other words, such methods use past values as input to predict the following one. The forecasting error (the difference between the predicted and the real value) is used as an anomaly score. Indeed, such forecasting error is representative of the expectation of the current value based on the previous points or sub-sequences. The larger the error, the more unexpected the value, and thus, potentially abnormal. Forecasting-based approaches assume that the training data (past values or sub-sequences) is almost anomaly-free. Thus, such methods are mostly semi-supervised.",
+  "year": 1982
+}

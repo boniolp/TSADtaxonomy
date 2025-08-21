@@ -1,0 +1,15 @@
+{
+  "name": "TranAD",
+  "full_name": " Transformer-based Anomaly Detection model (TranAD)",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2022,
+  "authors": ["Shreshth Tuli", "Giuliano Casale", "Nicholas R. Jennings"],
+  "paper": "TranAD: deep transformer networks for anomaly detection in multivariate time series data. Proc. VLDB Endow. 15, 6 (February 2022), 1201–1214.",
+  "description": "TranAD is a deep transformer network based anomaly detection and diagnosis model which uses attention-based sequence encoders to swiftly perform inference with the knowledge of the broader temporal trends in the data.",
+  "code": "https://github.com/imperial-qore/TranAD",
+  "url": "https://arxiv.org/abs/2201.07284",
+  "bibtex": "@article{10.14778/3514061.3514067,author = {Tuli, Shreshth and Casale, Giuliano and Jennings, Nicholas R.},title = {TranAD: deep transformer networks for anomaly detection in multivariate time series data},year = {2022},issue_date = {February 2022},publisher = {VLDB Endowment},volume = {15},number = {6},issn = {2150-8097},doi = {10.14778/3514061.3514067},journal = {Proc. VLDB Endow.},month = feb,pages = {1201–1214},numpages = {14}}"
+}

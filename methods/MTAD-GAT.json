@@ -1,0 +1,16 @@
+{
+  "name": "MTAD-GAT",
+  "full_name": "Multivariate Time series Anomaly Detection via Graph Attention network",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "year": 2020,
+  "authors": ["Hang Zhao", "Yujing Wang", "Juanyong Duan", "Congrui Huang", "Defu Cao", "Yunhai Tong", "Bixiong Xu", "Jing Bai", "Jie Tong", "Qi Zhang"],
+  "description": "MTAD-GAT considers each univariate time-series as an individual feature and tries to model the correlations between different features explicitly, while the temporal dependencies within each time-series are modeled at the same time. The key ingredients are two graph attention layers, namely the feature-oriented graph attention layer and the time-oriented graph attention layer. A a forecasting-based model and a reconstruction-based model is trained for better representations of time-series data.",
+  "code": "https://github.com/ML4ITS/mtad-gat-pytorch",
+  "url": "https://arxiv.org/pdf/2009.02040",
+  "bibtex": "@INPROCEEDINGS{9338317,author={Zhao, Hang and Wang, Yujing and Duan, Juanyong and Huang, Congrui and Cao, Defu and Tong, Yunhai and Xu, Bixiong and Bai, Jing and Tong, Jie and Zhang, Qi},booktitle={2020 IEEE International Conference on Data Mining (ICDM)}, title={Multivariate Time-Series Anomaly Detection via Graph Attention Network}, year={2020},volume={},number={},pages={841-850},doi={10.1109/ICDM50108.2020.00093}}"
+}
+
+

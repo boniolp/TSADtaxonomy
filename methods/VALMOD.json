@@ -1,0 +1,15 @@
+{
+  "name": "VALMOD",
+  "full_name": "VAriable-Length MOtif and discord Discovery",
+  "category": "Discord-based and Matrix-Profile-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2020,
+  "authors": ["Michele Linardi","Yan Zhu","Themis Palpanas","Eamonn Keogh"],
+  "paper": "Matrix profile goes MAD: variable-length motif and discord discovery in data series. Data Mining and Knowledge Discovery 34 (2020), 1022–1071.",
+  "description": "VALMOD is a scalable motif discovery algorithm (that can also be used for discord discovery) that efficiently finds all motifs in a given range of lengths. Removing the unrealistic assumption that the user knows the correct length, can often produce more intuitive and actionable results, which could have been missed otherwise.",
+  "code": "https://github.com/matrix-profile-foundation/tsmp",
+  "url": "https://helios2.mi.parisdescartes.fr/~themisp/publications/dami20-mad.pdf",
+  "bibtex":"@article{DBLP:journals/datamine/LinardiZPK20, author = {Michele Linardi and Yan Zhu and Themis Palpanas and Eamonn J. Keogh},title = {Matrix profile goes {MAD:} variable-length motif and discord discovery in data series},journal = {Data Min. Knowl. Discov.},volume = {34},number = {4},pages = {1022--1071},year = {2020},url = {https://doi.org/10.1007/s10618-020-00685-w},doi = {10.1007/S10618-020-00685-W},timestamp = {Thu, 14 Oct 2021 09:31:51 +0200},biburl = {https://dblp.org/rec/journals/datamine/LinardiZPK20.bib},bibsource = {dblp computer science bibliography, https://dblp.org}}"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "POLY",
+  "full_name": "Polynomial Approximation-based Anomaly Detection",
+  "category": "Encoding-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2007,
+  "authors": ["Z. Li", "H. Ma", "Y. Mei"],
+  "paper": "A unifying method for outlier and change detection from data streams based on local polynomial fitting",
+  "description": "POLY is a encoding-based anomaly detection methods that aims to detect pointwise anomalies using polynomial approximation. A polynomial of certain degree and window size is fitted to the given time series dataset. A GARCH method is ran on the difference betweeen the approximation and the true value of the dataset to estimate the volatitilies of each point. A score is derived on each point based on the estimated volatitilies and residual to measure the normality of each point. Note that such appraoch could also fit in the prediction-based (Reconstruction-based) category as the residual is used to compute the anomaly score.",
+  "code": "https://github.com/TheDatumOrg/TSB-UAD",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-540-71701-0_17",
+  "bibtex": "@inproceedings{10.5555/1764441.1764460,author = {Li, Zhi and Ma, Hong and Mei, Yongbing},title = {A unifying method for outlier and change detection from data streams based on local polynomial fitting},year = {2007},isbn = {9783540717003},publisher = {Springer-Verlag},address = {Berlin, Heidelberg},booktitle = {Proceedings of the 11th Pacific-Asia Conference on Advances in Knowledge Discovery and Data Mining},pages = {150–161},numpages = {12},location = {Nanjing, China},series = {PAKDD'07}}",
+  "snippet_description": "We provide below an example of usage of POLY (simplified version) for time series anomaly detection (from TSB-UAD benchmark). Please install TSB-UAD as follows:",
+  "snippet_install": "pip install tsb-uad",
+  "snippet": "```python\nimport os\nimport numpy as np\nimport pandas as pd\nfrom sklearn.preprocessing import MinMaxScaler\nfrom TSB_UAD.utils.visualisation import plotFig\nfrom TSB_UAD.models.distance import Fourier\nfrom TSB_UAD.models.poly import POLY\nfrom TSB_UAD.models.feature import Window\nfrom TSB_UAD.utils.slidingWindows import find_length\nfrom TSB_UAD.vus.metrics import get_metrics\n\n# Read data\nfilepath = 'PATH_TO_TSB_UAD/ECG/MBA_ECG805_data.out'\ndf = pd.read_csv(filepath, header=None).dropna().to_numpy()\nname = filepath.split('/')[-1]\n\ndata = df[:,0].astype(float)\nlabel = df[:,1].astype(int)\n\n# Pre-processing\nslidingWindow = find_length(data)\n\n# Run POLY\nmodelName = 'POLY'\nclf = POLY(power=3, window=slidingWindow)\nclf.fit(data)\nmeasure = Fourier()\nmeasure.detector = clf\nmeasure.set_param()\nclf.decision_function(measure=measure)\nscore = clf.decision_scores_\n\n# Post-processing\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\n\n# Plot result\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName)\n\n# Print accuracy\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n```",
+  "figure_result": ""
+}
+
+

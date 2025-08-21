@@ -1,0 +1,17 @@
+{
+  "name": "SCRIMP",
+  "full_name": "Scalable Random-Incremental Matrix Profile",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": ["Yan Zhu", "Chin-Chia Michael Yeh", "Zachary Zimmerman", "Kaveh Kamgar", "Eamonn Keogh"],
+  "paper": "Matrix Profile XI: SCRIMP++: Time Series Motif Discovery at Interactive Speeds. in ICDM",
+  "description": "SCRIMP is an incremental algorithm to compute matrix profile efficiently, offering fast approximate results useful in interactive settings.",
+  "code": "https://stumpy.readthedocs.io/en/latest/Tutorial_Fast_Approximate_Matrix_Profiles.html",
+  "bibtex": "@INPROCEEDINGS{8594908,author={Zhu, Yan and Yeh, Chin-Chia Michael and Zimmerman, Zachary and Kamgar, Kaveh and Keogh, Eamonn},booktitle={2018 IEEE International Conference on Data Mining (ICDM)}, title={Matrix Profile XI: SCRIMP++: Time Series Motif Discovery at Interactive Speeds}, year={2018},volume={},number={},pages={837-846},doi={10.1109/ICDM.2018.00099}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/SCRIMP_ICDM_camera_ready_updated.pdf"
+}
+
+

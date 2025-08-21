@@ -1,0 +1,17 @@
+{
+  "name": "OmniAnomaly",
+  "full_name": "",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Ya Su", "Youjian Zhao", "Chenhao Niu", "Rong Liu", "Wei Sun", "Dan Pei"],
+  "paper": "Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network. KDD",
+  "description": "Stochastic recurrent neural network for multivariate time series anomaly detection. OmniAnomaly captures the normal patterns of multivariate time series by learning their robust representations with key techniques such as stochastic variable connection and planar normalizing flow, reconstruct input data by the representations, and use the reconstruction probabilities to determine anomalies. ",
+  "code": "https://github.com/NetManAIOps/OmniAnomaly",
+  "url": "https://netman.aiops.org/wp-content/uploads/2019/08/OmniAnomaly_camera-ready.pdf",
+  "bibtex": "@inproceedings{10.1145/3292500.3330672,author = {Su, Ya and Zhao, Youjian and Niu, Chenhao and Liu, Rong and Sun, Wei and Pei, Dan},title = {Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network},year = {2019},isbn = {9781450362016},doi = {10.1145/3292500.3330672},booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},pages = {2828–2837},numpages = {10},location = {Anchorage, AK, USA},series = {KDD '19}}"
+}
+
+

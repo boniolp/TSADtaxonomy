@@ -1,0 +1,5 @@
+{
+  "name": "Proximity-based",
+  "text": "The proximity-based model measures proximity by calculating the distance of a given sub-sequence to its close neighborhood. The isolation of a sub-sequence with regards to its closest neighbors is the main criterion to consider if this sub-sequence is an anomaly or not. This notion of isolation with regard to a given neighborhood has been proposed for non-time series data. Thus, the methods contained in this category have been introduced for the general case of multi-dimensional outlier detection. In our specific case, the sub-sequence of a time series can be considered a multi-dimensional point with the number of dimensions equal to the length of the sub-sequence.",
+  "year": 1980
+}

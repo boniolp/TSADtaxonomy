@@ -1,0 +1,21 @@
+{
+  "name": "ARIMA",
+  "full_name": "Autoregressive Integrated Moving Average",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "type": "ARIMA",
+  "year": 1989,
+  "authors": [
+    "Bovas Abraham","Alice Chuang"
+  ],
+  "paper": "Robust regression and outlier detection.",
+  "description": "ARIMA (AutoRegressive Integrated Moving Average) is a statistical time series forecasting model that captures temporal dependencies through autoregression (AR), differencing (I), and moving averages (MA). For anomaly detection, ARIMA is trained to predict future values based on past patterns; deviations between predicted and actual values are measured, and points with unusually large residuals are flagged as anomalies. This approach works well for stationary or seasonally adjusted time series where anomalies manifest as unexpected deviations from the learned trend and autocorrelation structure. While it appears difficult to definitively identify the very first paper to use ARIMA for anomaly detection, the 1989 Technometrics paper (reference below) stands out as an early example of using ARIMA residuals to detect outliers (anomalies) in environmental data.",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/arima",
+  "url": "https://www.researchgate.net/publication/284537526_Robust_Regression_and_Outlier_Detection",
+  "bibtex": "@article{Abraham01051989,author = {Bovas Abraham and Alice Chuang},title = {Outlier Detection and Time Series Modeling},journal = {Technometrics},volume = {31},number = {2},pages = {241--248},year = {1989},publisher = {ASA Website},doi = {10.1080/00401706.1989.10488517},}"
+}
+
+
+

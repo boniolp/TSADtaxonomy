@@ -1,0 +1,15 @@
+{
+  "name": "VAE-GAN",
+  "full_name": "Long short-term memory-based variational autoencoder generation adversarial networks",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Zijian Niu", "Ke Yu","Xiaofei Wu"],
+  "paper": "LSTM-based VAE-GAN for time-series anomaly detection. Sensors 20, 13 (2020), 3738.",
+  "description": "Long short-term memory-based variational autoencoder generation adversarial networks (LSTM-based VAE-GAN) method for time series anomaly detection",
+  "code": "",
+  "url": "https://www.mdpi.com/1424-8220/20/13/3738",
+  "bibtex": "@Article{s20133738,AUTHOR = {Niu, Zijian and Yu, Ke and Wu, Xiaofei},TITLE = {LSTM-Based VAE-GAN for Time-Series Anomaly Detection},JOURNAL = {Sensors},VOLUME = {20},YEAR = {2020},NUMBER = {13},ARTICLE-NUMBER = {3738},URL = {https://www.mdpi.com/1424-8220/20/13/3738},PubMedID = {32635374},ISSN = {1424-8220},DOI = {10.3390/s20133738}}"
+}

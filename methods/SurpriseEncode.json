@@ -1,0 +1,17 @@
+{
+  "name": "SurpriseEncode",
+  "full_name": "Evaluation of Surprising Temporal Patterns with Bits Encoding.",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 1998,
+  "authors": ["Soumen Chakrabarti", "Sunita Sarawagi", "Byron Dom"],
+  "paper": "Mining Surprising Patterns Using Temporal Description Length.",
+  "description": "Algorithm designed to find surprising temporal patterns. The notion of surprise relies on the notion of interest and is measured by the number of bits needed to encode a itemset sequence using a specific coding scheme. A sequence with large code length hints at a possibly surprising correlation.",
+  "code": "",
+  "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ce44d94e3e21ee08a19bc7083b25efe2f87e5458",
+  "bibtex": "@inproceedings{10.5555/645924.671328,author = {Chakrabarti, Soumen and Sarawagi, Sunita and Dom, Byron},title = {Mining Surprising Patterns Using Temporal Description Length},year = {1998},isbn = {1558605665},publisher = {Morgan Kaufmann Publishers Inc.},address = {San Francisco, CA, USA},booktitle = {Proceedings of the 24rd International Conference on Very Large Data Bases},pages = {606–617},numpages = {12},series = {VLDB '98}}"
+}
+
+

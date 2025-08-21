@@ -1,0 +1,22 @@
+{
+  "name": "COPOD",
+  "full_name": "Copula-Based Outlier Detection",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "type": "",
+  "year": 2020,
+  "authors": [
+  "Zheng Li",
+  "Yue Zhao",
+  "Nicola Botta",
+  "Cezar Ionescu",
+  "Xiyang Hu"
+],
+  "paper": "COPOD: Copula-Based Outlier Detection. ICDM",
+  "description": "COPOD (Copula-Based Outlier Detection) is a parameter-free anomaly detection algorithm that models multivariate data distribution using empirical copulas. It estimates tail probabilities, interpreted as anomalous p-values, to quantify the extremeness of each data point. COPOD is interpretable, computationally efficient, and effective, often outperforming existing methods across various datasets.",
+  "code": "https://github.com/winstonll/COPOD",
+  "url": "https://ieeexplore.ieee.org/document/9338429",
+  "bibtex": "@inproceedings{li2020copod,\n  author = {Li, Zheng and Zhao, Yue and Botta, Nicola and Ionescu, Cezar and Hu, Xiyang},\n  booktitle = {2020 IEEE International Conference on Data Mining (ICDM)},\n  title = {COPOD: Copula-Based Outlier Detection},\n  year = {2020},\n  pages = {1118--1123},\n  keywords = {Conferences, Computational modeling, Prediction algorithms, Data models, Computational efficiency, Task analysis, Anomaly detection, outlier detection, anomaly detection, copula, data mining},\n  doi = {10.1109/ICDM50108.2020.00135}\n}" 
+}

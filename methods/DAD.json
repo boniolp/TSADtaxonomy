@@ -1,0 +1,20 @@
+{
+  "name": "DAD",
+  "full_name": "Disk Aware Discord Discovery",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "type": "",
+  "year": 2008,
+  "authors": [
+  "Dragomir Yankov",
+  "Eamonn Keogh",
+  "Umaa Rebbapragada"
+],
+  "paper": "Disk Aware Discord Discovery: Finding Unusual Time Series in Terabyte Sized Datasets. Knowledge and Information Systems",
+  "description": "Disk Aware Discord Discovery is an exact algorithm for finding anomalous subsequences (‘discords’) in time series that are too large to fit in memory. It detects discords using just two linear scans of the disk and a small in-memory buffer, offering a simple yet scalable approach to discover unusual patterns in massive datasets like those found in astronomy, web logs, or surveillance.",
+  "code": "",
+  "url": "https://link.springer.com/article/10.1007/s10115-008-0131-9",
+  "bibtex": "@article{Yankov2008,\n  author = {Yankov, Dragomir and Keogh, Eamonn and Rebbapragada, Umaa},\n  title = {Disk aware discord discovery: Finding unusual time series in terabyte sized datasets},\n  journal = {Knowledge and Information Systems},\n  volume = {17},\n  pages = {241--262},\n  year = {2008},\n  month = {11},\n  doi = {10.1007/s10115-008-0131-9}\n}"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Eros-SVMs",
+  "full_name": "Extended Frobenius Norm Support-Vector-Machines",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": ["Bouchra Lamrini", "Augustin Gjini", "Simon Daudin", "Pascal Pratmarty", "François Armando", "Louise Travé-Massuyès"],
+  "paper": "Anomaly Detection using Similaritybased One-Class SVM for Network Traffic Characterization",
+  "description": "Eros-SVMs is based on OCSVM appraoch and use a similarity index for Multivariate Time Series (MTS) called EROS (Extended Frobenius Norm). The results of the model are evaluated iterativelly for different hyper-parameters of OCSVM and the model that evaluates best is selected. ",
+  "code": "",
+  "url": "https://ceur-ws.org/Vol-2289/paper12.pdf",
+  "bibtex": "@inproceedings{Lamrini2018AnomalyDU,title={Anomaly Detection using Similarity-based One-Class SVM for Network Traffic Characterization},author={Bouchra Lamrini and Augustin Gjini and Simon Daudin and Pascal Pratmarty and François Armando and Louise Trave-Massuyes},booktitle={Workshop on Principles of Diagnosis},year={2018},}"
+}
+
+

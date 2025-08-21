@@ -1,0 +1,5 @@
+{
+  "name": "Distribution-based",
+  "text": "The distribution-based anomaly detection approach is building a distribution from statistical features of the points or sub-sequences of the time series. By examining the distributions of features of the normal sub-sequences, it tries to recover relevant statistical models and then uses them to infer the abnormality of the data.",
+  "year": 1980
+}

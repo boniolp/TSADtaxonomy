@@ -1,0 +1,18 @@
+{
+  "name": "HOTSAX",
+  "full_name": "Finding the Most Unusual Time Series Subsequence",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2005,
+  "authors": ["Eamonn Keogh", "Jessica Lin", "Ada Fu"],
+  "paper": "HOTSAX: Finding the Most Unusual Time Series Subsequence: Algorithms and Applications. ICDM",
+  "description": "HOTSAX is a simple algorithm to find the discord in a significantly faster time than the brute force approach. It relies on the SAX representation of the time series.",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/hotsax",
+  "bibtex": "@INPROCEEDINGS{1565683,author={Keogh, E. and Lin, J. and Fu, A.},booktitle={Fifth IEEE International Conference on Data Mining (ICDM'05)}, title={HOT SAX: efficiently finding the most unusual time series subsequence}, year={2005},volume={},number={},pages={8 pp.-},doi={10.1109/ICDM.2005.79}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/HOT%20SAX%20%20long-ver.pdf"
+}
+
+
+

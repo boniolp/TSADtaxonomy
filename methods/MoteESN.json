@@ -1,0 +1,17 @@
+{
+  "name": "MoteESN",
+  "full_name": "Mote-Based Echo State Networks",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "year": 2009,
+  "authors": ["Marcus Chang", "Andreas Terzis", "Philippe Bonnet"],
+  "paper": "Mote-Based Online Anomaly Detection Using Echo State Networks",
+  "description": "Echo State Network (ESN),directly on resource-constrained sensor motes (e.g., TelosB) for real-time anomaly detection. It unifies fault and event detection under a general anomaly-detection framework, allowing motes to distinguish between true measurement faults and meaningful environmental events.",
+  "code": "",
+  "url": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2009/Samlet_teknisk_rapport_09-01.pdf",
+  "bibtex": "@inproceedings{10.1007/978-3-642-02085-8_6,author = {Chang, Marcus and Terzis, Andreas and Bonnet, Philippe},title = {Mote-Based Online Anomaly Detection Using Echo State Networks},year = {2009},isbn = {9783642020841},doi = {10.1007/978-3-642-02085-8_6},booktitle = {Proceedings of the 5th IEEE International Conference on Distributed Computing in Sensor Systems},pages = {72–86},numpages = {15},series = {DCOSS '09}}"
+}
+
+

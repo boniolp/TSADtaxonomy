@@ -1,0 +1,15 @@
+{
+  "name": "MC-MCD",
+  "full_name": "Multiple Cluster Minimum Covariance Determinant",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2004,
+  "authors": ["Johanna Hardina" , "David M. Rockeb"],
+  "paper": "Outlier detection in the multiple cluster setting using the minimum covariance determinant estimator.",
+  "description": "MC-MCD is a framework where, following a robust clustering step, each cluster is analyzed using robust distance measures based on cluster-specific MCD estimates. They derive the theoretical distribution of these robust Mahalanobis distances for effective outlier identification within each cluster, even when clusters differ in size and shape.",
+  "code": "",
+  "url": "https://www.eecs.yorku.ca/course_archive/2012-13/F/6338/lectures/LeastMedianOfSquares.pdf",
+  "bibtex": "@article{HARDIN2004625,title = {Outlier detection in the multiple cluster setting using the minimum covariance determinant estimator},journal = {Computational Statistics & Data Analysis},volume = {44},number = {4},pages = {625-638},year = {2004},issn = {0167-9473},doi = {https://doi.org/10.1016/S0167-9473(02)00280-3},author = {Johanna Hardin and David M Rocke},}"
+}

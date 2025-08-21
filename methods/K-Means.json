@@ -1,0 +1,14 @@
+{
+  "name": "K-Means",
+  "category": "Clustering-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2001,
+  "authors": ["T. Yairi", "Y. Kato", "K. Hori."],
+  "paper": "Fault detection by mining association rules from house-keeping data.",
+  "description": "In k-means–based outlier detection, the data is first clustered, and each point is assigned to the nearest centroid. The distance of each point to its centroid is then calculated, with normal points lying relatively close to their cluster centers. Outliers are identified as those with unusually large distances compared to other points in the same cluster, since they do not fit well into any group. The paper initially consider a feature space, but the clustering step can be applied on raw subsequences (as performed in the attached code).",
+  "code": "https://github.com/TheDatumOrg/TSB-AD",
+  "url": "https://www.researchgate.net/publication/239535813_Fault_Detection_by_Mining_Association_Rules_from_Housekeeping_Data",
+  "bibtex": "@inproceedings{Yairi2001FaultDB,title={Fault Detection by Mining Association Rules from House-keeping Data},author={Takehisa Yairi and Yoshikiyo Kato and Koichi Hori},year={2001},}"
+}

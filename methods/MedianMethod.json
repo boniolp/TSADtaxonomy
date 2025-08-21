@@ -1,0 +1,16 @@
+{
+  "name": "MedianMethod",
+  "full_name": "Median Method for Cleaning Noisy Data",
+  "category": "Distribution-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2007,
+  "authors": ["Sabyasachi Basu", "Martin Meckesheimer"],
+  "paper": "Automatic Outlier Detection for Time Series: An Application to Sensor Data.",
+  "description": "The proposed approach for cleaning noisy data obtained from a sensor signal is to use the median value of a neighborhood of data points to determine whether a particular data point is an outlier. If we want to identify outliers with only past data, we can use a simple modification of the two-sided median method and look at the first difference of the observed series ",
+  "code": "",
+  "url": "https://link.springer.com/content/pdf/10.1007/s10115-006-0026-6.pdf",
+  "bibtex": "@article{10.5555/3225643.3225840,author = {Basu, Sabyasachi and Meckesheimer, Martin},title = {Automatic outlier detection for time series: an application to sensor data},year = {2007},issue_date = {February  2007},publisher = {Springer-Verlag},address = {Berlin, Heidelberg},volume = {11},number = {2},issn = {0219-1377},journal = {Knowl. Inf. Syst.},month = feb,pages = {137–154},numpages = {18},}"
+}
+

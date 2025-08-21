@@ -1,0 +1,17 @@
+{
+  "name": "EM-HMM",
+  "full_name": "Execution Monitoring Hidden Markov Model",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "year": 2016,
+  "authors": ["Daehyung Park", "Zackory Erickson", "Tapomayukh Bhattacharjee", "Charles C. Kemp"],
+  "paper": "Multimodal Execution Monitoring for Anomaly Detection during Robot Manipulation.",
+  "description": "This appraoch trains a hidden Markov model (HMM) using multimodal observations from non-anomalous executions. EM-HMM system also uses a detection threshold that changes based on the execution progress.",
+  "code": "",
+  "url": "https://repository.gatech.edu/server/api/core/bitstreams/815fb414-6f8a-4218-99fd-411af2be5bce/content",
+  "bibtex": "@INPROCEEDINGS{7487160,author={Park, Daehyung and Erickson, Zackory and Bhattacharjee, Tapomayukh and Kemp, Charles C.},booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)}, title={Multimodal execution monitoring for anomaly detection during robot manipulation}, year={2016},volume={},number={},pages={407-414},doi={10.1109/ICRA.2016.7487160}}"
+}
+
+

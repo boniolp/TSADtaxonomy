@@ -1,0 +1,16 @@
+{
+  "name": "GeckoFSM",
+  "full_name": "Gecko Finite State Machine",
+  "category": "Graph-based",
+  "Dim": "Multivariate",
+  "Sup": "Supervised",
+  "Stream": false,
+  "year": 2005,
+  "authors": ["Stan Salvador", "Philip Chan"],
+  "paper": "Learning States and Rules for Detecting Anomalies in Time Series.",
+  "description": "As the normal operation of a device can usually be characterized in different temporal states, the objective of GeckoFSM is to build a finite state automaton to then detect anomalies. To identify these states,  a clustering algorithm called Gecko that can automatically determine a reasonable number of clusters is used. Then, the RIPPER classification algorithm is used to describe these states in logical rules. Finally, transitional logic between the states is added to create a finite state automaton.",
+  "code": "",
+  "url": "https://cs.fit.edu/media/TechnicalReports/cs-2003-05.pdf",
+  "bibtex": "@article{10.1007/s10489-005-4610-3,author = {Salvador, Stan and Chan, Philip},title = {Learning States and Rules for Detecting Anomalies in Time Series},year = {2005},issue_date = {December  2005},publisher = {Kluwer Academic Publishers},address = {USA},volume = {23},number = {3},issn = {0924-669X},doi = {10.1007/s10489-005-4610-3},journal = {Applied Intelligence},month = dec,pages = {241–255},numpages = {15},}"
+}
+

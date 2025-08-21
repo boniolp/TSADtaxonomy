@@ -1,0 +1,18 @@
+{
+  "name": "DeepPCA",
+  "full_name": "Deep Autoencoder for Robust Principal Component Analysis",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Raghavendra Chalapathy", "Aditya Krishna Menon", "Sanjay Chawla"],
+  "paper": "Robust, Deep and Inductive Anomaly Detection.",
+  "description": "DeepPCA is following the same principle as PCA-based anomaly detection. However, DeepPCA is using a deep autoencoder to benefit from nonlinear activation function.",
+  "code": "",
+  "url": "https://arxiv.org/pdf/1704.06743",
+  "bibtex": "@inbook{inbook,author = {Chalapathy, Raghavendra and Menon, Aditya and Chawla, Sanjay},year = {2017},month = {12},pages = {36-51},title = {Robust, Deep and Inductive Anomaly Detection},isbn = {978-3-319-71248-2},doi = {10.1007/978-3-319-71249-9_3}}"
+}
+
+
+

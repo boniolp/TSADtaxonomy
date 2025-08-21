@@ -1,0 +1,17 @@
+{
+  "name": "RobustPCA",
+  "full_name": "Robust Principal Component Analysis",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": ["Randy Paffenroth", "Kathleen Kay", "Les Servi"],
+  "paper": "Robust PCA for Anomaly Detection in Cyber Networks.",
+  "description": "Novel approach to identifying cyber-network anomalies using Robust Principal Component Analysis (RPCA).",
+  "code": "",
+  "url": "https://arxiv.org/pdf/1801.01571",
+  "bibtex": "@misc{paffenroth2018robustpcaanomalydetection,title={Robust PCA for Anomaly Detection in Cyber Networks}, author={Randy Paffenroth and Kathleen Kay and Les Servi},year={2018},eprint={1801.01571},archivePrefix={arXiv},primaryClass={cs.CR},}"
+}
+
+

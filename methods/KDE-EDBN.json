@@ -1,0 +1,17 @@
+{
+  "name": "KDE-EDBN",
+  "full_name": "Kernel Density Estimation Extended Dynamic Bayesian Networks",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Stephen Pauwels", "Toon Calders"],
+  "paper": "Detecting Anomalies in Hybrid Business Process Logs.",
+  "description": "EDBN extends the formalism of Dynamic Bayesian Networks (DBNs) to incorporate the aspects that are typical for log files. DBNs are an extension of Bayesian Networks that are able to incorporate discrete time. DBNs link events to their predecessors in order to find relations between these events rather than only relations within one event. KDE-EDBN further extends EDBN for numerical attributes using Kernel Density Estimation.",
+  "code": "https://github.com/StephenPauwels/edbn",
+  "url": "https://www.researchgate.net/publication/335196187_Detecting_anomalies_in_hybrid_business_process_logs",
+  "bibtex": "@article{10.1145/3357385.3357387,author = {Pauwels, Stephen and Calders, Toon},title = {Detecting anomalies in hybrid business process logs},year = {2019},issue_date = {June 2019},publisher = {Association for Computing Machinery},address = {New York, NY, USA},volume = {19},number = {2},issn = {1559-6915},doi = {10.1145/3357385.3357387},journal = {SIGAPP Appl. Comput. Rev.},month = aug,pages = {18–30},numpages = {13},}"
+}
+
+

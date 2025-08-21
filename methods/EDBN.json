@@ -1,0 +1,16 @@
+{
+  "name": "EDBN",
+  "full_name": "Extended Dynamic Bayesian Networks",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Stephen Pauwels", "Toon Calders"],
+  "paper": "An Anomaly Detection Technique for Business Processes Based on Extended Dynamic Bayesian Networks.",
+  "description": "EDBN extends the formalism of Dynamic Bayesian Networks (DBNs) to incorporate the aspects that are typical for log files. DBNs are an extension of Bayesian Networks that are able to incorporate discrete time. DBNs link events to their predecessors in order to find relations between these events rather than only relations within one event.",
+  "code": "https://github.com/StephenPauwels/edbn",
+  "url": "https://www.researchgate.net/publication/332813509_An_anomaly_detection_technique_for_business_processes_based_on_extended_dynamic_bayesian_networks",
+  "bibtex": "@inproceedings{10.1145/3297280.3297326,author = {Pauwels, Stephen and Calders, Toon},title = {An anomaly detection technique for business processes based on extended dynamic bayesian networks},year = {2019},isbn = {9781450359337},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/3297280.3297326},booktitle = {Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing},pages = {494–501},numpages = {8},location = {Limassol, Cyprus},series = {SAC '19}}"
+}
+

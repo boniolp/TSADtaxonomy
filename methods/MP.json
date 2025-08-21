@@ -1,0 +1,19 @@
+{
+  "name": "MP",
+  "full_name": "Matrix Profile",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2016,
+  "authors": ["Chin-Chia Michael Yeh", "Yan Zhu", "Liudmila Ulanova", "Nurjahan Begum", "Yifei Ding", "Hoang Anh Dau", "Diego Furtado Silva", "Abdullah Mueen", "Eamonn Keogh"],
+  "paper": "Matrix Profile I: All Pairs Similarity Joins for Time Series: A unifying view that includes motifs, discords and shapelets. in ICDM",
+  "description": "Matrix Profile is a fast and scalable technique for time series analysis that computes the distance between all subsequences using the MASS algorithm. It enables efficient discovery of discords (anomalies) and motifs (repeated patterns). In anomaly detection, discords are of particular interest as they represent subsequences that are least similar to any other. The TSB-UAD implementation is a wrapper around the STUMPY library and uses FFT-based computations for fast similarity search.",
+  "code": "https://github.com/TheDatumOrg/TSB-UAD",
+  "url": "https://www.cs.ucr.edu/~eamonn/PID4481997_extend_Matrix%20Profile_I.pdf",
+  "bibtex": "@INPROCEEDINGS{7837992,author={Yeh, Chin-Chia Michael and Zhu, Yan and Ulanova, Liudmila and Begum, Nurjahan and Ding, Yifei and Dau, Hoang Anh and Silva, Diego Furtado and Mueen, Abdullah and Keogh, Eamonn},booktitle={2016 IEEE 16th International Conference on Data Mining (ICDM)}, title={Matrix Profile I: All Pairs Similarity Joins for Time Series: A Unifying View That Includes Motifs, Discords and Shapelets}, year={2016},volume={},number={},pages={1317-1322},doi={10.1109/ICDM.2016.0179}}",
+  "snippet_description": "We provide below an example of usage of MatrixProfile for time series anomaly detection (from TSB-UAD benchmark). Please install TSB-UAD as follows:",
+  "snippet_install": "pip install tsb-uad",
+  "snippet": "```python\nimport os\nimport numpy as np\nimport pandas as pd\nimport math\nfrom sklearn.preprocessing import MinMaxScaler\nfrom TSB_UAD.utils.visualisation import plotFig\nfrom TSB_UAD.models.matrix_profile import MatrixProfile\nfrom TSB_UAD.utils.slidingWindows import find_length\nfrom TSB_UAD.vus.metrics import get_metrics\n\n#Read data\nfilepath = 'PATH_TO_TSB_UAD/ECG/MBA_ECG805_data.out'\ndf = pd.read_csv(filepath, header=None).dropna().to_numpy()\nname = filepath.split('/')[-1]\n\ndata = df[:,0].astype(float)\nlabel = df[:,1].astype(int)\n\n#Pre-processing\nslidingWindow = find_length(data)\n\n# Run MatrixProfile\nmodelName='MatrixProfile'\nclf = MatrixProfile(window = slidingWindow)\nclf.fit(data)\nscore = clf.decision_scores_\n\n#Post-processing\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\nscore = np.array([score[0]]*math.ceil((slidingWindow-1)/2) + list(score) + [score[-1]]*((slidingWindow-1)//2))\n\n#Plot result\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName)\n\n#Print accuracy\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n```",
+  "figure_result": ""
+}

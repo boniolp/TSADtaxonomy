@@ -1,0 +1,17 @@
+{
+  "name": "ILOF",
+  "full_name": "Incremental Local Outlier Factor",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2007,
+  "authors": ["Dragoljub Pokrajac", "Aleksandar Lazarevic", "Longin Jan Latecki"],
+  "paper": "Incremental local outlier detection for data streams",
+  "description": "Novel incremental LOF algorithm that is appropriate for detecting outliers in data streams. The paper shows that insertion of new data points as well as deletion of obsolete points influence only limited number of their nearest neighbors and thus insertion/deletion time complexity per data point does not depend on the total number of points in the stream.",
+  "code": "",
+  "url": "https://cis.temple.edu/~latecki/Papers/CIDM07.pdf",
+  "bibtex": "@INPROCEEDINGS{4221341,author={Pokrajac, Dragoljub and Lazarevic, Aleksandar and Latecki, Longin Jan},booktitle={2007 IEEE Symposium on Computational Intelligence and Data Mining}, title={Incremental Local Outlier Detection for Data Streams}, year={2007},volume={},number={},pages={504-515},doi={10.1109/CIDM.2007.368917}}"
+}
+
+

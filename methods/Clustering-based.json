@@ -1,0 +1,5 @@
+{
+  "name": "Clustering-based",
+  "text": "The clustering-based model infers anomalies from a cluster partition of the time series sub-sequences. In practice, the anomaly score is calculated by the non-membership of a sub-sequence of each of the clusters learned by the model. Other considerations, such as cluster distance and cluster capacity, can also be considered. The clustering issue is related to the anomaly detection problem in that points may either belong to a cluster or be deemed anomalies. In practice, the fact that a sub-sequence belongs or not to a cluster is assessed by the computation of the distance between this sub-sequence and the cluster centroid or medoid.",
+  "year": 1980
+}

@@ -1,0 +1,17 @@
+{
+  "name": "OC-KFD",
+  "full_name": "One-Class kernel Fisher Discriminant",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2006,
+  "authors": ["Volker Roth"],
+  "paper": " Kernel Fisher Discriminants for Outlier Detection.",
+  "description": "One-class kernel Fisher discriminant classifier (OC-KFD) for outlier detection. Objects that have an unexpected high Mahalanobis distance to the sample mean are considered as atypical objects, or outliers.",
+  "code": "",
+  "url": "https://www.researchgate.net/publication/7282056_Kernel_Fisher_Discriminants_for_Outlier_Detection",
+  "bibtex": "@article{10.1162/089976606775774679,author = {Roth, Volker},title = {Kernel Fisher Discriminants for Outlier Detection},year = {2006},issue_date = {April 2006},publisher = {MIT Press},address = {Cambridge, MA, USA},volume = {18},number = {4},issn = {0899-7667},doi = {10.1162/089976606775774679},journal = {Neural Comput.},month = apr,pages = {942–960},numpages = {19}}"
+}
+
+

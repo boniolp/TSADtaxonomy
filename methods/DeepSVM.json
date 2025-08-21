@@ -1,0 +1,18 @@
+{
+  "name": "DeepSVM",
+  "full_name": "",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["P. Wu", "J. Liu", "F. Shen"],
+  "paper": "A Deep One-Class Neural Network for Anomalous Event Detection in Complex Scenes.",
+  "description": "The DeepSVM method uses a stacked convolutional encoder–decoder architecture trained only on normal data. The encoder maps samples to a low-dimensional latent space. Then, a one-class classifier is trained jointly to make latent features compact (i.e., clustered tightly). The decoder reconstructs input samples from latent features to preserve diversity and correct mapping. Training uses an adversarial mechanism balancing feature compactness (for anomaly detection) and reconstruction fidelity.",
+  "code": "",
+  "url": "https://ieeexplore.ieee.org/document/8825555",
+  "bibtex": "@ARTICLE{8825555,author={Wu, Peng and Liu, Jing and Shen, Fang},journal={IEEE Transactions on Neural Networks and Learning Systems}, title={A Deep One-Class Neural Network for Anomalous Event Detection in Complex Scenes}, year={2020},volume={31},number={7},pages={2609-2622},doi={10.1109/TNNLS.2019.2933554}}"
+}
+
+
+

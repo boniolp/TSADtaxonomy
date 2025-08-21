@@ -1,0 +1,17 @@
+{
+  "name": "STORN",
+  "full_name": "Stochastic Recurrent Network",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2016,
+  "authors": ["Maximilian Soelch", "Justin Bayer", "Marvin Ludersdorfer", "Patrick van der Smagt"],
+  "paper": "Variational Inference for On-Line Anomaly Detection in HighDimensional Time Series.",
+  "description": "Stochastic Recurrent Network (STORN) appraoch used to learn and detect anomalies on robot time series data. Overall, the objective is to learn a generative time series model of the data, which can handle high-dimensional, spatially and temporally structured data. ",
+  "code": "",
+  "url": "https://arxiv.org/pdf/1602.07109",
+  "bibtex": "@article{Slch2016VariationalIF,title={Variational Inference for On-line Anomaly Detection in High-Dimensional Time Series},author={Maximilian S{\"o}lch and Justin Bayer and Marvin Ludersdorfer and Patrick van der Smagt},journal={ArXiv},year={2016},volume={abs/1602.07109},}"
+}
+
+

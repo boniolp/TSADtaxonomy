@@ -1,0 +1,18 @@
+{
+  "name": "ESN",
+  "full_name": "Echo State Networks",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "year": 2004,
+  "authors": ["Herbert Jaeger", "Harald Haas"],
+  "paper": "Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication.",
+  "description": "Echo State Networks (ESNs) are a type of recurrent neural network that use a fixed, randomly connected reservoir of hidden neurons to project input sequences into a high-dimensional space, where only the output weights are trained. This architecture enables efficient modeling of temporal patterns and dynamic systems, making ESNs well-suited for tasks like anomaly detection in time series from sensor networks.",
+  "code": "https://github.com/reservoirpy/reservoirpy",
+  "url": "https://www.columbia.edu/cu/biology/courses/w4070/Reading_List_Yuste/haas_04.pdf",
+  "bibtex": "@article{doi:10.1126/science.1091277,author = {Herbert Jaeger  and Harald Haas },title = {Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication},journal = {Science},volume = {304},number = {5667},pages = {78-80},year = {2004},doi = {10.1126/science.1091277},}"
+}
+
+
+

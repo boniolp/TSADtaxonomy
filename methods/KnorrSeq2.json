@@ -1,0 +1,17 @@
+{
+  "name": "KnorrSeq2",
+  "full_name": "Knorr's notion of distance-based outlier adpated for sequences.",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2005,
+  "authors": ["Girish Keshav Palshikar"],
+  "paper": "Distance-based outliers in sequences",
+  "description": "Each point or subsequence is assessed based on its distance to neighbors, specifically via its k-nearest neighbor distance, and ranked accordingly. Those with the largest such distances are flagged as outliers.",
+  "code": "",
+  "url": "https://bitquill.net/pdf/loci_icde03.pdf",
+  "bibtex": "@inproceedings{10.1007/11604655_61,author = {Palshikar, Girish Keshav},title = {Distance-Based outliers in sequences},year = {2005},isbn = {3540309993},publisher = {Springer-Verlag},address = {Berlin, Heidelberg},doi = {10.1007/11604655_61},booktitle = {Proceedings of the Second International Conference on Distributed Computing and Internet Technology},pages = {547–552},numpages = {6},location = {Bhubaneswar, India},series = {ICDCIT'05}}"
+}
+
+

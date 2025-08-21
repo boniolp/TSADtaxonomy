@@ -1,0 +1,17 @@
+{
+  "name": "Ensemble-GI",
+  "full_name": "Ensemble Grammar Induction",
+  "category": "Encoding-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Yifeng Gao", "Jessica Lin", "Constantin Brif"],
+  "paper": "Ensemble Grammar Induction For Detecting Anomalies in Time Series. EDBT",
+  "description": "Grammar-induction-based anomaly detection method utilizing ensemble learning. Instead of using a particular choice of parameter values for anomaly detection, the method generates the final result based on a set of results obtained using different parameter values",
+  "code": "", 
+  "url": "https://openproceedings.org/2020/conf/edbt/paper_45.pdf",
+  "bibtex": "@inproceedings{DBLP:conf/edbt/Gao0B20,author= {Yifeng Gao and Jessica Lin and Constantin Brif},title= {Ensemble Grammar Induction For Detecting Anomalies in Time Series},booktitle= {Proceedings of the 23rd International Conference on Extending Database Technology, {EDBT} 2020, Copenhagen, Denmark, March 30 - April 02,2020},pages= {85--96},year= {2020},doi= {10.5441/002/EDBT.2020.09}}"
+}
+
+

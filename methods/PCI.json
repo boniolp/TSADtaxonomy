@@ -1,0 +1,15 @@
+{
+  "name": "PCI",
+  "full_name": "Prediction Confidence Interval",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2014,
+  "authors": ["Yufeng Yu", "Yuelong Zhu", "Shijin Li", "Dingsheng Wan"],
+  "paper": "Time Series Outlier Detection Based on Sliding Window Prediction.",
+  "description": "The method first built a forecasting model (nearest-neighbor-window prediction model) on the history data and then used it to predict future values. Anomalies are assumed to take place if the observed values fall outside a given prediction confidence interval (PCI), which can be calculated by the predicted value and confidence coefficient. The use of PCI as threshold is mainly on the fact that it considers the uncertainty in the data series parameters in the forecasting model to address the suitable threshold selection problem.",
+  "code": "",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1155/2014/879736",
+  "bibtex": "@article{https://doi.org/10.1155/2014/879736,author = {Yu, Yufeng and Zhu, Yuelong and Li, Shijin and Wan, Dingsheng},title = {Time Series Outlier Detection Based on Sliding Window Prediction},journal = {Mathematical Problems in Engineering},volume = {2014},number = {1},pages = {879736},doi = {https://doi.org/10.1155/2014/879736},year = {2014}}"
+}

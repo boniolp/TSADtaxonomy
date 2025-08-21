@@ -1,0 +1,18 @@
+{
+  "name": "RADM",
+  "full_name": "Multivariate-Time-Series-Driven Real-time Anomaly Detection",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "year": 2018,
+  "authors": ["Nan Ding", "Huanbo Gao", "Hongyu Bu", "Haoxuan Ma", "Huaiwei Si"],
+  "paper": "Multivariate-Time-Series-Driven Real-time Anomaly Detection Based on Bayesian Network",
+  "description": "RADM is a real-time anomaly detection algorithm based on Hierarchical Temporal Memory (HTM) and Bayesian Network (BN). First, HTM model is used to evaluate the real-time anomalies of each univariate-sensing time-series. Secondly, a model of anomalous state detection in multivariate-sensing time-series based on Naive Bayesian is designed to analyze the validity of the above time-series.",
+  "code": "",
+  "url": "https://www.mdpi.com/1424-8220/18/10/3367",
+  "bibtex": "@Article{s18103367,AUTHOR = {Ding, Nan and Gao, Huanbo and Bu, Hongyu and Ma, Haoxuan and Si, Huaiwei},TITLE = {Multivariate-Time-Series-Driven Real-time Anomaly Detection Based on Bayesian Network},JOURNAL = {Sensors},VOLUME = {18},YEAR = {2018},NUMBER = {10},ARTICLE-NUMBER = {3367},ISSN = {1424-8220},DOI = {10.3390/s18103367}}"
+}
+
+
+

@@ -1,0 +1,15 @@
+{
+  "name": "DCdetector",
+  "full_name": "Dual attention Contrastive representation learning Detector",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2023,
+  "authors": ["Yiyuan Yang", "Chaoli Zhang", "Tian Zhou", "Qingsong Wen", "Liang Sun"],
+  "paper": "DCdetector: Dual Attention Contrastive Representation Learning for Time Series Anomaly Detection. In Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '23).",
+  "description": "DCdetector utilizes a dual attention asymmetric design to create the permutated environment and pure contrastive loss to guide the learning process, thus learning a permutation invariant representation with superior discrimination abilities.",
+  "code": "https://github.com/DAMO-DI-ML/KDD2023-DCdetector",
+  "url": "https://arxiv.org/abs/2306.10347",
+  "bibtex": "@inproceedings{10.1145/3580305.3599295,author = {Yang, Yiyuan and Zhang, Chaoli and Zhou, Tian and Wen, Qingsong and Sun, Liang},title = {DCdetector: Dual Attention Contrastive Representation Learning for Time Series Anomaly Detection},year = {2023},isbn = {9798400701030},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/3580305.3599295},booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},pages = {3033–3045},numpages = {13},location = {Long Beach, CA, USA},series = {KDD '23}}"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "MGDD",
+  "full_name": "Multi Granular Deviation Detection",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2006,
+  "authors": ["S. Subramaniam", "T. Palpanas", "D. Papadopoulos", "V. Kalogeraki", "D. Gunopulos"],
+  "paper": "Online Outlier Detection in Sensor Data Using Non-Parametric Models.",
+  "description": "Framework that computes in a distributed fashion an approximation of multi-dimensional data distributions in order to enable complex applications in resource-constrained sensor networks.",
+  "code": "",
+  "url": "https://www.vldb.org/conf/2006/p187-subramaniam.pdf",
+  "bibtex": "@inproceedings{10.5555/1182635.1164145,author = {Subramaniam, S. and Palpanas, T. and Papadopoulos, D. and Kalogeraki, V. and Gunopulos, D.},title = {Online outlier detection in sensor data using non-parametric models},year = {2006},publisher = {VLDB Endowment},booktitle = {Proceedings of the 32nd International Conference on Very Large Data Bases},pages = {187–198},numpages = {12},location = {Seoul, Korea},series = {VLDB '06}}"
+}
+

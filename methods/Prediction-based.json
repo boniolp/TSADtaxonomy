@@ -1,0 +1,5 @@
+{
+  "name": "Prediction-based",
+  "text": "This category contains methods train a model to reconstruct the normal data, or predict the future expected normal points. The prediction error is then used to detect abnormal points or subsequences. The underlying assumption of prediction-based methods is that normal data are easier to predict, while anomalies are unexpected, leading to higher prediction errors. Such assumptions are valid when the training set contains no (or almost no) anomalies. Therefore, prediction-based methods are usually more optimal under semi-supervised settings. Within this category, we find two sub-categories: Forecasting-based and Reconstruction-based.",
+  "year": 1965
+}

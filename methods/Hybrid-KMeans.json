@@ -1,0 +1,15 @@
+{
+  "name": "Hybrid-KMeans",
+  "full_name": "",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Hongchao Song", "Zhuqing Jiang", "Aidong Men", "Bo Yang"],
+  "paper": "A Hybrid Semi-Supervised Anomaly Detection Model for High-Dimensional Data",
+  "description": "Hybrid semi-supervised anomaly detection model for high-dimensional data that consists of two parts: a deep autoencoder (DAE) and an ensemble k-nearest neighbor graphs (K-NNG) based anomaly detector.",
+  "code": "",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1155/2017/8501683",
+  "bibtex": "@article{https://doi.org/10.1155/2017/8501683,author = {Song, Hongchao and Jiang, Zhuqing and Men, Aidong and Yang, Bo},title = {A Hybrid Semi-Supervised Anomaly Detection Model for High-Dimensional Data},journal = {Computational Intelligence and Neuroscience},volume = {2017},number = {1},pages = {8501683},doi = {https://doi.org/10.1155/2017/8501683},year = {2017}}"
+}

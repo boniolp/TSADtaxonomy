@@ -1,0 +1,17 @@
+{
+  "name": "LOCI",
+  "full_name": "Local Correlation Integral",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2003,
+  "authors": ["Spiros Papadimitriou", "Hiroyuki Kitagawa", "Phillip B Gibbons", "Christos Faloutsos"],
+  "paper": "Loci: Fast outlier detection using the local correlation integral. ICDE",
+  "description": "LOCI computes an outlier score using the Local Correlation Integral, enabling automatic, data-driven cut-offs rather than arbitrary parameter choices. Additionally, it produces a rich LOCI plot for each point—revealing local structure, cluster densities, and diameters—which surpasses other methods that yield only a single outlierness score.",
+  "code": "https://github.com/yzhao062/pyod",
+  "url": "https://bitquill.net/pdf/loci_icde03.pdf",
+  "bibtex": "@INPROCEEDINGS{1260802,author={Papadimitriou, S. and Kitagawa, H. and Gibbons, P.B. and Faloutsos, C.},booktitle={Proceedings 19th International Conference on Data Engineering (Cat. No.03CH37405)}, title={LOCI: fast outlier detection using the local correlation integral}, year={2003},volume={},number={},pages={315-326},doi={10.1109/ICDE.2003.1260802}}"
+}
+
+

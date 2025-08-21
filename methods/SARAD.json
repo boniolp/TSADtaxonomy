@@ -1,0 +1,17 @@
+{
+  "name": "SARAD",
+  "full_name": "Spatial Association-Aware Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2024,
+  "authors": ["Zhihao Dai", "Ligang He", "Shuang-Hua Yang", "Matthew Leeke"],
+  "paper": "SARAD: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series",
+  "description": "SARAD trains a Transformer to learn the spatial associations, the pairwise inter-feature relationships which ubiquitously characterize such feedback-controlled systems. As new associations form and old ones dissolve, SARAD applies subseries division to capture their changes over time. Finally, SARAD performs anomaly detection via autoencoding in the association space",
+  "code": "https://github.com/daidahao/SARAD",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/56ad264ac7448239145606cf4106042f-Paper-Conference.pdf",
+  "bibtex": "@inproceedings{NEURIPS2024_56ad264a,author = {Dai, Zhihao and He, Ligang and Yang, Shuang-Hua and Leeke, Matthew},booktitle = {Advances in Neural Information Processing Systems},pages = {48371--48410},publisher = {Curran Associates, Inc.},title = {SARAD: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series},volume = {37},year = {2024}}"
+}
+
+

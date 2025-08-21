@@ -1,0 +1,15 @@
+{
+  "name": "ES",
+  "full_name": "Exponential Smoothing",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 1985,
+  "authors": ["Everette S. Gardner Jr."],
+  "paper": "Exponential smoothing: The state of the art",
+  "description": "Exponential smoothing or exponential moving average (EMA) is a rule of thumb technique for smoothing time series data using the exponential window function. Whereas in the simple moving average the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time. Thus, ES can be used for time series forecasting and anomaly detection.",
+  "code": "",
+  "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/for.3980040103",
+  "bibtex": "@article{https://doi.org/10.1002/for.3980040103,author = {Gardner Jr., Everette S.},title = {Exponential smoothing: The state of the art},journal = {Journal of Forecasting},volume = {4},number = {1},pages = {1-28},doi = {https://doi.org/10.1002/for.3980040103},year = {1985}}"
+}

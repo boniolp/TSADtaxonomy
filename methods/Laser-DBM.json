@@ -1,0 +1,15 @@
+{
+  "name": "Laser-DBM",
+  "full_name": "Dynamic Bayesian Network for Visual Inspection of Laser Surface Heat Treatment",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Alberto Ogbechie", "Javier Díaz-Rozo", "Pedro Larrañaga", "Concha Bielza"],
+  "paper": "Dynamic Bayesian Network-Based Anomaly Detection for In-Process Visual Inspection of Laser Surface Heat Treatment.",
+  "description": "Dynamic Bayesian networks (DBNs) are used to represent the temporal characteristics of the normal process. The methods is incorporated in a larger classifcation framework that detects anomalies in recorded video sequences that have been preprocessed using a clustering-based method for feature subset selection.",
+  "code": "",
+  "url": "https://cig.fi.upm.es/wp-content/uploads/2024/01/Dynamic-Bayesian-Network-Based-Anomaly-Detection-for-In-Process-Visual-Inspection-of-Laser-Surface-Heat-Treatment.pdf",
+  "bibtex": "@inbook{inbook,author = {Ogbechie, Alberto and Diaz Rozo, Javier and Larranaga, Pedro and Bielza, Concha},year = {2017},month = {11},pages = {17-24},title = {Dynamic Bayesian Network-Based Anomaly Detection for In-Process Visual Inspection of Laser Surface Heat Treatment},isbn = {978-3-662-53805-0},doi = {10.1007/978-3-662-53806-7_3}}"
+}

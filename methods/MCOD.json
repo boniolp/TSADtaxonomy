@@ -1,0 +1,17 @@
+{
+  "name": "MCOD",
+  "full_name": "Micro-Cluster Outlier Detection",
+  "category": "Clustering-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2011,
+  "authors": ["Maria Kontaki", "Anastasios Gounaris", "Apostolos N. Papadopoulos", "Kostas Tsichlas", "Yannis Manolopoulos"],
+  "paper": "Continuous monitoring of distance-based outliers over data streams. ICDE",
+  "description": "Micro-cluster-based outlier detection methods that can be used for continuous outlier monitoring in data streams.",
+  "code": "",
+  "url": "https://ieeexplore.ieee.org/document/5767923",
+  "bibtex": "@inproceedings{10.1109/ICDE.2011.5767923,author = {Kontaki, Maria and Gounaris, Anastasios and Papadopoulos, Apostolos N. and Tsichlas, Kostas and Manolopoulos, Yannis},title = {Continuous monitoring of distance-based outliers over data streams},year = {2011},isbn = {9781424489596},publisher = {IEEE Computer Society},address = {USA},doi = {10.1109/ICDE.2011.5767923},booktitle = {Proceedings of the 2011 IEEE 27th International Conference on Data Engineering},pages = {135–146},numpages = {12},series = {ICDE '11}}"
+}
+
+

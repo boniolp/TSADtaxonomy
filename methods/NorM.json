@@ -1,0 +1,17 @@
+{
+  "name": "NorM",
+  "full_name": "NorM: Unsupervised Subsequence Anomaly Detection via Clustering",
+  "category": "Clustering-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Paul Boniol", "Michele Linardi", "Federico Roncallo", "Themis Palpanas"],
+  "paper": "Automated Anomaly Detection in Large Sequences. ICDE",
+  "description": "NorM is a clustering-based algorithm for time series anomaly detection and an early version of NormA. It builds a normal model by clustering sub-sequences and assigning weights based on cluster properties such as size, distance, and time coverage. Anomalies are identified by measuring their deviation to the highest weighted centroid from the clustering step. NorM is designed to be both unsupervised and scalable for large-scale time series.",
+  "url": "https://helios2.mi.parisdescartes.fr/~themisp/norma/data/icde.pdf",
+  "bibtex": "@INPROCEEDINGS{9101523,  author={P. {Boniol} and M. {Linardi} and F. {Roncallo} and T. {Palpanas}},  booktitle={2020 IEEE 36th International Conference on Data Engineering (ICDE)},   title={Automated Anomaly Detection in Large Sequences},   year={2020},  volume={},  number={},  pages={1834-1837},  doi={10.1109/ICDE48307.2020.00182}}"
+}
+
+
+

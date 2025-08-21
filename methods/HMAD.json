@@ -1,0 +1,19 @@
+{
+  "name": "HMAD",
+  "full_name": "Hidden Markov Anomaly Detection",
+  "category": "Distribution-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2015,
+  "authors": ["Nico Görnitz", "Mikio Braun", "Marius Kloft"],
+  "paper": " Hidden Markov Anomaly Detection. ICML",
+  "description": "Hidden Markov Anomaly Detection (HMAD) is an extension of the one-class SVM for data featuring underlying dependency structures. By embedding data and its latent state sequence into a structured joint feature space, HMAD can learn anomaly boundaries while controlling outlier rates.",
+  "code": "",
+  "url": "https://proceedings.mlr.press/v37/goernitz15.pdf",
+  "bibtex": "@InProceedings{pmlr-v37-goernitz15,title = {Hidden Markov Anomaly Detection},author ={Goernitz, Nico and Braun, Mikio and Kloft, Marius},booktitle = {Proceedings of the 32nd International Conference on Machine Learning},pages =    {1833--1842},year =   {2015},volume =   {37},series =   {Proceedings of Machine Learning Research},month = {07--09 Jul},publisher = {PMLR}}"
+}
+
+
+
+

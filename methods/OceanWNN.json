@@ -1,0 +1,15 @@
+{
+  "name": "OceanWNN",
+  "full_name": "Wavelet Neural Network for Ocean fixed-point observing time series",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Yi Wang", "Linsheng Han", "Wei Liu", "Shujia Yang", "Yanbo Gao"],
+  "paper": "Study on Wavelet Neural Network Based Anomaly Detection in Ocean Observing Data Series.",
+  "description": "OceanWNN combines wavelet neural network (WNN), classifying threshold and two detecting strategies. The WNN is trained without any labeled data to simulate the non-anomalous behaviors for next-step prediction. The classifying threshold was constructed according to the estimated distribution of long-term historical residual errors.",
+  "code": "",
+  "url": "https://www.sciencedirect.com/science/article/abs/pii/S002980181930318X",
+  "bibtex": "@article{WANG2019106129,title = {Study on wavelet neural network based anomaly detection in ocean observing data series},journal = {Ocean Engineering},volume = {186},pages = {106129},year = {2019},issn = {0029-8018},doi = {https://doi.org/10.1016/j.oceaneng.2019.106129},author = {Yi Wang and Linsheng Han and Wei Liu and Shujia Yang and Yanbo Gao}}"
+}

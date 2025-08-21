@@ -1,0 +1,16 @@
+{
+  "name": "NumentaHTM",
+  "full_name": "Hierarchical Temporal Memory",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2017,
+  "authors": ["Subutai Ahmad", "Alexander Lavin", "Scott Purdy", "Zuha Agha"],
+  "paper": "Unsupervised Real-Time Anomaly Detection for Streaming Data.",
+  "description": "The technique is based on an online sequence memory algorithm called Hierarchical Temporal Memory (HTM). HTM sequence memory consists of a layer of HTM neurons organized into a set of columns. The network accepts a stream of inputs encoded as sparse vectors. It models high-order sequences (sequences with long-term dependencies) using a composition of two separate sparse representations.",
+  "code": "https://github.com/numenta/nupic-legacy",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0925231217309864",
+  "bibtex": "@article{Ahmad2017UnsupervisedRA,title={Unsupervised real-time anomaly detection for streaming data},author={Subutai Ahmad and Alexander Lavin and Scott Purdy and Zuha Agha},journal={Neurocomputing},year={2017},volume={262},pages={134-147},}"
+}
+

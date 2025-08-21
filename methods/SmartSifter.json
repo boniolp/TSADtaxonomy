@@ -1,0 +1,16 @@
+{
+  "name": "SmartSifter",
+  "full_name": "",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2000,
+  "authors": ["Kenji Yamanishi", "Jun-ichi Takeuchi", "Graham Williams", "Peter Milne"],
+  "paper": "OnLine Unsupervised Outlier Detection Using Finite Mixtures with Discounting Learning Algorithms",
+  "description": "SmartSifter is an online outlier detection engine. It detects outliers in an online process through the online unsupervised learning of a probabilistic model using finite mixture model.",
+  "code": "",
+  "url": "https://www.researchgate.net/publication/221654100_On-line_unsupervised_outlier_detection_using_finite_mixtures_with_discounting_learning_algorithms",
+  "bibtex": "@inproceedings{10.1145/347090.347160,author = {Yamanishi, Kenji and Takeuchi, Jun-Ichi and Williams, Graham and Milne, Peter},title = {On-line unsupervised outlier detection using finite mixtures with discounting learning algorithms},year = {2000},isbn = {1581132336},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/347090.347160},booktitle = {Proceedings of the Sixth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},pages = {320–324},numpages = {5},location = {Boston, Massachusetts, USA},series = {KDD '00}}"
+}
+

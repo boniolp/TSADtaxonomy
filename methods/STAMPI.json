@@ -1,0 +1,15 @@
+{
+  "name": "STAMPI",
+  "full_name": "Scalable Time series Anytime Matrix Profile Incremental",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2016,
+  "authors": ["Chin-Chia Michael Yeh", "Yan Zhu", "Liudmila Ulanova", "Nurjahan Begum", "Yifei Ding", "Hoang Anh Dau", "Diego Furtado Silva", "Abdullah Mueen", "Eamonn Keogh"],
+  "paper": "Matrix Profile I: All Pairs Similarity Joins for Time Series: A unifying view that includes motifs, discords and shapelets. in ICDM",
+  "description": "Matrix Profile is a fast and scalable technique for time series analysis that computes the distance between all subsequences using the MASS algorithm. It enables efficient discovery of discords (anomalies) and motifs (repeated patterns). In anomaly detection, discords are of particular interest as they represent subsequences that are least similar to any other. STAMPI is the incremental version of the STAMP method (anytime method to compute the matrix Profile) for streaming applications.",
+  "code": "https://stumpy.readthedocs.io/en/latest/Tutorial_Matrix_Profiles_For_Streaming_Data.html",
+  "bibtex": "@INPROCEEDINGS{7837992,author={Yeh, Chin-Chia Michael and Zhu, Yan and Ulanova, Liudmila and Begum, Nurjahan and Ding, Yifei and Dau, Hoang Anh and Silva, Diego Furtado and Mueen, Abdullah and Keogh, Eamonn},booktitle={2016 IEEE 16th International Conference on Data Mining (ICDM)}, title={Matrix Profile I: All Pairs Similarity Joins for Time Series: A Unifying View That Includes Motifs, Discords and Shapelets}, year={2016},volume={},number={},pages={1317-1322},doi={10.1109/ICDM.2016.0179}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/PID4481997_extend_Matrix%20Profile_I.pdf"
+}

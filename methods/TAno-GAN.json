@@ -1,0 +1,15 @@
+{
+  "name": "TAno-GAN",
+  "full_name": "Time series anomaly detection with generative adversarial networks",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Md Abul Bashar", "Richi Nayak"],
+  "paper": " TAnoGAN: Time series anomaly detection with generative adversarial networks",
+  "description": "TAnoGAN introduces a novel approach to time series anomaly detection using Generative Adversarial Networks (GANs). The model employs Long Short-Term Memory (LSTM) networks as both the generator and discriminator to capture temporal dependencies in time series data. During training, the generator learns to reconstruct normal sequences, while the discriminator distinguishes between real and generated data. Anomalies are detected by computing reconstruction errors, with higher errors indicating potential anomalies.",
+  "code": "https://github.com/mdabashar/TAnoGAN",
+  "url": "https://arxiv.org/pdf/2008.09567",
+  "bibtex": "@inproceedings{bashar2020tanogan, title={TAnoGAN: Time Series Anomaly Detection with Generative Adversarial Networks}, author={Bashar, Md Abul and Nayak, Richi}, booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)}, pages={1778--1785}, year={2020}, organization={IEEE} }"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Torsk",
+  "full_name": "spatial Echo State Network",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2019,
+  "authors": ["Niklas Heim", "James E. Avery"],
+  "paper": "Adaptive Anomaly Detection in Chaotic Time Series with a Spatially Aware Echo State Network",
+  "description": "Extension of the Echo State Network by adding spatially aware input maps, such as convolutions, gradients, cosine transforms, as well as a spatially aware loss function. The spatial ESN is used to create predictions which reduce the detection problem to thresholding of the prediction error.",
+  "code": "https://github.com/nmheim/torsk",
+  "url": "https://arxiv.org/pdf/1909.01709",
+  "bibtex": "@misc{heim2019adaptiveanomalydetectionchaotic,title={Adaptive Anomaly Detection in Chaotic Time Series with a Spatially Aware Echo State Network}, author={Niklas Heim and James E. Avery},year={2019},eprint={1909.01709},archivePrefix={arXiv},primaryClass={cs.NE},}"
+}
+
+

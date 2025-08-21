@@ -1,0 +1,17 @@
+{
+  "name": "GrammarViz",
+  "full_name": "Anomaly discovery with grammar-based compression",
+  "category": "Encoding-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2015,
+  "authors": ["Pavel Senin", "Jessica Lin", "Xing Wang", "Tim Oates", "Sunil Gandhi"],
+  "paper": "Time series anomaly discovery with grammar-based compression. EDBT",
+  "description": "GrammarViz approach for time series pattern discovery is based on two algorithms that have linear time and space complexity: (i) Symbolic Aggregate approXimation (SAX), that discretizes the input time series into a string, and (ii) Sequitur, that induces a context-free grammar (CFG) from it.",
+  "code": "https://github.com/GrammarViz2/grammarviz2_src",
+  "url": "https://csdl.ics.hawaii.edu/techreports/2014/14-05/14-05.pdf",
+  "bibtex": "@inproceedings{Senin2015TimeSA,title={Time series anomaly discovery with grammar-based compression},author={Pavel Senin and Jessica Lin and Xing Wang and Tim Oates and S. Gandhi and Arnold P. Boedihardjo and Crystal Chen and Susan Frankenstein},booktitle={International Conference on Extending Database Technology},year={2015},}"
+}
+
+

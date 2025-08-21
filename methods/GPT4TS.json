@@ -1,0 +1,17 @@
+{
+  "name": "GPT4TS",
+  "full_name": "Frozen pre-trained language model for time series",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2023,
+  "authors": ["Tian Zhou", "Peisong Niu", "Xue Wang", "Liang Sun", "Rong Jin"],
+  "paper": "One Fits All: Power General Time Series Analysis by Pretrained LM",
+  "description": "Unified framework that uses a frozen pre-trained language model that can be used for several types of time series analysis tasks, including time series classification, short/long-term forecasting, imputation, anomaly detection, few-shot and zero-sample forecasting.",
+  "code": "https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All",
+  "url": "https://arxiv.org/pdf/2302.11939",
+  "bibtex": "@inproceedings{zhou2023onefitsall,title={{One Fits All}: Power General Time Series Analysis by Pretrained LM},author={Tian Zhou, Peisong Niu, Xue Wang, Liang Sun, Rong Jin},booktitle={NeurIPS},year={2023}}"
+}
+
+

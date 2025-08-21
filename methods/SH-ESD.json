@@ -1,0 +1,17 @@
+{
+  "name": "SH-ESD",
+  "full_name": "Seasonal Hybrid Extreme Studentized Deviate",
+  "category": "Distribution-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Jordan Hochenbaum", "Owen S. Vallis", "Arun Kejariwal"],
+  "paper": "Automatic Anomaly Detection in the Cloud Via Statistical Learning.",
+  "description": "Some time series might contain relatively high percentage of anomalies. To address such cases, coupled with the fact that mean and standard deviation (used by ESD) are highly sensitive to a large number anomalies, S-ESD is extended to SH-ESD, which use the robust statistics median and median absolute deviation (MAD) to detect anomalies.",
+  "code": "https://github.com/twitter/AnomalyDetection/",
+  "url": "https://arxiv.org/pdf/1704.07706",
+  "bibtex": "@article{Hochenbaum2017AutomaticAD,title={Automatic Anomaly Detection in the Cloud Via Statistical Learning},author={Jordan Hochenbaum and Owen Vallis and Arun Kejariwal},journal={ArXiv},year={2017},volume={abs/1704.07706},}"
+}
+
+

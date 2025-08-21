@@ -1,0 +1,5 @@
+{
+  "name": "Encoding-based",
+  "text": "A encoding-based anomaly detection model compresses or represents the time series into different forms of symbols. The encoding-based model suggests that a time series can be interpreted as a sequence of context-free, discrete symbols or states. For instance, anomalies can be detected by using grammar rules with the symbols extracted from the time series. It should be noted that an encoding-based model is not exclusive to itself; it may even be based on a graph-based or tree-based model.",
+  "year": 1990
+}

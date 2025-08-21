@@ -1,0 +1,18 @@
+{
+  "name": "MS-SVDD",
+  "full_name": "Multi-sphere support vector data description",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2009,
+  "authors": ["Yanshan Xiao", "Bo Liu","Longbing Cao", "Xindong Wu", "Chengqi Zhang", "Zhifeng Hao", "Fengzhao Yang", "Jie Cao"],
+  "paper": "Multi-sphere support vector data description for outliers detection on multi-distribution data",
+  "description": "Multi-Sphere SVDD (Support Vector Data Description) is divided into two key steps, i.e., (1) identify each data distribution in the dataset; (2) establish SVDD for each data distribution and construct multi-SVDD classifier for future prediction. ",
+  "code": "",
+  "url": "https://www.researchgate.net/publication/220765090_Multi-sphere_Support_Vector_Data_Description_for_Outliers_Detection_on_Multi-distribution_Data",
+  "bibtex": "@INPROCEEDINGS{5360521,author={Xiao, Yanshan and Liu, Bo and Cao, Longbing and Wu, Xindong and Zhang, Chengqi and Hao, Zhifeng and Yang, Fengzhao and Cao, Jie},booktitle={2009 IEEE International Conference on Data Mining Workshops}, title={Multi-sphere Support Vector Data Description for Outliers Detection on Multi-distribution Data}, year={2009},volume={},number={},pages={82-87},doi={10.1109/ICDMW.2009.87}}"
+}
+
+
+

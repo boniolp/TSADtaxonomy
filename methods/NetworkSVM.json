@@ -1,0 +1,17 @@
+{
+  "name": "NetworkSVM",
+  "full_name": "One Class Support Vector Machine for Communication Network",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2007,
+  "authors": ["Rui Zhang", "Shaoyan Zhang", "Sethuraman Muthuraman", "Jianmin Jiang"],
+  "paper": "One Class Support Vector Machine for Anomaly Detection in the Communication Network Performance Data.",
+  "description": "Anomaly detection method for communication network performance data using a one-class support vector machine (OCSVM).",
+  "code": "",
+  "url": "https://www.wseas.us/e-library/conferences/2007tenerife/papers/572-618.pdf",
+  "bibtex": "@inproceedings{10.5555/1503549.1503556,author = {Zhang, Rui and Zhang, Shaoyan and Muthuraman, Sethuraman and Jiang, Jianmin},title = {One class support vector machine for anomaly detection in the communication network performance data},year = {2007},isbn = {9789606766251},publisher = {World Scientific and Engineering Academy and Society (WSEAS)},booktitle = {Proceedings of the 5th Conference on Applied Electromagnetics, Wireless and Optical Communications},pages = {31–37},numpages = {7},location = {Tenerife, Canary Islands, Spain},series = {ELECTROSCIENCE'07}}"
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "DONUT",
+  "full_name": "Anomaly detection algorithm based on Variational Auto-Encoder",
+   "category": "Reconstruction-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": ["Haowen Xu", "Wenxiao Chen", "Nengwen Zhao", "Zeyan Li", "Jiahao Bu", "Zhihan Li", "Ying Liu", "Youjian Zhao", "Dan Pei", "Yang Feng", "Jie Chen", "Zhaogang Wang", "Honglin Qiao"],
+  "paper": "Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications. WWW",
+  "description": "Semi-supervised anomaly detection algorithm based on Variational Auto-Encoders (VAE). More precisely, DONUT incorporate three techniques: Modified ELBO and Missing Data Injection for training, and MCMC Imputation for detection.",
+  "code": "https://github.com/NetManAIOps/donut",
+  "url": "https://arxiv.org/pdf/1802.03903",
+  "bibtex": "@inproceedings{10.1145/3178876.3185996,author = {Xu, Haowen and Chen, Wenxiao and Zhao, Nengwen and Li, Zeyan and Bu, Jiahao and Li, Zhihan and Liu, Ying and Zhao, Youjian and Pei, Dan and Feng, Yang and Chen, Jie and Wang, Zhaogang and Qiao, Honglin},title = {Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications},year = {2018},isbn = {9781450356398},publisher = {International World Wide Web Conferences Steering Committee},address = {Republic and Canton of Geneva, CHE},doi = {10.1145/3178876.3185996},booktitle = {Proceedings of the 2018 World Wide Web Conference},pages = {187–196},numpages = {10},location = {Lyon, France},series = {WWW '18}}"
+}
+

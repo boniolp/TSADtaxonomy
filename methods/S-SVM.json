@@ -1,0 +1,18 @@
+{
+  "name": "S-SVM",
+  "full_name": "S-Transform combined with SVM",
+  "category": "Distribution-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2013,
+  "authors": ["Arpita Bhargava", "AS Raghuvanshi"],
+  "paper": "Anomaly detection in wireless sensor networks using S-Transform in combination with SVM",
+  "description": "S-SVM is a SVM approach combined with S-transform methodology. The application of S-transform decomposed the data into its frequency and time components. Then, Four features are extracted from the decomposed data. These features are then passed through SVM which is used as a classifier in S-SVM for identifying anomalies.",
+  "code": "",
+  "url": "https://www.researchgate.net/publication/261453512_Anomaly_Detection_in_Wireless_Sensor_Networks_Using_S-Transform_in_Combination_with_SVM",
+  "bibtex": "@INPROCEEDINGS{6657966,author={Bhargava, Arpita and Raghuvanshi, A.S.},booktitle={2013 5th International Conference and Computational Intelligence and Communication Networks}, title={Anomaly Detection in Wireless Sensor Networks Using S-Transform in Combination with SVM}, year={2013},volume={},number={},pages={111-116},doi={10.1109/CICN.2013.34}}"
+}
+
+
+

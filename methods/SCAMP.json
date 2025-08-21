@@ -1,0 +1,16 @@
+{
+  "name": "SCAMP",
+  "full_name": "SCAlable Matrix Profile",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["Zachary Zimmerman", "Kaveh Kamgar", "Nader Shakibay Senobari","Brian Crites", "Gareth Funning", "Philip Brisk", "Eamonn Keogh"],
+  "paper": "Matrix Profile XIV: Scaling Time Series Motif Discovery with GPUs to Break a Quintillion Pairwise Comparisons a Day and Beyond",
+  "description": "SCAMP is a highly efficient CPU/GPU implementation of the Matrix Profile, with tiling for large inputs and cloud-scale capabilities.",
+  "code": "https://github.com/zpzim/SCAMP",
+  "bibtex": "@inproceedings{10.1145/3357223.3362721,author = {Zimmerman, Zachary and Kamgar, Kaveh and Senobari, Nader Shakibay and Crites, Brian and Funning, Gareth and Brisk, Philip and Keogh, Eamonn},title = {Matrix Profile XIV: Scaling Time Series Motif Discovery with GPUs to Break a Quintillion Pairwise Comparisons a Day and Beyond},year = {2019},isbn = {9781450369732},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/3357223.3362721},booktitle = {Proceedings of the ACM Symposium on Cloud Computing},pages = {74–86},numpages = {13},location = {Santa Cruz, CA, USA},series = {SoCC '19}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/SCAMP-camera-ready-final1.pdf"
+}
+

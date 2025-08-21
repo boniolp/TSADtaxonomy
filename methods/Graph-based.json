@@ -1,0 +1,5 @@
+{
+  "name": "Graph-based",
+  "text": "A graph-based method represents the time series and the corresponding sub-sequences as a graph. The nodes and edges represent the different types of sub-sequences (or representative features) and their evolution in time. For instance, the nodes can be sets of similar sub-sequences (using a predefined distance measure), and the edge weights can be the number of times a sub-sequence of a given node has been followed by a sub-sequence of another node. The detection of anomalies is then achieved using characteristics of the graph, such as the node and edge weights, but also the degree of the nodes.",
+  "year": 1980
+}

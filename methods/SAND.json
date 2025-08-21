@@ -1,0 +1,21 @@
+{
+  "name": "SAND",
+  "full_name": "Streaming Subsequence Anomaly Detection",
+  "category": "Clustering-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2021,
+  "authors": ["Paul Boniol", "John Paparrizos", "Themis Palpanas", "Michael J. Franklin"],
+  "paper": "Sand: streaming subsequence anomaly detection. PVLDB, 2021",
+  "description": "SAND is a clustering-based anomaly detection method adapted from NormA for streaming or static (offline) time series. It incrementally updates a summary of normal patterns using subsequences from incoming data batches and evaluates anomaly scores based on the effective distance to this evolving Normal Model. It is suitable for both real-time and offline scenarios.",
+  "code": "https://github.com/TheDatumOrg/TSB-UAD",
+  "url": "https://www.vldb.org/pvldb/vol14/p1717-boniol.pdf",
+  "bibtex": "@article{10.14778/3467861.3467863,author = {Boniol, Paul and Paparrizos, John and Palpanas, Themis and Franklin, Michael J.},title = {SAND: streaming subsequence anomaly detection},year = {2021},issue_date = {June 2021},publisher = {VLDB Endowment},volume = {14},number = {10},issn = {2150-8097},doi = {10.14778/3467861.3467863},journal = {Proc. VLDB Endow.},month = jun,pages = {1717–1729},numpages = {13}}",
+  "snippet_description": "We provide below an example of usage of SAND for time series anomaly detection (from TSB-UAD benchmark). SAND supports both offline and online modes.",
+  "snippet_install": "pip install tsb-uad",
+  "snippet": "```python\nimport os\nimport math\nimport numpy as np\nimport pandas as pd\nfrom sklearn.preprocessing import MinMaxScaler\nfrom TSB_UAD.utils.visualisation import plotFig\nfrom TSB_UAD.models.sand import SAND\nfrom TSB_UAD.models.feature import Window\nfrom TSB_UAD.utils.slidingWindows import find_length\nfrom TSB_UAD.vus.metrics import get_metrics\n\n# Read data\nfilepath = 'PATH_TO_TSB_UAD/ECG/MBA_ECG805_data.out'\ndf = pd.read_csv(filepath, header=None).dropna().to_numpy()\nname = filepath.split('/')[-1]\n\ndata = df[:,0].astype(float)\nlabel = df[:,1].astype(int)\n\n# Pre-processing\nslidingWindow = find_length(data)\n\n# Run SAND (offline)\nmodelName = 'SAND (offline)'\nclf = SAND(pattern_length=slidingWindow, subsequence_length=4*slidingWindow)\nclf.fit(data, overlaping_rate=int(1.5*slidingWindow))\nscore = clf.decision_scores_\n\n# Post-processing\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\n\n# Plot result\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName)\n\n# Print accuracy\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n\n# Run SAND (online)\nmodelName = 'SAND (online)'\nclf = SAND(pattern_length=slidingWindow, subsequence_length=4*slidingWindow)\nclf.fit(data, online=True, alpha=0.5, init_length=5000, batch_size=2000, verbose=True, overlaping_rate=int(4*slidingWindow))\nscore = clf.decision_scores_\n\n# Post-processing (again for online)\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\n\n# Plot result for online\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName)\n\n# Print metrics for online\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n```",
+  "figure_result": ""
+}
+
+

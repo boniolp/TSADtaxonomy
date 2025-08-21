@@ -1,0 +1,18 @@
+{
+  "name": "LAMP",
+  "full_name": "Learned Approximate Matrix Profile",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2020,
+  "authors": ["Zachary Zimmerman", "Nader Shakibay Senobari", "Gareth Funning", "Evangelos Papalexakis", "Samet Oymak", "Philip Brisk", "Eamonn Keogh"],
+  "paper": "Matrix Profile XVIII: Time Series Mining in the Face of Fast Moving Streams using a Learned Approximate Matrix Profile",
+  "description": "Learned Approximate Matrix Profile (LAMP) enables constant time approximation of the Matrix Profile value given a newly arriving time series subsequence. With this approximate value, most of the analytics based on the Matrix Profile can be performed, including anomaly detection.",
+  "code": "",
+  "bibtex": "@INPROCEEDINGS{8970686,author={Zimmerman, Zachary and Shakibay Senobari, Nader and Funning, Gareth and Papalexakis, Evangelos and Oymak, Samet and Brisk, Philip and Keogh, Eamonn},booktitle={2019 IEEE International Conference on Data Mining (ICDM)}, title={Matrix Profile XVIII: Time Series Mining in the Face of Fast Moving Streams using a Learned Approximate Matrix Profile}, year={2019},volume={},number={},pages={936-945},doi={10.1109/ICDM.2019.00104}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/LAMP_Camera_Ready2.pdf"
+}
+
+
+

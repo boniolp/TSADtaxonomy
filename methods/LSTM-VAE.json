@@ -1,0 +1,18 @@
+{
+  "name": "LSTM-VAE",
+  "full_name": "LSTM-based Variational Autoencoder",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "year": 2018,
+  "authors": ["Daehyung Park", "Yuuna Hoshi", "Charles C. Kemp"],
+  "paper": "A Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-based Variational Autoencoder.",
+  "description": "Long short-term memory-based variational autoencoder (LSTM-VAE) for multimodal anomaly detection. For encoding, an LSTM-VAE projects multimodal observations and their temporal dependencies at each time step into a latent space using serially connected LSTM and VAE layers. For decoding, it estimates the expected distribution of the multimodal inputs from the latent space representation.",
+  "code": "",
+  "url": "https://arxiv.org/pdf/1711.00614",
+  "bibtex": "@ARTICLE{8279425,author={Park, Daehyung and Hoshi, Yuuna and Kemp, Charles C.},journal={IEEE Robotics and Automation Letters}, title={A Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-Based Variational Autoencoder}, year={2018},volume={3},number={3},pages={1544-1551},doi={10.1109/LRA.2018.2801475}}"
+}
+
+
+

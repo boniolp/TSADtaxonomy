@@ -1,0 +1,16 @@
+{
+  "name": "RePAD",
+  "full_name": "Real-Time Proactive Anomaly Detection",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2020,
+  "authors": ["Ming-Chang Lee", "Jia-Chun Lin", "Ernst Gunnar Gran"],
+  "paper": "RePAD: Real-Time Proactive Anomaly Detection for Time Series.",
+  "description": " RePAD is a Real-time Proactive Anomaly Detection algorithm for streaming time series based on Long Short-Term Memory (LSTM). RePAD utilizes short-term historical data points to predict and determine whether or not the upcoming data point is a sign that an anomaly is likely to happen in the near future. By dynamically adjusting the detection threshold over time, RePAD is able to tolerate minor pattern change in time series and detect anomalies either proactively or on time.",
+  "code": "",
+  "url": "https://arxiv.org/pdf/2001.08922",
+  "bibtex": "@inproceedings{Lee2020RePADRP,title={RePAD: Real-time Proactive Anomaly Detection for Time Series},author={Ming-Chang Lee and Jia-Chun Lin and Ernst Gunnar Gran},booktitle={International Conference on Advanced Information Networking and Applications},year={2020},}"
+}
+

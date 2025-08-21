@@ -1,0 +1,18 @@
+{
+  "name": "Extended-IForest",
+  "full_name": "Extended Isolation Forest",
+  "category": "Tree-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": [],
+  "paper": "Extended Isolation Forest. TKDE",
+  "description": "Extended Isolation Forest generalizes the standard Isolation Forest by replacing axis-parallel splits with randomly oriented hyperplane cuts. At each node, instead of selecting a random feature and split value, EIF picks a random normal vector and a random intercept point—thereby slicing the data along oblique hyperplanes. This removes the coordinate-axis bias and artifacts present in standard Isolation Forest score maps.",
+  "code": "https://github.com/sahandha/eif",
+  "url": "https://arxiv.org/pdf/1811.02141",
+  "bibtex": "@ARTICLE{8888179,author={Hariri, Sahand and Kind, Matias Carrasco and Brunner, Robert J.},journal={ IEEE Transactions on Knowledge and Data Engineering },title={{ Extended Isolation Forest }},year={2021},volume={33},number={04},ISSN={1558-2191},pages={1479-1489},doi={10.1109/TKDE.2019.2947676}}"
+}
+
+
+

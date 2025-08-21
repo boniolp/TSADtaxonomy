@@ -1,0 +1,17 @@
+{
+  "name": "KNN",
+  "full_name": "K-Nearest Neighbor",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 1998,
+  "authors": ["Edwin M. Knorr", "Raymond T. Ng"],
+  "paper": "Algorithms for Mining Distance-Based Outliers in Large Datasets. VLDB",
+  "description": "The distance to the k-th nearest neighbor can also be seen as a local density estimate and thus is also a popular outlier score in anomaly detection. The larger the distance to the k-NN, the lower the local density, the more likely the query point is an outlier. Although quite simple, this outlier model, along with another classic data mining method, local outlier factor, works quite well also in comparison to more recent and more complex approaches, according to a large scale experimental analysis.",
+  "code": "https://github.com/TheDatumOrg/TSB-AD/blob/main/TSB_AD/models/KNN.py",
+  "url": "https://www.vldb.org/conf/1998/p392.pdf",
+  "bibtex": "@inproceedings{10.5555/645924.671334,author = {Knorr, Edwin M. and Ng, Raymond T.},title = {Algorithms for Mining Distance-Based Outliers in Large Datasets},year = {1998},isbn = {1558605665},publisher = {Morgan Kaufmann Publishers Inc.},address = {San Francisco, CA, USA},booktitle = {Proceedings of the 24rd International Conference on Very Large Data Bases},pages = {392–403},numpages = {12},series = {VLDB '98}}"
+}
+
+

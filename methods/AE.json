@@ -1,0 +1,23 @@
+{
+  "name": "AE",
+  "full_name": "Auto-Encoder",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2014,
+  "authors": ["Mayu Sakurada", "Takehisa Yairi"],
+  "paper": "Anomaly Detection Using Autoencoders with Nonlinear Dimensionality Reduction. MLSDA",
+  "description": "Autoencoder is a type of artificial neural network used to learn to reconstruct the dataset given as input using a smaller encoding size to avoid identity reconstruction. As a general idea, the autoencoder will try to learn the best latent representation (also called encoding) using a reconstruction loss. Therefore, it will learn to compress the dataset into a shorter code and then uncompress it into a dataset that closely matches the original. The reconstruction error can then be used to identify anomalies.",
+  "code": "https://github.com/TheDatumOrg/TSB-UAD",
+  "url":"https://dl.acm.org/doi/10.1145/2689746.2689747",
+  "bibtex": "@inproceedings{10.1145/2689746.2689747,author = {Sakurada, Mayu and Yairi, Takehisa},title = {Anomaly Detection Using Autoencoders with Nonlinear Dimensionality Reduction},year = {2014},isbn = {9781450331593},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/2689746.2689747},booktitle = {Proceedings of the MLSDA 2014 2nd Workshop on Machine Learning for Sensory Data Analysis},pages = {4–11},numpages = {8},location = {Gold Coast, Australia QLD, Australia},series = {MLSDA'14}}",
+  "snippet_description": "We provide below an example of usage of AE for time series (from TSB-UAD benchmark). Please install TSB-UAD as follows:",
+  "snippet_install": "pip install tsb-uad",
+  "snippet": "```python\nimport os\nimport numpy as np\nimport pandas as pd\nfrom TSB_UAD.utils.visualisation import plotFig\nfrom TSB_UAD.models.AE import AE_MLP2\nfrom TSB_UAD.models.feature import Window\nfrom TSB_UAD.utils.slidingWindows import find_length\nfrom TSB_UAD.vus.metrics import get_metrics\n\n#Read data\nfilepath = 'PATH_TO_TSB_UAD/ECG/MBA_ECG805_data.out'\ndf = pd.read_csv(filepath, header=None).dropna().to_numpy()\nname = filepath.split('/')[-1]\n\ndata = df[:,0].astype(float)\nlabel = df[:,1].astype(int)\n\n#Pre-processing\nslidingWindow = find_length(data)\n\ndata_train = data[:int(0.1*len(data))]\ndata_test = data\n\n\n#Run AE\nmodelName='AE'\nclf = AE_MLP2(slidingWindow = slidingWindow, epochs=100, verbose=0)\nclf.fit(data_train, data_test)\nscore = clf.decision_scores_\n\n# Post-processing\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\n#Plot result\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName) \n\n#Print accuracy\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n```",
+  "figure_result": ""
+}
+
+
+
+

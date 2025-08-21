@@ -1,0 +1,18 @@
+{
+  "name": "DBStream",
+  "full_name": "Micro-cluster-based Online Clustering ",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2016,
+  "authors": ["Michael Hahsler", "Matthew Bolaos"],
+  "paper": "Clustering Data Streams Based on Shared Density between Micro-Clusters. TKDE",
+  "description": "This paper introduce the concept of a shared density graph which explicitly captures the density of the original data between micro-clusters during clustering and then show how the graph can be used for reclustering micro-clusters. Outliers naturally emerge as points that do not fit into any existing dense micro-cluster or remain in sparse, transient micro-clusters that never accumulate enough density to be considered stable.",
+  "code": "https://github.com/online-ml/river/tree/main/river/cluster",
+  "url": "https://www.researchgate.net/publication/292188121_Clustering_Data_Streams_Based_on_Shared_Density_Between_Micro-Clusters",
+  "bibtex": "@ARTICLE{7393836,author={Hahsler, Michael and Bolaños, Matthew},journal={IEEE Transactions on Knowledge and Data Engineering}, title={Clustering Data Streams Based on Shared Density between Micro-Clusters}, year={2016},volume={28},number={6},pages={1449-1461},doi={10.1109/TKDE.2016.2522412}}"
+}
+
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "MCD",
+  "full_name": "Minimum Covariance Determinant",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 1984,
+  "authors": ["Peter J. Rousseeuw"],
+  "paper": "Least Median of Squares Regression.",
+  "description": "The Minimum Covariance Determinant (MCD) estimator is an affine equivariant and robust estimators of data points. MCD is robust to outliers, and can be helpful in outlier detection. Although already introduced in 1984, its main use has started in 1999 with the proposal of FAST-MCD algorithm.",
+  "code": "",
+  "url": "https://www.eecs.yorku.ca/course_archive/2012-13/F/6338/lectures/LeastMedianOfSquares.pdf",
+  "bibtex": "@article{Rousseeuw01121984,author = {Peter J. Rousseeuw},title = {Least Median of Squares Regression},journal = {Journal of the American Statistical Association},volume = {79},number = {388},pages = {871--880},year = {1984},publisher = {ASA Website},doi = {10.1080/01621459.1984.10477105},}"
+}
+
+
+
+

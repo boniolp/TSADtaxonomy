@@ -1,0 +1,15 @@
+{
+  "name": "S-ESD",
+  "full_name": "Seasonal Extreme Studentized Deviate",
+  "category": "Distribution-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Jordan Hochenbaum", "Owen S. Vallis", "Arun Kejariwal"],
+  "paper": "Automatic Anomaly Detection in the Cloud Via Statistical Learning.",
+  "description": " This techniques employs time series decomposition to determine the seasonal component of a given time series. S-ESD then applies Extreme Studentized Deviate (ESD) on the resulting time series to detect the anomalies.",
+  "code": "https://github.com/twitter/AnomalyDetection/",
+  "url": "https://arxiv.org/pdf/1704.07706",
+  "bibtex": "@article{Hochenbaum2017AutomaticAD,title={Automatic Anomaly Detection in the Cloud Via Statistical Learning},author={Jordan Hochenbaum and Owen Vallis and Arun Kejariwal},journal={ArXiv},year={2017},volume={abs/1704.07706},}"
+}

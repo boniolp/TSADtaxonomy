@@ -1,0 +1,18 @@
+{
+  "name": "DILOF",
+  "full_name": "",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2018,
+  "authors": ["Gyoung S Na", "Donghyun Kim", "Hwanjo Yu"],
+  "paper": "Dilof: Effective and memory efficient local outlier detection in data streams. KDD",
+  "description": "DILOF is a LOF-based approach. More precisely, DILOF incorporate a novel density-based sampling algorithm to summarize past data and then propose a new strategy for detecting a sequence of outliers.",
+  "code": "",
+  "url": "https://dl.acm.org/doi/10.1145/3219819.3220022",
+  "bibtex": "@inproceedings{10.1145/3219819.3220022,author = {Na, Gyoung S. and Kim, Donghyun and Yu, Hwanjo},title = {DILOF: Effective and Memory Efficient Local Outlier Detection in Data Streams},year = {2018},isbn = {9781450355520},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/3219819.3220022},booktitle = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},pages = {1993–2002},numpages = {10},location = {London, United Kingdom},series = {KDD '18}}"
+}
+
+
+

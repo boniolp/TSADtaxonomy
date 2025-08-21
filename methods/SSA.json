@@ -1,0 +1,17 @@
+{
+  "name": "SSA",
+  "full_name": "Segmented Sequence Analysis",
+  "category": "Encoding-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2010,
+  "authors": ["Yuan Yao", "Abhishek Sharma", "Leana Golubchik", "Ramesh Govindan"],
+  "paper": "Online Anomaly Detection for Sensor Systems: A Simple and Efficient Approach.",
+  "description": "SSA (Segmented Sequence Analysis) leverages temporal and spatial correlations in sensor systems measurements and constructs a piecewise linear model of sensor data time series.  To detect anomalies, we compare the piecewise linear models of sensor data (collected during a time interval) and a reference model, where significant differences (as determined by a proposed similarity metric) are flagged as anomalies. ",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/ssa",
+  "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=324ce9466feff277130e16c690ccdfc9e671cf56",
+  "bibtex": "@article{10.1016/j.peva.2010.08.018,author = {Yao, Yuan and Sharma, Abhishek and Golubchik, Leana and Govindan, Ramesh},title = {Online anomaly detection for sensor systems: A simple and efficient approach},year = {2010},issue_date = {November, 2010},publisher = {Elsevier Science Publishers B. V.},address = {NLD},volume = {67},number = {11},issn = {0166-5316},doi = {10.1016/j.peva.2010.08.018},journal = {Perform. Eval.},month = nov,pages = {1059–1075},numpages = {17},}"
+}
+
+

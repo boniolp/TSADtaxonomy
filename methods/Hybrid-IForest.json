@@ -1,0 +1,17 @@
+{
+  "name": "Hybrid-IForest",
+  "full_name": "Hybrid Isolation Forest",
+  "category": "Tree-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2017,
+  "authors": ["Pierre-François Marteau", "Saeid Soheily-Khah", "Nicolas Béchet"],
+  "paper": "Hybrid isolation forest-application to intrusion detection",
+  "description": "Hybrid Isolation Forest enhances the classic Isolation Forest by introducing two extensions: exploiting a distance knowledge to neighboring ’normal’ data, and infusing supervised learning capability.",
+  "code": "",
+  "url": "https://arxiv.org/pdf/1705.03800",
+  "bibtex": "@misc{marteau2017hybridisolationforest,title={Hybrid Isolation Forest - Application to Intrusion Detection}, author={Pierre-François Marteau and Saeid Soheily-Khah and Nicolas Béchet},year={2017},eprint={1705.03800},archivePrefix={arXiv},primaryClass={cs.LG},}"
+}
+
+

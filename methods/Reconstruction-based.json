@@ -1,0 +1,5 @@
+{
+  "name": "Reconstruction-based",
+  "text": "The reconstruction-based method corresponds to a model that compresses the input time series (or subsequence) into a latent space (smaller than the input size) and is trained to reconstruct the input time series from the latent space. The difference between the input time series and the reconstructed one (named the reconstruction error) is used as an anomaly score. As for forecasting-based methods, the larger the error, the more unexpected the value, and thus, potentially abnormal. Moreover, as the reconstruction error is likely to be small for the time series used to train the model, such reconstruction methods are optimal in semi-supervised settings.",
+  "year": 1983
+}

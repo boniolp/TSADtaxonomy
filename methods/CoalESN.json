@@ -1,0 +1,20 @@
+{
+  "name": "CoalESN",
+  "full_name": "Coal Echo State Networks",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": true,
+  "type": "ESN",
+  "year": 2008,
+  "authors": [
+  "Oliver Obst",
+  "X. Rosalind Wang",
+  "Mikhail Prokopenko"
+],
+  "paper": "Using Echo State Networks for Anomaly Detection in Underground Coal Mines. IPSN",
+  "description": "Echo State Networks (ESNs) are a type of recurrent neural network that use a fixed, randomly connected reservoir of hidden neurons to project input sequences into a high-dimensional space, where only the output weights are trained. CoalESN is an application of ESN networks for time series anomaly detection.",
+  "code": "",
+  "url": "https://www.prokopenko.net/uploads/2/1/7/6/21762362/obsto_echostatenetworks.pdf",
+  "bibtex": "@inproceedings{Wang2008,\n  author = {Wang, X. Rosalind and Prokopenko, Mikhail and Obst, Oliver},\n  booktitle = {2008 International Conference on Information Processing in Sensor Networks (IPSN 2008)},\n  title = {Using Echo State Networks for Anomaly Detection in Underground Coal Mines},\n  year = {2008},\n  pages = {219-229},\n  abstract = {We investigate the problem of identifying anomalies in monitoring critical gas concentrations using a sensor network in an underground coal mine. In this domain, one of the main problems is a provision of mine specific anomaly detection, with cyclical (moving) instead of flatline (static) alarm threshold levels. An additional practical difficulty in modelling a specific mine is the lack of fully labelled data of normal and abnormal situations. We present an approach addressing these difficulties based on echo state networks learning mine specific anomalies when only normal data is available. Echo state networks utilize incremental updates driven by new sensor readings, thus enabling a detection of anomalies at any time during the sensor network operation. We evaluate this approach against a benchmark -- Bayesian network based anomaly detection, and observe that the quality of the overall predictions is comparable to the benchmark. However, the echo state networks maintain the same level of predictive accuracy for data from multiple sources. Therefore, the ability of echo state networks to model dynamical systems make this approach more suitable for anomaly detection and predictions in sensor networks.},\n  keywords = {sensor networks; anomaly detection; recurrent neural networks; echo state networks; bayesian networks; coal mines},\n  doi = {10.1109/IPSN.2008.35},\n  url = {https://doi.ieeecomputersociety.org/10.1109/IPSN.2008.35},\n  publisher = {IEEE Computer Society},\n  address = {Los Alamitos, CA, USA},\n  month = apr\n}"
+}

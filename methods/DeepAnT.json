@@ -1,0 +1,20 @@
+{
+  "name": "DeepAnT",
+  "full_name": "A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": ["M. Munir", "S. A. Siddiqui", "A. Dengel", "S. Ahmed"],
+  "paper": "DeepAnT: A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series.",
+  "description": "DeepAnt is a forecasting-based approach that build a non-linear relationship between current and previous time series points or subsequences (using convolutional Neural Network). The outliers are detected by the deviation between the predicted and actual values.",
+  "code": "https://github.com/TheDatumOrg/TSB-UAD",
+  "url": "https://ieeexplore.ieee.org/document/8581424",
+  "bibtex": "@ARTICLE{8581424,author={Munir, Mohsin and Siddiqui, Shoaib Ahmed and Dengel, Andreas and Ahmed, Sheraz},journal={IEEE Access}, title={DeepAnT: A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series}, year={2019},volume={7},number={},pages={1991-2005},doi={10.1109/ACCESS.2018.2886457}}",
+  "snippet_description": "We provide below an example of usage of DeepAnT (called CNN in TSB-UAD) for time series anomaly detection (from TSB-UAD benchmark). Please install TSB-UAD as follows:",
+  "snippet_install": "pip install tsb-uad",
+  "snippet": "```python\n\nimport os\nimport numpy as np\nimport pandas as pd\nfrom TSB_UAD.utils.visualisation import plotFig\nfrom TSB_UAD.models.distance import Fourier\nfrom TSB_UAD.models.cnn import cnn\nfrom TSB_UAD.models.feature import Window\nfrom TSB_UAD.utils.slidingWindows import find_length\nfrom TSB_UAD.vus.metrics import get_metrics\n\n#Read data\nfilepath = 'PATH_TO_TSB_UAD/ECG/MBA_ECG805_data.out'\ndf = pd.read_csv(filepath, header=None).dropna().to_numpy()\nname = filepath.split('/')[-1]\n\ndata = df[:,0].astype(float)\nlabel = df[:,1].astype(int)\n\n#Pre-processing\nslidingWindow = find_length(data)\n\ndata_train = data[:int(0.1*len(data))]\ndata_test = data\n\n\n#Run CNN\nclf = cnn(slidingwindow = slidingWindow, predict_time_steps=1, epochs = 100, patience = 5, verbose=0)\nclf.fit(data_train, data_test)\nmeasure = Fourier()\nmeasure.detector = clf\nmeasure.set_param()\nclf.decision_function(measure=measure)\nscore = clf.decision_scores_\n\n# Post-processing\nscore = MinMaxScaler(feature_range=(0,1)).fit_transform(score.reshape(-1,1)).ravel()\n#Plot result\nplotFig(data, label, score, slidingWindow, fileName=name, modelName=modelName) \n\n#Print accuracy\nresults = get_metrics(score, label, metric=\"all\", slidingWindow=slidingWindow)\nfor metric in results.keys():\n    print(metric, ':', results[metric])\n```",
+  "figure_result": ""
+}
+

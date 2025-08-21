@@ -1,0 +1,15 @@
+{
+  "name": "VELC",
+  "full_name": "Variational autoencoder model with re-Encoder and Latent Constraint network",
+  "category": "Reconstruction-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Chunkai Zhang", "Shaocong Li", "Hongye Zhang", "Yingyang Chen"],
+  "paper": "VELC: A New Variational AutoEncoder Based Model for Time Series Anomaly Detection. arXiv:1907.01702",
+  "url": "https://arxiv.org/abs/1907.01702",
+  "description": "Time series anomaly detection method based on Variational AutoEncoder model(VAE) with re-Encoder and Latent Constraint network(VELC).",
+  "code": "",
+  "bibtex":"@misc{zhang2020velcnewvariationalautoencoder,title={VELC: A New Variational AutoEncoder Based Model for Time Series Anomaly Detection}, author={Chunkai Zhang and Shaocong Li and Hongye Zhang and Yingyang Chen},year={2020},eprint={1907.01702},archivePrefix={arXiv},primaryClass={cs.LG},url={https://arxiv.org/abs/1907.01702},}"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "HealthESN",
+  "full_name": "Health Echo State Networks",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": ["Qing Chen", "Anguo Zhang", "Tingwen Huang", "Qianping He", "Yongduan Song"],
+  "paper": "Imbalanced Dataset-Based Echo State Networks for Anomaly Detection",
+  "description": "Echo State Networks (ESNs) are a type of recurrent neural network that use a fixed, randomly connected reservoir of hidden neurons to project input sequences into a high-dimensional space, where only the output weights are trained. HealthESN is an application of ESN networks for time series anomaly detection in the medical domain.",
+  "code": "",
+  "url": "https://www.researchgate.net/publication/328079636_Imbalanced_dataset-based_echo_state_networks_for_anomaly_detection",
+  "bibtex": "@article{article,author = {Chen, Qing and Zhang, Anguo and Huang, Tingwen and He, Qianping and Song, Yongduan},year = {2020},month = {04},pages = {},title = {Imbalanced dataset-based echo state networks for anomaly detection},volume = {32},journal = {Neural Computing and Applications},doi = {10.1007/s00521-018-3747-z}}"
+}
+
+

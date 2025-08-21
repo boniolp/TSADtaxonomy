@@ -1,0 +1,21 @@
+{
+  "name": "DBSCAN",
+  "full_name": "Density-Based Spatial Clustering of Applications with Noise",
+  "category": "Clustering-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "type": "DBSCAN",
+  "year": 1998,
+  "authors": [
+    "Jörg Sander",
+    "Martin Ester",
+    "Hans-Peter Kriegel",
+    "Xiaowei Xu"
+  ],
+  "paper": "Density-Based Clustering in Spatial Databases: The Algorithm GDBSCAN and Its Applications. Data Mining and Knowledge Discovery",
+  "description": "DBSCAN is a density-based clustering algorithm that identifies clusters of arbitrary shapes and isolates noise. Its core principle is that for each point in a cluster, its neighborhood (defined by a radius, Eps) must contain a minimum number of points, satisfying a density threshold. The algorithm is efficient for large databases and requires minimal domain knowledge. It is important to note that the notion of density of DBSCAN does not have the same meaning as the notion of density in the density-based category of this taxonomy.",
+  "code": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html",
+  "url": "https://link.springer.com/article/10.1023/A:1009745219419",
+  "bibtex": "@article{Sander1998DensityBasedCI, title={Density-Based Clustering in Spatial Databases: The Algorithm GDBSCAN and Its Applications}, author={Jörg Sander and Martin Ester and Hans-Peter Kriegel and Xiaowei Xu}, journal={Data Mining and Knowledge Discovery}, year={1998}, volume={2}, pages={169-194}, url={https://api.semanticscholar.org/CorpusID:445002}}"
+}

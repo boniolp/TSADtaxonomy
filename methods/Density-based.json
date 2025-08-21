@@ -1,0 +1,5 @@
+{
+  "name": "Density-based",
+  "text": "These methods focus on detecting globally normal or isolated behaviors. They employ time series representations, and measure density in the space that represents the subsequences of the original time series. These representations can be graphs, trees, histograms, grammar induction rules, and others. Within this category, we find four sub-categories: Distribution-based, Graph-based, Tree-based, and Encoding-based.",
+  "year": 1962
+}

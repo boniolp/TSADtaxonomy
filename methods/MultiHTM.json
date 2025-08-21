@@ -1,0 +1,18 @@
+{
+  "name": "MultiHTM",
+  "full_name": "Multivariate Hierarchical Temporal Memory",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2018,
+  "authors": ["Jia Wu", "Weiru Zeng", "Fei Yan"],
+  "paper": "Hierarchical Temporal Memory Method for Time-Series-Based Anomaly Detection.",
+  "description": "Hierarchical Temporal Memory is a novel neural network, designed for time series anomaly detection. HTM is able to learn the changing pattern of the data and incorporate contextual information from the past to make accurate prediction.",
+  "code": "",
+  "url": "https://www.computer.org/csdl/proceedings-article/icdmw/2016/07836799/12OmNwK7oa9",
+  "bibtex": "@INPROCEEDINGS{7836799,author={Wu, Jia and Zeng, Weiru and Chen, Zhe and Tang, Xue-Fei},booktitle={2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW)}, title={Hierarchical Temporal Memory Method for Time-Series-Based Anomaly Detection}, year={2016},volume={},number={},pages={1167-1172},doi={10.1109/ICDMW.2016.0168}}"
+}
+
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "BAGEL",
+  "full_name": "",
+  "category": "Reconstruction-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "type": "AE",
+  "year": 2018,
+  "authors": [
+  "Zeyan Li",
+  "Wenxiao Chen",
+  "Dan Pei"
+],
+  "paper": "Robust and Unsupervised KPI Anomaly Detection Based on Conditional Variational Autoencoder",
+  "description": "Bagel is a robust, unsupervised anomaly detection algorithm for KPI time series that incorporates temporal information using a conditional variational autoencoder (CVAE) and employs dropout to prevent overfitting.",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/bagel",
+  "url": "https://www.researchgate.net/publication/284537526_Robust_Regression_and_Outlier_Detection",
+  "bibtex": "@inproceedings{inproceedings,\n  author = {Li, Zeyan and Chen, Wenxiao and Pei, Dan},\n  year = {2018},\n  month = {11},\n  pages = {1-9},\n  title = {Robust and Unsupervised KPI Anomaly Detection Based on Conditional Variational Autoencoder},\n  doi = {10.1109/PCCC.2018.8710885}\n}"
+}
+

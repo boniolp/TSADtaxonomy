@@ -1,0 +1,21 @@
+{
+  "name": "COF",
+  "full_name": "Connectivity-based outlier factor",
+  "category": "Proximity-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "type": "LOF",
+  "year": 2002,
+  "authors": [
+  "Jian Tang",
+  "Zhixiang Chen",
+  "Ada Wai-Chee Fu",
+  "David Wai-Lok Cheung"
+],
+  "paper": "Enhancing Effectiveness of Outlier Detections for Low Density Patterns. PAKDD",
+  "description": "COF (Connectivity-based Outlier Factor) improves upon LOF by computing a chaining-distance among a point’s k-nearest neighbors and comparing it to the average chaining-distance of those neighbors. A high COF indicates the point is less well-connected and more likely an outlier, allowing better detection of anomalies in regions with similar density but differing connectivity patterns.",
+  "code": "",
+  "url": "https://dl.acm.org/doi/10.5555/646420.693665",
+  "bibtex": "@inproceedings{Tang2002,\n  author = {Tang, Jian and Chen, Zhixiang and Fu, Ada Wai-Chee and Cheung, David Wai-Lok},\n  title = {Enhancing Effectiveness of Outlier Detections for Low Density Patterns},\n  year = {2002},\n  isbn = {3540437045},\n  publisher = {Springer-Verlag},\n  address = {Berlin, Heidelberg},\n  booktitle = {Proceedings of the 6th Pacific-Asia Conference on Advances in Knowledge Discovery and Data Mining},\n  pages = {535--548},\n  numpages = {14},\n  series = {PAKDD '02}\n}"
+}

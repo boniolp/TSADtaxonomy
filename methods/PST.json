@@ -1,0 +1,17 @@
+{
+  "name": "PST",
+  "full_name": " Probabilistic Suffix Trees",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2006,
+  "authors": ["Pei Sun", "Sanjay Chawla", "Bavani Arunasalam"],
+  "paper": "Mining for Outliers in Sequential Databases. SDM",
+  "description": "Approach to mine for sequential outliers using Probabilistic Suffix Trees (PST). The key insight is that we can distinguish outliers from non-outliers by only examining the nodes close to the root of the PST",
+  "code": "",
+  "url": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611972764.9",
+  "bibtex": "@inproceedings{Sun2006MiningFO,title={Mining for Outliers in Sequential Databases},author={Pei Sun and Sanjay Chawla and Bavani Arunasalam},booktitle={SDM},year={2006},}"
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "NoveltySVR",
+  "full_name": "Novelty Detection with Support Vector Regression",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2003,
+  "authors": ["Junshui Ma", "Simon Perkins"],
+  "paper": "Online Novelty Detection on Temporal Sequences. KDD",
+  "description": "The core of the method is an online support vector regression (SVR) model that learns and updates in real time as new data arrive. By modeling the sequence with incremental SVR, the algorithm flags unexpected deviations (novelty) dynamically and expresses how confident it is in each detection.",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/novelty_svr",
+  "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cf087c5406ddad682420562923f408e208b112f5",
+  "bibtex": "@inproceedings{10.1145/956750.956828,author = {Ma, Junshui and Perkins, Simon},title = {Online novelty detection on temporal sequences},year = {2003},isbn = {1581137370},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/956750.956828},booktitle = {Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},pages = {613–618},numpages = {6},location = {Washington, D.C.},series = {KDD '03}}"
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "FastMCD",
+  "full_name": "Fast Minimum Covariance Determinant",
+  "category": "Distribution-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 1999,
+  "authors": ["Peter J. Rousseeuw", "Katrien van Driessen"],
+  "paper": "A Fast Algorithm for the Minimum Covariance Determinant Estimator",
+  "description": "The Minimum Covariance Determinant (MCD) estimator is an affine equivariant and robust estimators of data points. MCD is robust to outliers, and can be helpful in outlier detection. The fastMCD is an algorithm to compute MCD efficiently.",
+  "code": "https://github.com/yzhao062/pyod",
+  "url": "https://wis.kuleuven.be/stat/robust/papers/1999/rousseeuwvandriessen-fastalgorithmformcd-technomet.pdf",
+  "bibtex": "@article{0d23955b-2c3d-3692-b621-b91e68c0944a,ISSN = {00401706},author = {Peter J. Rousseeuw and Katrien van Driessen},journal = {Technometrics},number = {3},pages = {212--223},publisher = {[Taylor & Francis, Ltd., American Statistical Association, American Society for Quality]},title = {A Fast Algorithm for the Minimum Covariance Determinant Estimator}, volume = {41}, year = {1999}}"
+}

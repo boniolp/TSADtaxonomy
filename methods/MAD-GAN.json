@@ -1,0 +1,17 @@
+{
+  "name": "MAD-GAN",
+  "full_name": "Multivariate Anomaly Detection with Generative Adversarial Networks",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2019,
+  "authors": ["Dan Li", "Dacheng Chen", "Baihong Jin", "Lei Shi", "Jonathan Goh", "See-Kiong Ng"],
+  "paper": "MAD-GAN: Multivariate anomaly detection for time series data with generative adversarial networks.",
+  "description": "Anomaly detection method based on Generative Adversarial Networks (GANs). Instead of treating each data stream independently, MAD-GAN framework considers the entire variable set concurrently to capture the latent interactions amongst the variables. Both the generator and discriminator produced by the GAN are fully exploit, using a novel anomaly score called DR-score to detect anomalies by discrimination and reconstruction.",
+  "code": "https://github.com/LiDan456/MAD-GANs",
+  "url": "https://arxiv.org/pdf/1901.04997",
+  "bibtex": "@inproceedings{Li2019MADGANMA,title={MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks},author={Dan Li and Dacheng Chen and Lei Shi and Baihong Jin and Jonathan Goh and See-Kiong Ng},booktitle={International Conference on Artificial Neural Networks},year={2019},}"
+}
+
+

@@ -1,0 +1,15 @@
+{
+  "name": "Series2Graph++",
+  "full_name": "Distributed Detection of Correlation Anomalies in Multivariate Time Series",
+  "category": "Graph-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2024,
+  "authors": ["Phillip Wenig", "Thorsten Papenbrock"],
+  "paper": "Series2Graph++: Distributed Detection of Correlation Anomalies in Multivariate Time Series. DaWaK",
+  "description": "Series2Graph++ is an extension of Series2Graph for multivariate time series. More generally, it is a graph-based anomaly detection algorithm for time series that transforms subsequences into nodes and their transition patterns into edges. The frequency of transitions among types of subsequences is encoded in a directed graph. Anomalies are identified based on irregular transition patterns.",
+  "code": "https://github.com/HPI-Information-Systems/S2Gpp/blob/main/README.md",
+  "url": "https://dl.acm.org/doi/10.1007/978-3-031-68323-7_17",
+  "bibtex": "@article{boniol2020series2graph, title={Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series}, author={Boniol, Paul and Palpanas, Themis}, journal={Proc. VLDB Endow.}, volume={13}, number={12}, pages={1921--1934}, year={2020}}"
+}

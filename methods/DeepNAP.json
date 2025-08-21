@@ -1,0 +1,17 @@
+{
+  "name": "DeepNAP",
+  "full_name": "Deep Neural Anomaly Pre-detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2018,
+  "authors": ["Chunggyeom Kim", "Jinhyuk Lee", "Raehyun Kim", "Youngbin Park", "Jaewoo Kang"],
+  "paper": "DeepNAP: Deep Neural Anomaly Pre-Detection in a Semiconductor Fab.",
+  "description": "DeepNAP is an anomaly pre-detection model based on recurrent neural networks. More specifically, DeepNAP learns to detect anomalies using partial reconstruction. According to the authors, partial reconstruction based models effectively detect anomalies without the need for non-anomalous training data.",
+  "code": "",
+  "url": "https://www.sciencedirect.com/science/article/abs/pii/S002002551830375X",
+  "bibtex": "@article{10.1016/j.ins.2018.05.020,author = {Kim, Chunggyeom and Lee, Jinhyuk and Kim, Raehyun and Park, Youngbin and Kang, Jaewoo},title = {DeepNAP: Deep neural anomaly pre-detection in a semiconductor fab},year = {2018},issue_date = {Aug 2018},publisher = {Elsevier Science Inc.},address = {USA},volume = {457},number = {C},issn = {0020-0255},doi = {10.1016/j.ins.2018.05.020},journal = {Inf. Sci.},month = aug,pages = {1–11},numpages = {11},}"
+}
+
+

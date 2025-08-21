@@ -1,0 +1,22 @@
+{
+  "name": "DAMP",
+  "full_name": "Discord Aware Matrix Profile",
+  "category": "Discord-Based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "type": "Matrix Profile",
+  "year": 2022,
+  "authors": [
+    "Yue Lu",
+    "Renjie Wu",
+    "Maria A. Zuluaga",
+    "Abdullah Mueen",
+    "Eamonn Keogh"
+  ],
+  "paper": "Matrix Profile XXIV: Scaling Time Series Anomaly Detection to Trillions of Datapoints and Ultra-fast Arriving Data Streams. Proceedings of the 28th ACM SIGKDD",
+  "description": "DAMP is a matrix-profile–based anomaly detection algorithm designed to efficiently discover discords in large-scale time series. It overcomes limitations such as the twin-freak problem and supports both batch and streaming scenarios, enabling scalable detection from millions to trillions of data points.",
+  "code": "https://sites.google.com/view/discord-aware-matrix-profile/documentation",
+  "url": "https://dl.acm.org/doi/10.1145/3534678.3539271",
+  "bibtex":"@inproceedings{10.1145/3534678.3539271, author = {Lu, Yue and Wu, Renjie and Mueen, Abdullah and Zuluaga, Maria A. and Keogh, Eamonn}, title = {Matrix Profile XXIV: Scaling Time Series Anomaly Detection to Trillions of Datapoints and Ultra-fast Arriving Data Streams}, year = {2022}, isbn = {9781450393850}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3534678.3539271}, doi = {10.1145/3534678.3539271}, booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining}, pages = {1173–1182}, numpages = {10}, location = {Washington DC, USA}, series = {KDD '22} }"
+}

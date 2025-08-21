@@ -1,0 +1,15 @@
+{
+  "name": "TARZAN",
+  "full_name": "Finding surprising patterns in a time series database in linear time and space.",
+  "category": "Encoding-based",
+  "Dim": "Univariate",
+  "Sup": "Semi-Supervised",
+  "Stream": false,
+  "year": 2002,
+  "authors": ["Eamonn Keogh", "Stefano Lonardi", "Bill Yuan-chi Chiu"],
+  "paper": "Finding surprising patterns in a time series database in linear time and space. KDD",
+  "description": "TARZAN is a method that defines a pattern surprising if the frequency of its occurrence differs substantially from that expected by chance, given some previously seen data. The user has to give a collection of previously observed normal data. A suffix tree is used to encode the frequency and a Markov model is used to predict the expected frequency.",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/tarzan",
+  "bibtex": "@inproceedings{10.1145/775047.775128,author = {Keogh, Eamonn and Lonardi, Stefano and Chiu, Bill 'Yuan-chi'},title = {Finding surprising patterns in a time series database in linear time and space},year = {2002},isbn = {158113567X},publisher = {Association for Computing Machinery},address = {New York, NY, USA},doi = {10.1145/775047.775128},booktitle = {Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},pages = {550–556},numpages = {7},location = {Edmonton, Alberta, Canada},series = {KDD '02}}",
+  "url": "https://www.cs.ucr.edu/~eamonn/STOMP_GPU_final_submission_camera_ready.pdf"
+}

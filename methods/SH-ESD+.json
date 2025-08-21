@@ -1,0 +1,17 @@
+{
+  "name": "SH-ESD+",
+  "full_name": "Enhanced Seasonal-Hybrid Extreme Studentized Deviate",
+  "category": "Distribution-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": ["Rafael G. Vieira", "Marcos A. Leone Filho", "Robinson Semolini"],
+  "paper": "An Enhanced Seasonal-Hybrid ESD Technique for Robust Anomaly Detection on Time Series",
+  "description": "The SH-ESD+ is intended, but not restricted, to cope with some limitations of SH-ESD and from standard anomaly detection methods. First, it includes robust statistical techniques to minimize the number of false positives and handle effectively with any kind of anomalies on data. It also employs automatic parameter identification procedures to leverage model performance at a low computational cost.",
+  "code": "",
+  "url": "https://sol.sbc.org.br/index.php/sbrc/article/view/2422",
+  "bibtex": "@inproceedings{Vieira2018AnES,title={An Enhanced Seasonal-Hybrid ESD Technique for Robust Anomaly Detection on Time Series},author={Rafael G. Vieira and Marcos A. L. Filho and Robinson Semolini},booktitle={Brazilian Symposium on Computer Networks and Distributed Systems},year={2018},}"
+}
+
+

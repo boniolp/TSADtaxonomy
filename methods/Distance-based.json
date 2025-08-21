@@ -1,0 +1,5 @@
+{
+  "name": "Distance-based",
+  "text": "This category contains methods that focus on the analysis of subsequences for the purpose of detecting anomalies in time series, mainly by utilizing distances to a given model. This is done purely from the raw time series, using a variety of time series distance measures. Overall, the distance-based algorithms operate on the original time series as is, without the need for further pre-processing. Within this category, we find three sub-categories: Proximity-based, Clustering-based, and Discord-based.",
+  "year": 1965
+}
