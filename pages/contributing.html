@@ -1,0 +1,45 @@
+<img src="/assets/contributing.jpg" alt="Introduction" style="display: block; margin-left: auto; margin-right: auto; max-width: 50%; height: auto; margin-bottom: 16px; border-radius: 8px;" />
+<h2>A method in missing?</h2>
+<p>
+  We welcome contributions of new anomaly detection methods to enrich the taxonomy featured in this project. If you have a method you find interesting and would like to add it, please submit a JSON file describing the method using the format below.
+</p>
+<p>
+  The JSON should include key details about the method such as its name, category, supervision type, and references to the original paper and code.
+</p>
+
+<h3>JSON Format Example</h3>
+<pre style="background:#f4f4f4; padding:10px; border-radius:5px; overflow:auto;">
+{
+  "name": "method name",
+  "full_name": "A longer name",
+  "category": "second-level-in-the-taxonomy",
+  "Dim": "Uni/Multivariate",
+  "Sup": "Un/Semi-supervised",
+  "Stream": true/false,
+  "year": 2025,
+  "authors": ["author1","author2"],
+  "paper": "the title of the paper. The venue or journal. A volume number, an issue number, etc",
+  "description": "A short description of what the method does.",
+  "code": "link/to/the/code",
+  "url": "link/to/the/paper",
+  "bibtex": "@article{bibtex reference}"
+}
+</pre>
+
+<h3>How to Submit</h3>
+<p>
+  Please open a pull request in our repository attaching the JSON file.  
+  Ensure your submission follows the exact format to facilitate smooth integration.
+</p>
+
+<h3>Guidelines</h3>
+<ul>
+  <li>Provide accurate and complete metadata for your method.</li>
+  <li>Ensure URLs are valid and accessible.</li>
+  <li>Include a clear and concise description.</li>
+  <li>Follow JSON syntax carefully.</li>
+</ul>
+
+<p>
+  Thank you for contributing to improve this taxonomy and the interactive navigation experience! Us alone would struggle to keep track of all the publications on time series anomaly detection.
+</p>
