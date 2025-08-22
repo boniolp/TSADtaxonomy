@@ -64,3 +64,41 @@ Thank you for contributing to improving this taxonomy and the interactive naviga
 - Mingyi Huang
 - Themis Palpanas
 - Yash Krishnani
+
+## 📖 How to Cite
+
+If you find this taxonomy helpful in your research, please cite it as follows:
+
+### Long Survey Paper
+
+```bibtex
+@misc{boniol2024divetimeseriesanomalydetection,
+      title={Dive into Time-Series Anomaly Detection: A Decade Review}, 
+      author={Paul Boniol and Qinghua Liu and Mingyi Huang and Themis Palpanas and John Paparrizos},
+      year={2024},
+      eprint={2412.20512},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.20512}, 
+}
+```
+
+### Short Survey Paper
+
+```bibtex
+@inproceedings{10.1145/3711896.3736565,
+      author = {Paparrizos, John and Boniol, Paul and Liu, Qinghua and Palpanas, Themis},
+      title = {Advances in Time-Series Anomaly Detection: Algorithms, Benchmarks, and Evaluation Measures},
+      year = {2025},
+      isbn = {9798400714542},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      url = {https://doi.org/10.1145/3711896.3736565},
+      doi = {10.1145/3711896.3736565},
+      booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+      pages = {6151–6161},
+      numpages = {11},
+      location = {Toronto ON, Canada},
+      series = {KDD '25}
+}
+```
