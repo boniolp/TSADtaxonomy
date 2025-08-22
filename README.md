@@ -69,7 +69,7 @@ Thank you for contributing to improving this taxonomy and the interactive naviga
 
 If you find this taxonomy helpful in your research, please cite it as follows:
 
-### Long Survey Paper
+### [Long Survey Paper](https://arxiv.org/abs/2412.20512)
 
 ```bibtex
 @misc{boniol2024divetimeseriesanomalydetection,
@@ -83,7 +83,7 @@ If you find this taxonomy helpful in your research, please cite it as follows:
 }
 ```
 
-### Short Survey Paper
+### [Short Survey Paper](https://dl.acm.org/doi/10.1145/3711896.3736565)
 
 ```bibtex
 @inproceedings{10.1145/3711896.3736565,
