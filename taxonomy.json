@@ -173,7 +173,12 @@
             { "name": "OceanWNN" },
             { "name": "DeepAnT" },
             { "name": "MTAD-GAT" },
-            { "name": "AD-LTI" }
+            { "name": "AD-LTI" },
+            { "name": "Autoformer" },
+            { "name": "PatchTST" },
+            { "name": "Chronos" },
+            { "name": "TimesFM" },
+            { "name": "Moirai" }
           ]
         },
         {
@@ -212,9 +217,16 @@
                 { "name": "MEMTO" },
                 { "name": "GPT4TS" },
                 { "name": "MOMENT" },
-                { "name": "SARAD" }
+                { "name": "SARAD" },
+                { "name": "OFA" },
+                { "name": "MLLM4TS" },
+                { "name": "UniTS" }
               ]
-            }
+            },
+            { "name": "DiffusionAE" },
+            { "name": "DiffAD" },
+            { "name": "ImDiffusion" },
+            { "name": "D3R" }
           ]
         }
       ]
