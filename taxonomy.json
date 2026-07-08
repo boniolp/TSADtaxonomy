@@ -216,11 +216,11 @@
                 { "name": "DCdetector" },
                 { "name": "MEMTO" },
                 { "name": "GPT4TS" },
+                { "name": "OFA" },
                 { "name": "MOMENT" },
                 { "name": "SARAD" },
-                { "name": "OFA" },
-                { "name": "MLLM4TS" },
-                { "name": "UniTS" }
+                { "name": "UniTS" },
+                { "name": "MLLM4TS" }
               ]
             },
             { "name": "DiffusionAE" },
