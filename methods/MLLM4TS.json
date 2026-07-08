@@ -1,0 +1,17 @@
+{
+  "name": "MLLM4TS",
+  "full_name": "Multimodal Large Language Models for Time-Series",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2025,
+  "authors": ["Qinghua Liu", "Sam Heshmati", "Zheda Mai", "Zubin Abraham", "John Paparrizos", "Liu Ren"],
+  "paper": "MLLM4TS: Leveraging Vision and Multimodal Language Models for General Time-Series Analysis",
+  "description": "MLLM4TS is a framework that leverages multimodal large language models for general time-series analysis by integrating a dedicated vision branch.",
+  "code": "",
+  "url": "https://arxiv.org/abs/2510.07513",
+  "bibtex": "@misc{liu2025mllm4tsleveragingvisionmultimodal,title={MLLM4TS: Leveraging Vision and Multimodal Language Models for General Time-Series Analysis}, author={Qinghua Liu and Sam Heshmati and Zheda Mai and Zubin Abraham and John Paparrizos and Liu Ren},year={2025},eprint={2510.07513},archivePrefix={arXiv},primaryClass={cs.LG}}"
+}
+
+

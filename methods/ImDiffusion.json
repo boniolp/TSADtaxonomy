@@ -1,0 +1,17 @@
+{
+  "name": "ImDiffusion",
+  "full_name": "Imputed Diffusion Anomaly Detection Model",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2023,
+  "authors": ["Yuhang Chen", "Chaoyun Zhang", "Minghua Ma", "Yudong Liu", "Ruomeng Ding", "Bowen Li", "Shilin He", "Saravan Rajmohan", "Qingwei Lin", "Dongmei Zhang"],
+  "paper": "ImDiffusion: Imputed Diffusion Models for Multivariate Time Series Anomaly Detection",
+  "description": "ImDiffusion combines time series imputation and diffusion models to achieve accurate and robust anomaly detection. The imputation-based approach employed by ImDiffusion leverages the information from neighboring values in the time series, enabling precise modeling of temporal and inter-correlated dependencies, reducing uncertainty in the data, thereby enhancing the robustness of the anomaly detection process. ImDiffusion further leverages diffusion models as time series imputers to accurately capture complex dependencies.",
+  "code": "https://github.com/17000cyh/imdiffusion",
+  "url": "https://arxiv.org/abs/2307.00754",
+  "bibtex": "@article{10.14778/3632093.3632101,author = {Chen, Yuhang and Zhang, Chaoyun and Ma, Minghua and Liu, Yudong and Ding, Ruomeng and Li, Bowen and He, Shilin and Rajmohan, Saravan and Lin, Qingwei and Zhang, Dongmei},title = {ImDiffusion: Imputed Diffusion Models for Multivariate Time Series Anomaly Detection},year = {2023},issue_date = {November 2023},publisher = {VLDB Endowment},volume = {17},number = {3},issn = {2150-8097},doi = {10.14778/3632093.3632101},journal = {Proc. VLDB Endow.},month = nov,pages = {359–372},numpages = {14}}"
+}
+
+

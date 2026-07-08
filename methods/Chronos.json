@@ -1,0 +1,17 @@
+{
+  "name": "Chronos",
+  "full_name": "Learning the Language of Time Series",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2024,
+  "authors": ["Abdul Fatir Ansari", "Lorenzo Stella", "Ali Caner Turkmen", "Xiyuan Zhang", "Pedro Mercado", "Huibin Shen", "Oleksandr Shchur", "Syama Sundar Rangapuram", "Sebastian Pineda Arango", "Shubham Kapoor", "Jasper Zschiegner", "Danielle C. Maddix", "Hao Wang", "Michael W. Mahoney", "Kari Torkkola", "Andrew Gordon Wilson", "Michael Bohlke-Schneider", "Bernie Wang"],
+  "paper": "Chronos: Learning the Language of Time Series",
+  "description": "The original Chronos family which is based on language model architectures. A time series is transformed into a sequence of tokens via scaling and quantization, and a language model is trained on these tokens using the cross-entropy loss. Once trained, probabilistic forecasts are obtained by sampling multiple future trajectories given the historical context.",
+  "code": "https://github.com/amazon-science/chronos-forecasting",
+  "url": "https://openreview.net/forum?id=gerNCVqqtR",
+  "bibtex": "@article{ansari2024chronos,title={Chronos: Learning the Language of Time Series},author={Abdul Fatir Ansari and Lorenzo Stella and Ali Caner Turkmen and Xiyuan Zhang and Pedro Mercado and Huibin Shen and Oleksandr Shchur and Syama Sundar Rangapuram and Sebastian Pineda Arango and Shubham Kapoor and Jasper Zschiegner and Danielle C. Maddix and Hao Wang and Michael W. Mahoney and Kari Torkkola and Andrew Gordon Wilson and Michael Bohlke-Schneider and Bernie Wang},journal={Transactions on Machine Learning Research},issn={2835-8856},year={2024}}"
+}
+
+

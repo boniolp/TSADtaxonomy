@@ -1,0 +1,17 @@
+{
+  "name": "DiffusionAE",
+  "full_name": "Diffusion-based AutoEncoder",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2023,
+  "authors": ["Ioana Pintilie", "Andrei Manolache", "Florin Brad"],
+  "paper": "Time Series Anomaly Detection using Diffusion-based Models",
+  "description": "DiffusionAE is a jointly trained autoencoder and diffusion model. During training, the autoencoder reconstructs the input time series. Noise is then added on the reconstruction. Distinctly from the diffusion-only model, the network learns to denoise the corrupted reconstruction of the input instead of the corrupted original sequence, making the entire model trainable end-to-end.",
+  "code": "http://github.com/fbrad/DiffusionAE",
+  "url": "https://arxiv.org/abs/2311.01452",
+  "bibtex": "@INPROCEEDINGS{10411668,author={Pintilie, Ioana and Manolache, Andrei and Brad, Florin},booktitle={2023 IEEE International Conference on Data Mining Workshops (ICDMW)}, title={Time Series Anomaly Detection using Diffusion-based Models},year={2023},pages={570-578},doi={10.1109/ICDMW60847.2023.00080}}"
+}
+
+

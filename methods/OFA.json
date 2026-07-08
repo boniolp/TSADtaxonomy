@@ -1,0 +1,17 @@
+{
+  "name": "OFA",
+  "full_name": "One Fits All",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2023,
+  "authors": ["Tian Zhou", "Peisong Niu", "Xue Wang", "Liang Sun", "Rong Jin"],
+  "paper": "One Fits All: Power General Time Series Analysis by Pretrained LM",
+  "description": "The model proposed in this paper is known as the Frozen Pretrained Transformer (FPT). The latter is evaluated through fine-tuning on all major types of tasks involving time series.",
+  "code": "https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All",
+  "url": "https://arxiv.org/abs/2302.11939",
+  "bibtex": "@inproceedings{zhou2023onefitsall,title={{One Fits All}: Power General Time Series Analysis by Pretrained LM},author={Tian Zhou, Peisong Niu, Xue Wang, Liang Sun, Rong Jin},booktitle={NeurIPS},year={2023}}"
+}
+
+

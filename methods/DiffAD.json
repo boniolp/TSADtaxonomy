@@ -1,0 +1,17 @@
+{
+  "name": "DiffAD",
+  "full_name": "Diffusion-based Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2023,
+  "authors": ["Chunjing Xiao", "Zehua Gou", "Wenxin Tai", "Kunpeng Zhang", "Fan Zhou"],
+  "paper": "Imputation-based Time-Series Anomaly Detection with Conditional Weight-Incremental Diffusion Models.",
+  "description": "DiffAD is an imputation-based (i.e., reconstruction) anomaly detection method. DiffAD uses a density ratio-based strategy to select normal observations flexibly that can easily adapt to the anomaly concentration scenarios. To alleviate the model bias problem in the presence of anomaly concentration, DiffAD employs denoising diffusion-based imputation method to enhance the imputation performance of missing values with conditional weight-incremental diffusion, which can preserve the information of observed values and substantially improves data generation quality for stable anomaly detection.",
+  "code": "https://github.com/ChunjingXiao/DiffAD",
+  "url": "https://github.com/ChunjingXiao/DiffAD/blob/main/KDD_23_DiffAD.pdf",
+  "bibtex": "@inproceedings{xiao2023imputation,title={Imputation-based Time-Series Anomaly Detection with Conditional Weight-Incremental Diffusion Models},author={Xiao, Chunjing and Gou, Zehua and Tai, Wenxin and Zhang, Kunpeng and Zhou, Fan},booktitle={Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining},pages={2742--2751},year={2023}}"
+}
+
+

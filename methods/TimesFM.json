@@ -1,0 +1,17 @@
+{
+  "name": "TimesFM",
+  "full_name": "Time series Foundation Model",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2024,
+  "authors": ["Abhimanyu Das", "Weihao Kong", "Rajat Sen", "Yichen Zhou"],
+  "paper": "A decoder-only foundation model for time-series forecasting",
+  "description": "TimesFM is based on pretraining a patched-decoder style attention model on a large time-series corpus, and can work well across different forecasting history lengths, prediction lengths and temporal granularities.",
+  "code": "https://github.com/google-research/timesfm",
+  "url": "https://arxiv.org/abs/2310.10688",
+  "bibtex": "@inproceedings{3692070.3692474,author = {Das, Abhimanyu and Kong, Weihao and Sen, Rajat and Zhou, Yichen},title = {A decoder-only foundation model for time-series forecasting},year = {2024},publisher = {JMLR.org},booktitle = {Proceedings of the 41st International Conference on Machine Learning},articleno = {404},numpages = {20},location = {Vienna, Austria},series = {ICML'24}}"
+}
+
+

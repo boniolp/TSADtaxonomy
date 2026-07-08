@@ -1,0 +1,17 @@
+{
+  "name": "D3R",
+  "full_name": "Dynamic Decomposition with Diffusion Reconstruction",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2023,
+  "authors": ["Chengsen Wang", "Zirui Zhuang", "Qi Qi", "Jingyu Wang", "Xingyu Wang", "Haifeng Sun", "Jianxin Liao"],
+  "paper": "Drift doesn't Matter: Dynamic Decomposition with Diffusion Reconstruction for Unstable Multivariate Time Series Anomaly Detection",
+  "description": "Dynamic Decomposition with Diffusion Reconstruction (D3R) is an anomaly detection network for real-world unstable data. D3R tackles the drift via decomposition and reconstruction. In the decomposition procedure, it utilize data-time mix-attention to dynamically decompose long-period multivariate time series.",
+  "code": "https://github.com/ForestsKing/D3R",
+  "url": "https://openreview.net/forum?id=aW5bSuduF1",
+  "bibtex": "@inproceedings{wang2023drift,title={Drift doesn't Matter: Dynamic Decomposition with Diffusion Reconstruction for Unstable Multivariate Time Series Anomaly Detection},author={Chengsen Wang and Zirui Zhuang and Qi Qi and Jingyu Wang and Xingyu Wang and Haifeng Sun and Jianxin Liao},booktitle={Thirty-seventh Conference on Neural Information Processing Systems},year={2023}}"
+}
+
+

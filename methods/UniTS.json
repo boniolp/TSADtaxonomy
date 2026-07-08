@@ -1,0 +1,17 @@
+{
+  "name": "UniTS",
+  "full_name": "Unified Multi-Task Time Series Model",
+  "category": "Reconstruction-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2024,
+  "authors": ["Shanghua Gao", "Teddy Koker", "Owen Queen", "Thomas Hartvigsen", "Theodoros Tsiligkaridis", "Marinka Zitnik"],
+  "paper": "UniTS: A Unified Multi-Task Time Series Model",
+  "description": "UniTS is a unified time series model that supports a universal task specification, accommodating classification, forecasting, imputation, and anomaly detection tasks. This is achieved through a unified network backbone, which incorporates sequence and variable attention along with a dynamic linear operator and is trained as a unified model.",
+  "code": "https://github.com/mims-harvard/UniTS",
+  "url": "https://arxiv.org/pdf/2403.00131",
+  "bibtex": "@article{gao2024building,title={UniTS: Building a Unified Time Series Model},author={Gao, Shanghua and Koker, Teddy and Queen, Owen and Hartvigsen, Thomas and Tsiligkaridis, Theodoros and Zitnik, Marinka},journal={arXiv},year={2024}}"
+}
+
+

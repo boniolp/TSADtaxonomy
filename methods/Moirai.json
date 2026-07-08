@@ -1,0 +1,17 @@
+{
+  "name": "Moirai",
+  "full_name": "Unified Training of Universal Time Series Forecasting Transformers",
+  "category": "Forecasting-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": true,
+  "year": 2024,
+  "authors": ["Gerald Woo", "Chenghao Liu", "Akshat Kumar", "Caiming Xiong", "Silvio Savarese", "Doyen Sahoo"],
+  "paper": "Unified training of universal time series forecasting transformers",
+  "description": "Moirai is a Masked Encoder-based Universal Time Series Forecasting Transformer. Moirai is trained on the Large-scale Open Time Series Archive (LOTSA) featuring over 27B observations across nine domains.",
+  "code": "https://github.com/SalesforceAIResearch/uni2ts",
+  "url": "https://arxiv.org/abs/2402.02592",
+  "bibtex": "@inproceedings{3692070.3694248,author = {Woo, Gerald and Liu, Chenghao and Kumar, Akshat and Xiong, Caiming and Savarese, Silvio and Sahoo, Doyen},title = {Unified training of universal time series forecasting transformers},year = {2024},publisher = {JMLR.org},booktitle = {Proceedings of the 41st International Conference on Machine Learning},articleno = {2178},numpages = {25},location = {Vienna, Austria},series = {ICML'24}}"
+}
+
+
