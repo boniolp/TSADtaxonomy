@@ -1,0 +1,18 @@
+{
+  "name": "MMPAD",
+  "full_name": "Matrix Profile for Time-Series Anomaly Detection: A Reproducible Open-Source Benchmark on TSB-AD",
+  "category": "Discord-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2026,
+  "authors": [
+    "Chin-Chia Michael Yeh"
+  ],
+  "paper": "Matrix Profile for Time-Series Anomaly Detection: A Reproducible Open-Source Benchmark on TSB-AD",
+  "description": "Matrix Profile (MP) methods are an interpretable and scalable family of distance-based methods for time-series anomaly detection, but strong benchmark performance still depends on design choices beyond a vanilla nearest-neighbor profile. This technical report documents an open-source Matrix Profile for Anomaly Detection (MMPAD) submission to TSB-AD, a benchmark that covers both univariate and multivariate time series. The submitted system combines pre-sorted multidimensional aggregation, efficient exclusion-zone-aware k-nearest-neighbor (kNN) retrieval for repeated anomalies, and moving-average post-processing. To serve as a reproducible reference for MP-based anomaly detection on TSB-AD, we detail the released implementation, the hyperparameter settings for the univariate and multivariate tracks, and the corresponding benchmark results.",
+  "code": "https://github.com/thedatumorg/TSB-AD/blob/main/TSB_AD/models/MMPAD.py",
+  "url": "https://arxiv.org/abs/2604.02445",
+  "bibtex": "@misc{yeh2026matrixprofiletimeseriesanomaly, title={Matrix Profile for Time-Series Anomaly Detection: A Reproducible Open-Source Benchmark on TSB-AD}, author={Chin-Chia Michael Yeh}, year={2026}, eprint={2604.02445}, archivePrefix={arXiv}, primaryClass={cs.LG}, url={https://arxiv.org/abs/2604.02445}, }",
+  "parent": "MP"
+}
