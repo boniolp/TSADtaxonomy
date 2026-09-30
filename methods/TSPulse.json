@@ -1,0 +1,25 @@
+{
+  "name": "TSPulse",
+  "full_name": "TSPulse: Tiny Pre-Trained Models with Disentangled Representations for Rapid Time-Series Analysis",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2026,
+  "authors": [
+    "Vijay Ekambaram",
+    "Subodh Kumar",
+    "Arindam Jati",
+    "Sumanta Mukherjee",
+    "Tomoya Sakai",
+    "Pankaj Dayama",
+    "Wesley M. Gifford",
+    "Jayant Kalagnanam"
+  ],
+  "paper": "TSPulse: Tiny Pre-Trained Models with Disentangled Representations for Rapid Time-Series Analysis",
+  "description": "Time-series tasks often benefit from signals expressed across multiple representation spaces (e.g., time vs. frequency) and at varying abstraction levels (e.g., local patterns vs. global semantics). However, existing pre-trained time-series models entangle these heterogeneous signals into a single large embedding, limiting transferability and direct zero-shot usability. To address this, we propose TSPulse, family of ultra-light pre-trained models (1M parameters) with disentanglement properties, specialized for various time-series diagnostic tasks. TSPulse introduces a novel pre-training framework that augments masked reconstruction with explicit disentanglement across spaces and abstractions, learning three complementary embedding views (temporal, spectral, and semantic) to effectively enable zero-shot transfer. In-addition, we introduce various lightweight post-hoc fusers that selectively attend and fuse these disentangled views based on task type, enabling simple but effective task specializations. To further improve robustness and mitigate mask-induced bias prevalent in existing approaches, we propose a simple yet effective hybrid masking strategy that enhances missing diversity during pre-training. Despite its compact size, TSPulse achieves strong and consistent gains across four TS diagnostic tasks: +20\\% on the TSB-AD anomaly detection leaderboard, +25\\% on similarity search, +50\\% on imputation, and +5-16\\% on multivariate classification, outperforming models that are 10-100X larger on over 75 datasets. TSPulse delivers state-of-the-art zero-shot performance, efficient fine-tuning, and supports GPU-free deployment. Models and source code are publicly available at https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1.",
+  "code": "https://github.com/ibm-granite/granite-tsfm",
+  "url": "https://doi.org/10.48550/arXiv.2505.13033",
+  "bibtex": "@misc{ekambaramTSPulseTinyPreTrained2026, title = {{{TSPulse}}: {{Tiny Pre-Trained Models}} with {{Disentangled Representations}} for {{Rapid Time-Series Analysis}}}, shorttitle = {{{TSPulse}}}, author = {Ekambaram, Vijay and Kumar, Subodh and Jati, Arindam and Mukherjee, Sumanta and Sakai, Tomoya and Dayama, Pankaj and Gifford, Wesley M. and Kalagnanam, Jayant}, year = 2026, month = mar, number = {arXiv:2505.13033}, eprint = {2505.13033}, primaryclass = {cs.LG}, publisher = {arXiv}, doi = {10.48550/arXiv.2505.13033}, urldate = {2026-09-10}, abstract = {Time-series tasks often benefit from signals expressed across multiple representation spaces (e.g., time vs. frequency) and at varying abstraction levels (e.g., local patterns vs. global semantics). However, existing pre-trained time-series models entangle these heterogeneous signals into a single large embedding, limiting transferability and direct zero-shot usability. To address this, we propose TSPulse, family of ultra-light pre-trained models (1M parameters) with disentanglement properties, specialized for various time-series diagnostic tasks. TSPulse introduces a novel pre-training framework that augments masked reconstruction with explicit disentanglement across spaces and abstractions, learning three complementary embedding views (temporal, spectral, and semantic) to effectively enable zero-shot transfer. In-addition, we introduce various lightweight post-hoc fusers that selectively attend and fuse these disentangled views based on task type, enabling simple but effective task specializations. To further improve robustness and mitigate mask-induced bias prevalent in existing approaches, we propose a simple yet effective hybrid masking strategy that enhances missing diversity during pre-training. Despite its compact size, TSPulse achieves strong and consistent gains across four TS diagnostic tasks: +20\\% on the TSB-AD anomaly detection leaderboard, +25\\% on similarity search, +50\\% on imputation, and +5-16\\% on multivariate classification, outperforming models that are 10-100X larger on over 75 datasets. TSPulse delivers state-of-the-art zero-shot performance, efficient fine-tuning, and supports GPU-free deployment. Models and source code are publicly available at https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1.}, archiveprefix = {arXiv}, keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning} }",
+  "parent": "Transformer"
+}
