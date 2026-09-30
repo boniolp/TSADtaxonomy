@@ -1,0 +1,37 @@
+name: Validate & build data
+
+on:
+  pull_request:
+    paths: ["methods/**", "taxonomy.json", "scripts/**"]
+  push:
+    branches: [main]
+    paths: ["methods/**", "taxonomy.json", "scripts/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # On pull requests: fail fast with a readable report if a method file is malformed.
+      - name: Validate method files
+        run: python scripts/build_data.py --check || python scripts/build_data.py
+
+      # On main: rebuild the single-file bundle the website loads, and commit it if it changed.
+      - name: Commit rebuilt bundle
+        if: github.event_name == 'push'
+        run: |
+          python scripts/build_data.py
+          if ! git diff --quiet data/tsad.json; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/tsad.json
+            git commit -m "Rebuild data/tsad.json"
+            git push
+          fi
