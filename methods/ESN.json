@@ -3,7 +3,7 @@
   "full_name": "Echo State Networks",
   "category": "Forecasting-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "year": 2004,
   "authors": ["Herbert Jaeger", "Harald Haas"],

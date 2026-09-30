@@ -3,7 +3,7 @@
   "full_name": "Hybrid Isolation Forest",
   "category": "Tree-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2017,
   "authors": ["Pierre-François Marteau", "Saeid Soheily-Khah", "Nicolas Béchet"],

@@ -1,5 +1,5 @@
 <img src="assets/contributing.jpg" alt="Introduction" style="display: block; margin-left: auto; margin-right: auto; max-width: 50%; height: auto; margin-bottom: 16px; border-radius: 8px;" />
-<h2>A method in missing?</h2>
+<h2>A method is missing?</h2>
 <p>
   We welcome contributions of new anomaly detection methods to enrich the taxonomy featured in this project. If you have a method you find interesting and would like to add it, please submit a JSON file describing the method using the format below.
 </p>
@@ -22,13 +22,14 @@
   "description": "A short description of what the method does.",
   "code": "link/to/the/code",
   "url": "link/to/the/paper",
-  "bibtex": "@article{bibtex reference}"
+  "bibtex": "@article{bibtex reference}",
+  "parent": "the node it belongs under, e.g. Tree-based or IForest"
 }
 </pre>
 
 <h3>How to Submit</h3>
 <p>
-  Please open a pull request in our repository attaching the JSON file.  
+  The easiest way is the <em>Contribute</em> tab, which builds the file for you and opens a pre-filled pull request. You can also open a pull request adding the JSON file to <code>methods/</code> yourself; thanks to the <code>parent</code> field, you do not need to edit <code>taxonomy.json</code>.  
   Ensure your submission follows the exact format to facilitate smooth integration.
 </p>
 
@@ -41,5 +42,5 @@
 </ul>
 
 <p>
-  Thank you for contributing to improve this taxonomy and the interactive navigation experience! Us alone would struggle to keep track of all the publications on time series anomaly detection.
+  Thank you for contributing to improving this taxonomy and the interactive navigation experience! We alone would struggle to keep track of all the publications on time series anomaly detection.
 </p>

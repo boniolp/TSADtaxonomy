@@ -3,7 +3,7 @@
   "full_name": "Health Echo State Networks",
   "category": "Forecasting-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2020,
   "authors": ["Qing Chen", "Anguo Zhang", "Tingwen Huang", "Qianping He", "Yongduan Song"],

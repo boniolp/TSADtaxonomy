@@ -3,7 +3,7 @@
   "full_name": "Dynamic Bayesian Network for Visual Inspection of Laser Surface Heat Treatment",
   "category": "Encoding-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2017,
   "authors": ["Alberto Ogbechie", "Javier Díaz-Rozo", "Pedro Larrañaga", "Concha Bielza"],

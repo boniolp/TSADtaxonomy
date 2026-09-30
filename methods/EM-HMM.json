@@ -3,7 +3,7 @@
   "full_name": "Execution Monitoring Hidden Markov Model",
   "category": "Encoding-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "year": 2016,
   "authors": ["Daehyung Park", "Zackory Erickson", "Tapomayukh Bhattacharjee", "Charles C. Kemp"],

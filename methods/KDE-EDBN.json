@@ -3,7 +3,7 @@
   "full_name": "Kernel Density Estimation Extended Dynamic Bayesian Networks",
   "category": "Encoding-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2019,
   "authors": ["Stephen Pauwels", "Toon Calders"],

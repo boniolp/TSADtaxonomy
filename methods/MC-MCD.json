@@ -3,7 +3,7 @@
   "full_name": "Multiple Cluster Minimum Covariance Determinant",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2004,
   "authors": ["Johanna Hardina" , "David M. Rockeb"],

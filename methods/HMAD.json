@@ -3,7 +3,7 @@
   "full_name": "Hidden Markov Anomaly Detection",
   "category": "Distribution-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2015,
   "authors": ["Nico Görnitz", "Mikio Braun", "Marius Kloft"],

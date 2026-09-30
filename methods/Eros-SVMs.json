@@ -3,7 +3,7 @@
   "full_name": "Extended Frobenius Norm Support-Vector-Machines",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2018,
   "authors": ["Bouchra Lamrini", "Augustin Gjini", "Simon Daudin", "Pascal Pratmarty", "François Armando", "Louise Travé-Massuyès"],

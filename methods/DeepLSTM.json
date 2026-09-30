@@ -3,7 +3,7 @@
   "full_name": "Deep Long Short Term Memory",
   "category": "Forecasting-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2015,
   "authors": ["S. Chauhan", "L. Vig"],

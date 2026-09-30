@@ -3,7 +3,7 @@
   "full_name": "LSTM-based Variational Autoencoder",
   "category": "Reconstruction-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "year": 2018,
   "authors": ["Daehyung Park", "Yuuna Hoshi", "Charles C. Kemp"],

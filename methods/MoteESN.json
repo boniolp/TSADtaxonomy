@@ -3,7 +3,7 @@
   "full_name": "Mote-Based Echo State Networks",
   "category": "Forecasting-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "year": 2009,
   "authors": ["Marcus Chang", "Andreas Terzis", "Philippe Bonnet"],

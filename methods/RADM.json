@@ -3,7 +3,7 @@
   "full_name": "Multivariate-Time-Series-Driven Real-time Anomaly Detection",
   "category": "Forecasting-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "year": 2018,
   "authors": ["Nan Ding", "Huanbo Gao", "Hongyu Bu", "Haoxuan Ma", "Huaiwei Si"],

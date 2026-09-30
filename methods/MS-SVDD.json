@@ -3,7 +3,7 @@
   "full_name": "Multi-sphere support vector data description",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2009,
   "authors": ["Yanshan Xiao", "Bo Liu","Longbing Cao", "Xindong Wu", "Chengqi Zhang", "Zhifeng Hao", "Fengzhao Yang", "Jie Cao"],

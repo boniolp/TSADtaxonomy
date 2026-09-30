@@ -1,7 +1,7 @@
 {
   "name": "TwoFinger",
   "full_name": "Sequence Finite State Machine",
-  "category": "Graph-Based",
+  "category": "Graph-based",
   "Dim": "Univariate",
   "Sup": "Semi-supervised",
   "Stream": false,

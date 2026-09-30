@@ -3,7 +3,7 @@
   "full_name": "Anomaly detection algorithm based on Variational Auto-Encoder",
    "category": "Reconstruction-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2018,
   "authors": ["Haowen Xu", "Wenxiao Chen", "Nengwen Zhao", "Zeyan Li", "Jiahao Bu", "Zhihan Li", "Ying Liu", "Youjian Zhao", "Dan Pei", "Yang Feng", "Jie Chen", "Zhaogang Wang", "Honglin Qiao"],

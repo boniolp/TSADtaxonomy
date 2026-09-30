@@ -3,7 +3,7 @@
   "full_name": "Finding surprising patterns in a time series database in linear time and space.",
   "category": "Encoding-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2002,
   "authors": ["Eamonn Keogh", "Stefano Lonardi", "Bill Yuan-chi Chiu"],

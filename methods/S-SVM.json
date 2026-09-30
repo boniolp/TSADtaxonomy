@@ -3,7 +3,7 @@
   "full_name": "S-Transform combined with SVM",
   "category": "Distribution-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2013,
   "authors": ["Arpita Bhargava", "AS Raghuvanshi"],

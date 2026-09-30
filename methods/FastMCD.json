@@ -3,7 +3,7 @@
   "full_name": "Fast Minimum Covariance Determinant",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 1999,
   "authors": ["Peter J. Rousseeuw", "Katrien van Driessen"],

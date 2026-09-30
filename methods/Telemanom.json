@@ -3,7 +3,7 @@
   "full_name": "LSTMs and Nonparametric Dynamic Thresholding",
   "category": "Forecasting-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2018,
   "authors": ["Kyle Hundman", "Valentino Constantinou", "Christopher Laporte", "Ian Colwell", "Tom Soderstrom"],

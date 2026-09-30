@@ -3,7 +3,7 @@
   "full_name": "A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series",
   "category": "Forecasting-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2019,
   "authors": ["M. Munir", "S. A. Siddiqui", "A. Dengel", "S. Ahmed"],

@@ -3,7 +3,7 @@
   "full_name": "Minimum Covariance Determinant",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 1984,
   "authors": ["Peter J. Rousseeuw"],

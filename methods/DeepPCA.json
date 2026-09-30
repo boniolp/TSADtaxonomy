@@ -3,7 +3,7 @@
   "full_name": "Deep Autoencoder for Robust Principal Component Analysis",
   "category": "Encoding-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2017,
   "authors": ["Raghavendra Chalapathy", "Aditya Krishna Menon", "Sanjay Chawla"],

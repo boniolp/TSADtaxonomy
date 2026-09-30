@@ -3,7 +3,7 @@
   "full_name": "",
   "category": "Reconstruction-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "type": "AE",
   "year": 2018,

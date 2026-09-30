@@ -3,7 +3,7 @@
   "full_name": "Coal Echo State Networks",
   "category": "Forecasting-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "type": "ESN",
   "year": 2008,

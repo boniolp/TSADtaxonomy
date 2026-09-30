@@ -3,7 +3,7 @@
   "full_name": "",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2020,
   "authors": ["P. Wu", "J. Liu", "F. Shen"],

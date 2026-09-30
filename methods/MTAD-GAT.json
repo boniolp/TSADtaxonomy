@@ -3,7 +3,7 @@
   "full_name": "Multivariate Time series Anomaly Detection via Graph Attention network",
   "category": "Forecasting-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": true,
   "year": 2020,
   "authors": ["Hang Zhao", "Yujing Wang", "Juanyong Duan", "Congrui Huang", "Defu Cao", "Yunhai Tong", "Bixiong Xu", "Jing Bai", "Jie Tong", "Qi Zhang"],

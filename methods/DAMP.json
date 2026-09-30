@@ -1,7 +1,7 @@
 {
   "name": "DAMP",
   "full_name": "Discord Aware Matrix Profile",
-  "category": "Discord-Based",
+  "category": "Discord-based",
   "Dim": "Univariate",
   "Sup": "Unsupervised",
   "Stream": true,

@@ -3,7 +3,7 @@
   "full_name": "One Class Support Vector Machine for Communication Network",
   "category": "Distribution-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2007,
   "authors": ["Rui Zhang", "Shaoyan Zhang", "Sethuraman Muthuraman", "Jianmin Jiang"],

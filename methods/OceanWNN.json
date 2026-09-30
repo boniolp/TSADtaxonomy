@@ -3,7 +3,7 @@
   "full_name": "Wavelet Neural Network for Ocean fixed-point observing time series",
   "category": "Forecasting-based",
   "Dim": "Univariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2019,
   "authors": ["Yi Wang", "Linsheng Han", "Wei Liu", "Shujia Yang", "Yanbo Gao"],

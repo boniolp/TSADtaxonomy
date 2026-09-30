@@ -3,7 +3,7 @@
   "full_name": "Auto-Encoder",
   "category": "Reconstruction-based",
   "Dim": "Multivariate",
-  "Sup": "Semi-Supervised",
+  "Sup": "Semi-supervised",
   "Stream": false,
   "year": 2014,
   "authors": ["Mayu Sakurada", "Takehisa Yairi"],
