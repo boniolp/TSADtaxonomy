@@ -1,0 +1,20 @@
+{
+  "name": "STREAM-VAE",
+  "full_name": "STREAM-VAE: Dual-Path Routing for Slow and Fast Dynamics in Vehicle Telemetry Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": true,
+  "year": 2026,
+  "authors": [
+    "Kadir-Kaan Özer",
+    "René Ebeling",
+    "Markus Enzweiler"
+  ],
+  "paper": "STREAM-VAE: Dual-Path Routing for Slow and Fast Dynamics in Vehicle Telemetry Anomaly Detection. 2026 IEEE Intelligent Vehicles Symposium (IV)",
+  "description": "A variational autoencoder for anomaly detection in automotive telemetry time-series data. STREAM-VAE model uses a dual-path encoder to separate slow drift and fast spike signal dynamics, and a decoder that represents transient deviations separately from the normal operating pattern.",
+  "code": "https://github.com/kadiroe/Stream-VAE",
+  "url": "https://arxiv.org/abs/2511.15339v2",
+  "bibtex": "@INPROCEEDINGS{11623993, author={Özer, Kadir-Kaan and Ebeling, René and Enzweiler, Markus}, booktitle={2026 IEEE Intelligent Vehicles Symposium (IV)}, title={STREAM-VAE: Dual-Path Routing for Slow and Fast Dynamics in Vehicle Telemetry Anomaly Detection}, year={2026}, volume={}, number={}, pages={444-451}, keywords={Modeling;Timing;Streams;Automotive engineering;Printing;Conferences;Vehicles;Anomaly detection;Decoding;Labeling;automotive telemetry;anomaly detection;sensor data;generative models;variational autoencoder;intelligent vehicles}, doi={10.1109/IV66570.2026.11623993}}",
+  "parent": "AE"
+}
