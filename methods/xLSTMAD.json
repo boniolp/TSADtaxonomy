@@ -1,0 +1,21 @@
+{
+  "name": "xLSTMAD",
+  "full_name": "xLSTMAD: A Powerful xLSTM-based Method for Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2025,
+  "authors": [
+    "Kamil Faber",
+    "Marcin Pietron",
+    "Dominik Zurek",
+    "Roberto Corizzo"
+  ],
+  "paper": "xLSTMAD: A Powerful xLSTM-based Method for Anomaly Detection. 2025 IEEE International Conference on Data Mining (ICDM)",
+  "description": "The recently proposed xLSTM is a powerful model that leverages expressive multiplicative gating and residual connections, providing the temporal capacity needed for long-horizon forecasting and representation learning. This architecture has demonstrated success in time series forecasting, lossless compression, and even large-scale language modeling tasks, where its linear memory footprint and fast inference make it a viable alternative to Transformers. Despite its growing popularity, no prior work has explored xLSTM for anomaly detection. In this work, we fill this gap by proposing xLSTMAD, the first anomaly detection method that integrates a full encoder-decoder xLSTM architecture, purpose-built for multivariate time series data. Our encoder processes input sequences to capture historical context, while the decoder is devised in two separate variants of the method. In the forecasting approach, the decoder iteratively generates forecasted future values xLSTMAD-F, while the reconstruction approach reconstructs the input time series from its encoded counterpart xLSTMAD-R. We investigate the performance of two loss functions: Mean Squared Error (MSE), and Soft Dynamic Time Warping (SoftDTW) to consider local reconstruction fidelity and global sequence alignment, respectively.\n\nSide Note: This paper introduces both a reconstruction and a forecasting variant. However, as the results in TSB-AD use the reconstruction variant, we label this method as reconstruction-based.",
+  "code": "https://github.com/thedatumorg/TSB-AD/blob/main/TSB_AD/models/xLSTMAD.py",
+  "url": "https://arxiv.org/abs/2506.22837",
+  "bibtex": "@INPROCEEDINGS{xlstmad, author={Faber, Kamil and Pietron, Marcin and Zurek, Dominik and Corizzo, Roberto}, booktitle={2025 IEEE International Conference on Data Mining (ICDM)}, title={xLSTMAD: A Powerful xLSTM-based Method for Anomaly Detection}, year={2025}, volume={}, number={}, pages={247-256}, doi={10.1109/ICDM65498.2025.00032}} }",
+  "parent": "Reconstruction-based"
+}
