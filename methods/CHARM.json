@@ -1,0 +1,20 @@
+{
+  "name": "CHARM",
+  "full_name": "Time to Embed: Unlocking Foundation Models for Time Series with Channel Descriptions",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2025,
+  "authors": [
+    "Utsav Dutta",
+    "Sina Khoshfetrat Pakazad",
+    "Henrik Ohlsson"
+  ],
+  "paper": "Time to Embed: Unlocking Foundation Models for Time Series with Channel Descriptions",
+  "description": "Traditional time series models are task-specific and often depend on dataset-specific training and extensive feature engineering. While Transformer-based architectures have improved scalability, foundation models, commonplace in text, vision, and audio, remain under-explored for time series and are largely restricted to forecasting. We introduce CHARM, a foundation embedding model for multivariate time series that learns shared, transferable, and domain-aware representations. To address the unique difficulties of time series foundation learning, CHARM incorporates architectural innovations that integrate channel-level textual descriptions while remaining invariant to channel order. The model is trained using a Joint Embedding Predictive Architecture (JEPA), with novel augmentation schemes and a loss function designed to improve interpretability and training stability. Our 7M-parameter model achieves state-of-the-art performance across diverse downstream tasks, setting a new benchmark for time series representation learning.",
+  "code": "https://github.com/thedatumorg/TSB-AD/blob/main/TSB_AD/models/CHARM.py",
+  "url": "https://arxiv.org/abs/2505.14543",
+  "bibtex": "@misc{dutta2025timeembedunlockingfoundation, title={Time to Embed: Unlocking Foundation Models for Time Series with Channel Descriptions}, author={Utsav Dutta and Sina Khoshfetrat Pakazad and Henrik Ohlsson}, year={2025}, eprint={2505.14543}, archivePrefix={arXiv}, primaryClass={cs.LG}, url={https://arxiv.org/abs/2505.14543}, }",
+  "parent": "Transformer"
+}
