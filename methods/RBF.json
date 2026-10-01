@@ -1,0 +1,18 @@
+{
+  "name": "RBF",
+  "full_name": "Random Black Forest",
+  "category": "Tree-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2019,
+  "authors": [
+    "Johannes Ziegelmeir"
+  ],
+  "paper": "Development and comparison of self-learning modules for automated bench test data analysis of transient flight engine development tests. Technische Universit\\\"at Berlin",
+  "description": "An ensemble windowed multi-output forecasting method using random forest regression and random subspace ensembling (requested by RollsRoyce). The forecasting error is used as anomaly score.",
+  "code": "https://github.com/TimeEval/TimeEval-algorithms/tree/main/random_black_forest",
+  "url": "https://www.vldb.org/pvldb/vol15/p1779-wenig.pdf",
+  "bibtex": "@article{ziegelmeir2019development, title={Development and comparison of self-learning modules for automated bench test data analysis of transient flight engine development tests}, author={Ziegelmeir, Johannes}, journal={Technische Universit{\\\"a}t Berlin}, year={2019} }",
+  "parent": "Tree-based"
+}
