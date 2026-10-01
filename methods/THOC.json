@@ -1,0 +1,20 @@
+{
+  "name": "THOC",
+  "full_name": "Timeseries anomaly detection using temporal hierarchical one-class network",
+  "category": "Forecasting-based",
+  "Dim": "Univariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2020,
+  "authors": [
+    "Lifeng Shen",
+    "Zhuocong Li",
+    "James T. Kwok"
+  ],
+  "paper": "Timeseries anomaly detection using temporal hierarchical one-class network. Proceedings of the 34th International Conference on Neural Information Processing Systems",
+  "description": "Real-world timeseries have complex underlying temporal dynamics and the detection of anomalies is challenging. In this paper, we propose the Temporal Hierarchical One-Class (THOC) network, a temporal one-class classification model for timeseries anomaly detection. It captures temporal dynamics in multiple scales by using a dilated recurrent neural network with skip connections. Using multiple hyperspheres obtained with a hierarchical clustering process, a one-class objective called Multiscale Vector Data Description is defined. This allows the temporal dynamics to be well captured by a set of multi-resolution temporal clusters. To further facilitate representation learning, the hypersphere centers are encouraged to be orthogonal to each other, and a self-supervision task in the temporal domain is added. The whole model can be trained end-to-end. Extensive empirical studies on various real-world timeseries demonstrate that the proposed THOC network outperforms recent strong deep learning baselines on timeseries anomaly detection.",
+  "code": "",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/97e401a02082021fd24957f852e0e475-Paper.pdf",
+  "bibtex": "@inproceedings{3495724.3496816, author = {Shen, Lifeng and Li, Zhuocong and Kwok, James T.}, title = {Timeseries anomaly detection using temporal hierarchical one-class network}, year = {2020}, isbn = {9781713829546}, publisher = {Curran Associates Inc.}, address = {Red Hook, NY, USA}, abstract = {Real-world timeseries have complex underlying temporal dynamics and the detection of anomalies is challenging. In this paper, we propose the Temporal Hierarchical One-Class (THOC) network, a temporal one-class classification model for timeseries anomaly detection. It captures temporal dynamics in multiple scales by using a dilated recurrent neural network with skip connections. Using multiple hyperspheres obtained with a hierarchical clustering process, a one-class objective called Multiscale Vector Data Description is defined. This allows the temporal dynamics to be well captured by a set of multi-resolution temporal clusters. To further facilitate representation learning, the hypersphere centers are encouraged to be orthogonal to each other, and a self-supervision task in the temporal domain is added. The whole model can be trained end-to-end. Extensive empirical studies on various real-world timeseries demonstrate that the proposed THOC network outperforms recent strong deep learning baselines on timeseries anomaly detection.}, booktitle = {Proceedings of the 34th International Conference on Neural Information Processing Systems}, articleno = {1092}, numpages = {11}, location = {Vancouver, BC, Canada}, series = {NIPS '20} }",
+  "parent": "Forecasting-based"
+}
