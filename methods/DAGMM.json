@@ -1,0 +1,24 @@
+{
+  "name": "DAGMM",
+  "full_name": "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2018,
+  "authors": [
+    "Bo Zong",
+    "Qi Song",
+    "Martin Renqiang Min",
+    "Wei Cheng",
+    "Cristian Lumezanu",
+    "Daeki Cho",
+    "Haifeng Chen"
+  ],
+  "paper": "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection. International Conference on Learning Representations",
+  "description": "n this paper, we present a Deep Autoencoding Gaussian Mixture Model (DAGMM) for unsupervised anomaly detection. Our model utilizes a deep autoencoder to generate a low-dimensional representation and reconstruction error for each input data point, which is further fed into a Gaussian Mixture Model (GMM). Instead of using decoupled two-stage training and the standard Expectation-Maximization (EM) algorithm, DAGMM jointly optimizes the parameters of the deep autoencoder and the mixture model simultaneously in an end-to-end fashion, leveraging a separate estimation network to facilitate the parameter learning of the mixture model. The joint optimization, which well balances autoencoding reconstruction, density estimation of latent representation, and regularization, helps the autoencoder escape from less attractive local optima and further reduce reconstruction errors, avoiding the need of pre-training.",
+  "code": "https://github.com/danieltan07/dagmm",
+  "url": "https://openreview.net/pdf?id=BJJLHbb0-",
+  "bibtex": "@inproceedings{ zong2018deep, title={Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection}, author={Bo Zong and Qi Song and Martin Renqiang Min and Wei Cheng and Cristian Lumezanu and Daeki Cho and Haifeng Chen}, booktitle={International Conference on Learning Representations}, year={2018}, url={https://openreview.net/forum?id=BJJLHbb0-}, }",
+  "parent": "AE"
+}
