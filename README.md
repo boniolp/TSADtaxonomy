@@ -80,6 +80,8 @@ If `data/tsad.json` is missing, the site falls back to reading `taxonomy.json` a
 - Mingyi Huang
 - Themis Palpanas
 - Yash Krishnani
+- Felix Chavelli
+- Emmanouil Sylligardos
 
 ## 📖 How to Cite
 
