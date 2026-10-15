@@ -1,0 +1,24 @@
+{
+  "name": "HydraAD",
+  "full_name": "HydraAD: Exceptionally Fast and Accurate Time Series Anomaly Detection Using Competing Random Kernels",
+  "category": "Encoding-based",
+  "Dim": "Multivariate",
+  "Sup": "Unsupervised",
+  "Stream": false,
+  "year": 2026,
+  "authors": [
+    "Louis Carpentier",
+    "Laurens Devos",
+    "Wannes Meert",
+    "Mathias Verbeke"
+  ],
+  "paper": "HydraAD: Exceptionally Fast and Accurate Time Series Anomaly Detection Using Competing Random Kernels. Machine Learning and Knowledge Discovery in Databases. Research Track",
+  "description": "Time series anomaly detection is the automatic detection of unexpected observations in sequential data, a fundamental task across many scientific fields and industrial applications. In this work, we present HydraAD, an accurate, efficient, and domain-agnostic anomaly detection model for both univariate and multivariate time series. \nHydraAD builds upon Hydra for organizing random convolutional kernels into groups, and introduces a novel approach for deriving anomaly scores based on the soft counts of subsequences with competing kernels within each group. \nHydraAD is exceptionally fast because all parts of the pipeline, including the convolution of random kernels with time series subsequences, can be implemented efficiently on modern hardware. Our empirical evaluation shows that HydraADsignificantly outperforms state-of-the-art methods, achieving a median VUS-PR of 0.61 versus 0.35 for the most competitive baseline. Furthermore, HydraAD enables the detection of anomalies in massive time series, consisting of 5,000,000 observations, in less than one second.",
+  "code": "https://github.com/ML-KULeuven/HydraAD",
+  "url": "https://doi.org/10.1007/978-3-032-37654-1_7",
+  "bibtex": "@InProceedings{carpentier2026HydraAD, author=\"Carpentier, Louis and Devos, Laurens and Meert, Wannes and Verbeke, Mathias\", title=\"HydraAD: Exceptionally Fast and Accurate Time Series Anomaly Detection Using Competing Random Kernels\", booktitle=\"Machine Learning and Knowledge Discovery in Databases. Research Track\", year=\"2026\", publisher=\"Springer Nature Switzerland\", address=\"Cham\", pages=\"110--127\", isbn=\"978-3-032-37654-1\", doi=\"10.1007/978-3-032-37654-1_7\" }",
+  "parent": "Encoding-based",
+  "snippet_description": "We provide below an example of usage of HydraAD. Please install HydraAD as follows:",
+  "snippet_install": "pip install pip install git+https://github.com/ML-KULeuven/HydraAD",
+  "snippet": "```python\nfrom hydraad import HydraAD\n\nX_train = ...  # Numpy array of shape (n_samples, n_channels)\nX_test = ...   # Numpy array of shape (n_samples, n_channels)\n\nhydra_ad = HydraAD(window_size='fft')\nhydra_ad.fit(X_train)\ny_pred = hydra_ad.decision_function(X_test)\n```"
+}
