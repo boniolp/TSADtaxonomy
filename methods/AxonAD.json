@@ -1,0 +1,18 @@
+{
+  "name": "AxonAD",
+  "full_name": "Surprised by Attention: Predictable Query Dynamics for Time Series Anomaly Detection",
+  "category": "Reconstruction-based",
+  "Dim": "Multivariate",
+  "Sup": "Semi-supervised",
+  "Stream": false,
+  "year": 2027,
+  "authors": [
+    "Kadir-Kaan Özer, René Ebeling, Markus Enzweiler"
+  ],
+  "paper": "Surprised by Attention: Predictable Query Dynamics for Time Series Anomaly Detection. Machine Learning and Knowledge Discovery in Databases. Applied Data Science Track, Demo Track and Industrial Track",
+  "description": "A self-supervised anomaly detection model that predicts attention-query dynamics using a causal temporal convolutional network and an EMA target encoder. It combines reconstruction error with deviations between predicted and observed attention-query representations to identify anomalies.",
+  "code": "https://github.com/iis-esslingen/AxonAD",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-032-37685-5_13",
+  "bibtex": "@InProceedings{ozer_axonad_2026, author=\"{\\\"O}zer, Kadir-Kaan and Ebeling, Ren{\\'e} and Enzweiler, Markus\", title=\"Surprised by Attention: Predictable Query Dynamics for Time Series Anomaly Detection\", booktitle=\"Machine Learning and Knowledge Discovery in Databases. Applied Data Science Track, Demo Track and Industrial Track\", year=\"2027\", publisher=\"Springer Nature Switzerland\", address=\"Cham\", pages=\"217--234\", abstract=\"Multivariate time series anomalies often manifest as shifts in cross-channel dependencies rather than simple amplitude excursions. In autonomous driving, for instance, a steering command might be internally consistent but decouple from the resulting lateral acceleration. Residual-based detectors can miss such anomalies when flexible sequence models still reconstruct signals plausibly despite altered coordination.\", isbn=\"978-3-032-37685-5\" }",
+  "parent": "Transformer"
+}
